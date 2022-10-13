@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "课程/计网/实验记录.md",
+            "file": "课程/操作系统/Lecture.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/计网/实验记录.md",
+                "file": "课程/操作系统/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/计网/实验记录.md"
+                "file": "课程/操作系统/Lecture.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "19830ff66ac73efd",
   "lastOpenFiles": [
-    "课程/计网/协议详解.md",
+    "课程/操作系统/疑问.md",
+    "课程/操作系统/习题本.md",
     "课程/计网/实验记录.md",
-    "课程/计算理论/Lecture.md",
-    "课程/计算理论/疑问.md",
-    "规划/考研.md",
-    "待完成.md",
-    "学习计划.md",
-    "课程/计网/疑问.md",
-    "课程/计网/Lecture.md",
-    "课程/操作系统/Lab0.md"
+    "课程/计网/协议详解.md",
+    "课程/编程语言原理/笔记.md",
+    "课程/编程语言原理/HW1.md",
+    "课程/编程语言原理/HW2.md",
+    "课程/编程语言原理/疑问.md",
+    "课程/数值分析/HW3.md",
+    "课程/数值分析/HW4.md"
   ]
 }

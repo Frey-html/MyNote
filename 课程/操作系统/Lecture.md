@@ -75,3 +75,7 @@ jobs = user programs = tasks = process
 
 * windows中很少从父进程创建子进程一般创建线程，而linux多用fork函数创建子进程
 
+* 线程vs进程 线程可以节省资源（享有统一内存空间），速度更快（多核并行）
+
+* 线程：用户级线程，内核级线程，两者结合
+
