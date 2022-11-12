@@ -1,7 +1,9 @@
 {
-  "theme": "system",
+  "theme": "moonstone",
   "translucency": false,
   "textFontFamily": "楷体,微软雅黑",
-  "baseFontSize": 20,
-  "monospaceFontFamily": ""
+  "baseFontSize": 22,
+  "monospaceFontFamily": "",
+  "accentColor": "",
+  "cssTheme": "Blue Topaz"
 }

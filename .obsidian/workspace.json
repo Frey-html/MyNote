@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "841c37b2bcab92fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f2afe3b34df8ad3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d03261345d761be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程/计网/实验记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9159e803cfb93b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "442f877c618c323e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69bba8993c7f7fa2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee60d1cddf8c4462",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "421de8c9628b7141",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c6ae143677ab31dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d24e678f9c44c156",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c3d8f6bbd96f71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "课程/计网/实验记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "b3f050ef240ae433",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "课程/计网/实验记录.md"
+              }
+            }
+          },
+          {
+            "id": "c632ee7fd2363956",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "课程/计网/实验记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b92035742c08008f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "active": "6d03261345d761be",
+  "lastOpenFiles": [
+    "课程/技术沟通/Lecture.md",
+    "课程/机器学习/Lecture.md",
+    "课程/机器学习/助教课.md",
+    "课程/机器学习/未命名.md",
+    "游戏开发/学习路线.md",
+    "课程/Java应用技术/学习记录.md",
+    "课程/计网/实验记录.md",
+    "课程/计网/附件/书-网络基础实践教程-第6章 模拟器Boson Router Simulator 4.03的使用-050307V2.pdf",
+    "课程/计网/附件/书-网络基础实践教程-第6章 模拟器Boson Router Simulator 4.03的使用-050307V2 1.pdf",
+    "零碎知识点/镜像站点.md"
+  ]
+}
