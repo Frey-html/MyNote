@@ -1,0 +1,4 @@
+### 遇到的问题
+#### unityHub无法正常打开
+[Unity2020或Unity2019安装后无法启动](https://blog.csdn.net/lzw0321/article/details/118540014#:~:text=%E5%8E%9F%E5%9B%A0%20%E9%80%9A%E8%BF%87%E6%9F%A5%E7%9C%8Bunity%20hub%E7%9A%84%E6%97%A5%E5%BF%97%E5%8F%91%E7%8E%B0Unity%20%E5%90%AF%E5%8A%A8%E7%9A%84%E6%97%B6%E5%80%99%E4%BC%9A%E6%A3%80%E6%9F%A5,liences%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%90%88%E8%A7%84%E5%88%99%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E3%80%82%20unity%20hub%E7%9A%84%E6%97%A5%E5%BF%97%E5%AD%98%E6%94%BE%E5%9C%A8%EF%BC%9AC%3AUsersqingAppDataRoaming%5B%26Un%26%5DityHublogs%EF%BC%8C%E6%8C%89%E4%B8%8BWin%2BR%EF%BC%8C%E5%9C%A8%E8%BF%90%E8%A1%8C%E4%B8%AD%E8%BE%93%E5%85%A5%EF%BC%9A%25USERPROFILE%25AppDataRoaming%5B%26Un%26%5DityHublogs%EF%BC%8C%E5%9B%9E%E8%BD%A6%E5%B0%B1%E5%8F%AF%E4%BB%A5%E6%89%93%E5%BC%80unity%20hub%20log%E7%9B%AE%E5%BD%95%E3%80%82)
+[如何把Unity卸载干净？](https://blog.csdn.net/weixin_46218781/article/details/104959896)

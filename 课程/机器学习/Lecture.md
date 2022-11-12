@@ -11,4 +11,10 @@
 * 聚类和分类
 	[分类和聚类的区别](https://blog.csdn.net/julyclj55555/article/details/83143060)
 	[KMeans聚类算法详解](https://zhuanlan.zhihu.com/p/184686598)
+* PCA
 
+
+
+
+
+#### Lecture 4 SVM
