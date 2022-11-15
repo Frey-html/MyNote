@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9f2afe3b34df8ad3",
+        "id": "d26628fab49890ce",
         "type": "tabs",
         "children": [
           {
-            "id": "18e1111baa7a968f",
+            "id": "19830ff66ac73efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7776587731b7b0fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/技术沟通/寻找论文方向.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "421de8c9628b7141",
+            "id": "f60b27018bb95823",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 216
   },
   "right": {
     "id": "c6ae143677ab31dc",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/技术沟通/寻找论文方向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,24 +102,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学基础/线性代数.md"
+                "file": "课程/技术沟通/寻找论文方向.md"
               }
             }
           },
           {
-            "id": "c632ee7fd2363956",
+            "id": "af020a22caeada50",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/技术沟通/寻找论文方向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b92035742c08008f",
+            "id": "609ebd8d577059c3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,25 +129,24 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
-  "active": "7776587731b7b0fc",
+  "active": "69bba8993c7f7fa2",
   "lastOpenFiles": [
-    "课程/技术沟通/寻找论文方向.md",
     "数学基础/线性代数.md",
-    "课程/技术沟通/Lecture.md",
     "学习记录.md",
-    "游戏开发/Unity.md",
-    "游戏开发/学习路线.md",
-    "游戏开发/图形学.md",
     "游戏开发/Unreal.md",
-    "课程/机器学习/Lecture.md",
-    "课程/机器学习/未命名.md"
+    "游戏开发/图形学.md",
+    "游戏开发/学习路线.md",
+    "游戏开发/Unity.md",
+    "课程/体系结构/辅学.md",
+    "课程/体系结构/Lecture.md",
+    "课程/体系结构/实验注意点.md",
+    "课程/体系结构/疑问.md"
   ]
 }
