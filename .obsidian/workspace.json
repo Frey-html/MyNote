@@ -150,16 +150,23 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "560358fae0e4c959",
+  "active": "18e1111baa7a968f",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "游戏开发/Unreal.md",
     "游戏开发/Unity.md",
     "游戏开发/图形学.md",
     "游戏开发/学习路线.md",
+=======
+    "游戏开发/学习路线.md",
+    "学习记录.md",
+    "游戏开发/Unity.md",
+    "游戏开发/图形学.md",
+    "游戏开发/Unreal.md",
+>>>>>>> 88310a62eedcdb3082f9eb6c3f75abca5465d334
     "数学基础/线性代数.md",
     "课程/机器学习/Lecture.md",
     "课程/机器学习/未命名.md",
-    "学习记录.md",
     "零碎知识点/Windows注册表.md",
     "零碎知识点/镜像站点.md"
   ]
