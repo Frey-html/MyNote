@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/技术沟通/寻找论文方向.md",
+                "file": "学习记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/技术沟通/寻找论文方向.md",
+                "file": "学习记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/技术沟通/寻找论文方向.md"
+                "file": "学习记录.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/技术沟通/寻找论文方向.md",
+                "file": "学习记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69bba8993c7f7fa2",
+  "active": "19830ff66ac73efd",
   "lastOpenFiles": [
     "数学基础/线性代数.md",
+    "方法论.md",
     "学习记录.md",
-    "游戏开发/Unreal.md",
+    "零碎知识点/Windows注册表.md",
+    "零碎知识点/镜像站点.md",
+    "游戏开发/Unity.md",
     "游戏开发/图形学.md",
     "游戏开发/学习路线.md",
-    "游戏开发/Unity.md",
-    "课程/体系结构/辅学.md",
-    "课程/体系结构/Lecture.md",
-    "课程/体系结构/实验注意点.md",
-    "课程/体系结构/疑问.md"
+    "课程/技术沟通/寻找论文方向.md",
+    "游戏开发/Unreal.md"
   ]
 }
