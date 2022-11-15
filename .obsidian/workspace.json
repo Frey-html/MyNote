@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "75712748498d92ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/学习路线.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "560358fae0e4c959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "学习记录.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "学习记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "学习记录.md"
               }
             }
           },
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "学习记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,10 +152,10 @@
   },
   "active": "560358fae0e4c959",
   "lastOpenFiles": [
+    "游戏开发/Unreal.md",
+    "游戏开发/Unity.md",
     "游戏开发/图形学.md",
     "游戏开发/学习路线.md",
-    "游戏开发/Unity.md",
-    "游戏开发/Unreal.md",
     "数学基础/线性代数.md",
     "课程/机器学习/Lecture.md",
     "课程/机器学习/未命名.md",
