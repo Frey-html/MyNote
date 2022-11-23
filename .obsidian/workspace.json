@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/数值分析/HW9.md",
+                "file": "零碎知识点/Windows注册表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcca35d6556b7de8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "读书随笔.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/数值分析/HW9.md",
+                "file": "读书随笔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/数值分析/HW9.md"
+                "file": "读书随笔.md"
               }
             }
           },
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/数值分析/HW9.md",
+                "file": "读书随笔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "08c34eefe4ff3d43",
+  "active": "fcca35d6556b7de8",
   "lastOpenFiles": [
-    "课程/数值分析/HW8.md",
-    "课程/数值分析/HW9.md",
-    "课程/数值分析/HW7.md",
-    "课程/技术沟通/寻找论文方向.md",
-    "数学基础/线性代数.md",
+    "零碎知识点/Windows注册表.md",
+    "零碎知识点/镜像站点.md",
     "学习记录.md",
-    "游戏开发/Unreal.md",
-    "游戏开发/图形学.md",
-    "游戏开发/学习路线.md",
-    "游戏开发/Unity.md"
+    "方法论.md",
+    "课程/技术沟通/Lecture.md",
+    "课程/技术沟通/寻找论文方向.md",
+    "课程/机器学习/知识点记录.md",
+    "数学基础/线性代数.md",
+    "游戏开发/Unity.md",
+    "游戏开发/图形学.md"
   ]
 }
