@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08c34eefe4ff3d43",
+            "id": "a6439f25ebf0f3b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/计网/实验记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcca35d6556b7de8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习记录.md",
+                "file": "数学基础/线性代数.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/计网/实验记录.md",
+                "file": "数学基础/线性代数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/计网/实验记录.md"
+                "file": "数学基础/线性代数.md"
               }
             }
           },
@@ -124,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/计网/实验记录.md",
+                "file": "数学基础/线性代数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,24 +129,24 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
-  "active": "08c34eefe4ff3d43",
+  "active": "a6439f25ebf0f3b8",
   "lastOpenFiles": [
-    "课程/计网/Lecture.md",
-    "零碎知识点/Windows注册表.md",
-    "学习记录.md",
-    "课程/技术沟通/Lecture.md",
-    "课程/技术沟通/寻找论文方向.md",
+    "课程/托福阅读/Lecture2.md",
+    "课程/托福阅读/Lecture 8.md",
+    "课程/托福阅读/Lecture3.md",
+    "课程/托福阅读/Lecture 5.md",
+    "课程/托福阅读/Lecture 4.md",
+    "论文阅读/机器学习.md",
+    "工具学习/Python.md",
     "数学基础/线性代数.md",
-    "方法论.md",
-    "读书随笔.md",
-    "零碎知识点/镜像站点.md",
-    "课程/机器学习/知识点记录.md"
+    "日记随笔.md",
+    "2.md"
   ]
 }
