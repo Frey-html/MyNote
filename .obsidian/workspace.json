@@ -129,24 +129,24 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "active": "a6439f25ebf0f3b8",
   "lastOpenFiles": [
-    "日记随笔.md",
-    "2.md",
-    "读书随笔.md",
-    "学习记录.md",
-    "方法论.md",
+    "课程/托福阅读/Lecture2.md",
+    "课程/托福阅读/Lecture 8.md",
+    "课程/托福阅读/Lecture3.md",
+    "课程/托福阅读/Lecture 5.md",
+    "课程/托福阅读/Lecture 4.md",
+    "论文阅读/机器学习.md",
+    "工具学习/Python.md",
     "数学基础/线性代数.md",
-    "游戏开发/游戏随笔.md",
-    "游戏开发/Unreal.md",
-    "游戏开发/Unity.md",
-    "游戏开发/学习路线.md"
+    "日记随笔.md",
+    "2.md"
   ]
 }
