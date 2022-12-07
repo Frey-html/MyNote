@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文档评审.md",
+                "file": "游戏开发/Unity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文档评审.md",
+                "file": "游戏开发/Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文档评审.md"
+                "file": "游戏开发/Unity.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文档评审.md",
+                "file": "游戏开发/Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +139,15 @@
   },
   "active": "8a49c2315a76b49e",
   "lastOpenFiles": [
-    "Untitled.md",
-    "文档评审.md",
-    "工具学习/Python.md",
-    "游戏开发/图形学.md",
-    "游戏开发/游戏随笔.md",
-    "游戏开发/学习路线.md",
-    "读书随笔.md",
     "日记随笔.md",
-    "2022-12-07.md",
-    "工具学习/Obsidian教程.md"
+    "读书随笔.md",
+    "游戏开发/Unity.md",
+    "工具学习/Python.md",
+    "课程/技术沟通/Lecture.md",
+    "数学相关与指代.md",
+    "课程/技术沟通/文档评审.md",
+    "课程/技术沟通/开题报告评价.md",
+    "课程/技术沟通/寻找论文方向.md",
+    "工具学习/Makefile.md"
   ]
 }

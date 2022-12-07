@@ -142,10 +142,7 @@
 
 ##### 3.2时间相关Time
 * 主要用于游戏中位移、计时、时间暂停等，主要用到Time类的一些静态属性
-1. 时间比例缩放（一般用于单机游戏
-2. 
-3. 
-4. ）
+1. 时间比例缩放（一般用于单机游戏）
 	Time.timeScale 0为停止，1为正常，2为二倍速以此类推
 2. 帧间隔时长
 	最近的一帧用了多长时间（秒）
@@ -168,6 +165,91 @@
 ##### 3.3必不可少的Transform
 1. 基础知识点vector3
 	用来表示三维坐标系中的一个点，或者是一个向量
+	可以用new Vector3（）来创建，默认坐标为0
+	* 运算 重载了 + -(向量间) * /(向量和数)
+	*  常用静态成员
+		Vector3.zero 000 
+		Vector3.right 100
+		Vector3.foward 001 z轴为面朝向
+		Vector3.up 010
+		Vector3.Distance() 计算距离
+2. 位置信息
+	正朝向：z轴正向 右朝向：x轴正向 上朝向：y轴正向
+	2. **相对世界坐标系**
+		this.transform.position 不会随父子关系改变
+		（inspector窗口其实是相对父对象位置）
+	2. 相对父对象坐标
+		this.transform.localposition
+		* 两个坐标一样时要么没有父对象，要么父对象在坐标原点
+		* **不能单独改变**position或localposition的x，y，z成员，只能用Vector3对象给其赋值
+			如果想要只改变一个时，可以先用Vector3取出position，再修改Vector3，再重新赋值
+	3. 通过this.transform.foward/up/right等获取当前面朝向
+3. 位移
+	1. 自己计算
+		this.transform.position += velocity * deltaTime
+	2. **API**
+		this.transform.Translate()
+		参数1表示位移多少，参数2表示相对坐标系默认相对自己的坐标系
+		世界坐标系的参数是Space.World,不写或者Space.Self是相对于自己的坐标系
+4. 角度和旋转
+	1. 角度相关
+		transform.angle得到的是四元数，transform.eularAngle得到的是用Vector3表示的欧拉角，单位为度
+		相对世界坐标： transform.eularAngle
+		相对父对象: transform.localEularAngle
+	2. 旋转相关
+		一般用API计算
+		1. 自转 this.transform.Rotate()
+			第一个参数：旋转角度 Vector3
+			第二个参数：默认绕自己轴 Space.World则是绕世界的轴
+		2. 绕轴转 this.transform.Rotate()
+			参数1： 旋转轴 Vector3
+			参数2： 旋转的角度
+			参数3： 相对的坐标系
+		3. 相对于点转 this.Rransform.RotateAround()
+			参数1： 点坐标
+			参数2： 过点的轴
+			参数3： 旋转角度
+5. 缩放和看向
+	* 缩放：
+		相对世界坐标：transform.lossyScale **只读**
+		相对父对象: transform.localScale
+		也是需要使用Vector3赋值，缩放没有提供额外的API
+	* 看向：
+		让一个对象的面朝向可以一直看向某一点或对象（即自己的z轴正向指向该点）
+		transform.LookAt()
+		传入Vector3看向一个点，传入transform看向一个对象
+		**父对象LookAt不会带动子对象一起旋转看向**
+6. Transform父子关系
+	1. 获取和设置父对象（均为transform对象）
+		* this.transform.parent 可以修改，设置为null断开父子关系
+		* this.transform.SetParent() 
+			参数1：父亲transform对象
+			**参数2：是否保留世界坐标位置，角度，缩放等信息**
+			为true 则世界坐标不变，相对父对象坐标通过运算获得
+			为false 则原本世界位置角度信息数值直接拿来作为local，则世界坐标会改变
+	2. 舍弃所有子对象(自己和自己儿子，不影响下面的次级关系)
+		this.transform.DetachChildren()
+	3. 获得子对象(transform)
+		1. 按名字查找
+			this.transform.Find("")
+			**此方法能找到失活对象，而GameObject的静态方法不行**
+			**它只能找到自己的儿子，而不会找之下的层级**
+			效率高于GameObject.Find()全局查找，但需要得到父对象
+		2. 遍历子对象
+			子对象个数:this.transform.childCount 失活也算数量
+			通过索引遍历: this.transform.GetChild() 0 -> (n-1)
+	4. 子对象的操作
+		1. 判断一个对象是否是自己父对象
+			this.transform.IsChildOf()
+		2. 得到自己作为儿子的编号
+			this.transform.GetSiblingIndex()
+		3. 把自己设置成第一个儿子
+			this.transform.SetAsFirstSibling()
+		4. 把自己设置成最后一个儿子
+			this.transform.SetAsLastSibling()
+		5. 把自己设置成指定位置儿子
+			this.transform.SetSiblingIndex()
+			超出范围时不会报错，自动设置成最大（上溢）或最小（下溢）
 
 ### Tips
 #### Object
