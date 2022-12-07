@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "游戏开发/Unity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "游戏开发/Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学基础/线性代数.md"
+                "file": "游戏开发/Unity.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "游戏开发/Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +138,15 @@
   },
   "active": "a6439f25ebf0f3b8",
   "lastOpenFiles": [
+    "游戏开发/游戏随笔.md",
+    "游戏开发/学习路线.md",
+    "游戏开发/图形学.md",
+    "2.md",
+    "数学基础/线性代数.md",
     "课程/托福阅读/Lecture2.md",
     "课程/托福阅读/Lecture 8.md",
     "课程/托福阅读/Lecture3.md",
     "课程/托福阅读/Lecture 5.md",
-    "课程/托福阅读/Lecture 4.md",
-    "论文阅读/机器学习.md",
-    "工具学习/Python.md",
-    "数学基础/线性代数.md",
-    "日记随笔.md",
-    "2.md"
+    "课程/托福阅读/Lecture 4.md"
   ]
 }
