@@ -1,5 +1,7 @@
-### 基础学习
-* [Unity教程](https://www.bilibili.com/video/BV1HX4y1V71E?p=5&vd_source=8636d68797fa4651942df4dc09db7987)
+   ### 0.学习路线
+#### 过一遍Unity基础
+* [唐老狮Unity教程](https://www.bilibili.com/video/BV1HX4y1V71E?p=5&vd_source=8636d68797fa4651942df4dc09db7987)
+### 1.基础学习
 #### 1.基本界面学习
 * Scene窗口快捷键 ![[游戏开发/附件/SharedScreenshot.jpg]]
 	[Unity中的快捷键](https://blog.csdn.net/LJH_Gemini/article/details/89052132)
@@ -9,7 +11,173 @@
 	[C# 编译机器码过程原理之再谈反射](https://www.cnblogs.com/netlock/p/14177564.html#:~:text=C%23,%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9C%BA%E5%99%A8%E7%A0%81%E8%BF%87%E7%A8%8B%EF%BC%9A%201%E3%80%81%E6%BA%90%E4%BB%A3%E7%A0%81%E2%80%94%E2%80%942%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%EF%BC%88vs%E8%87%AA%E5%B8%A6%E7%9A%84csc.exe%EF%BC%8C%E8%BF%98%E6%9C%89mono%E7%9A%84mcs.exe%EF%BC%8C%E3%80%90java%E7%BC%96%E8%AF%91%E5%99%A8javac.exe%E3%80%91%EF%BC%89%E2%80%94%E2%80%943%E3%80%81IL%E4%B8%AD%E9%97%B4%E8%AF%AD%E8%A8%80%E5%AD%97%E8%8A%82%E7%A0%81%E2%80%94%E2%80%944%E3%80%81CLR%E5%90%AF%E5%8A%A8JIT%E5%8D%B3%E6%97%B6%E7%BC%96%E8%AF%91%E2%80%94%E2%80%945%E3%80%81%E5%B0%86IL%E7%BC%96%E8%AF%91%E4%B8%BA%E5%8F%AF%E4%BB%A5%E7%9C%9F%E6%AD%A3%E5%9C%A8CPU%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E6%9C%BA%E5%99%A8%E7%A0%81%E3%80%82)
 	场景本质是配置文件，Unity工作机制就是利用反射(_一个运行的程序查看本身或者其它程序的元数据的行为就叫做反射_)，动态的创建GameObject对象并且关联各种C#脚本对象在其上
 
-#### 遇到的问题
+#### 2.unity脚本
+##### 2.1脚本创建规则
+![[屏幕截图 2022-12-05 121440.png]]
+* MonoBehaviour![[屏幕截图 2022-12-05 122052.png]]挂载时会通过反射判断是否继承monobehaviour，特性是可以通过反射获得的额外信息![[屏幕截图 2022-12-05 123443.png]]
+* 脚本执行先后顺序可以通过Inspector-Execution order设置
+* 同一个文件只能有一个类继承MonoBehaviour
+
+##### 2.2生命周期函数
+* **帧**：游戏本质是一个死循环，每一次循环更新一次画面，而unity已经实现了循环规则，即生命周期函数
+* **生命周期函数**：
+	* 所有继承MonoBehaviour的对象都要挂载到GameObject上，生命周期函数就是该GameObject从创建到消亡会通过反射机制自动调用的函数，只有被挂载对象的生命周期函数会被unity调用
+	* Unity记录了GameObject挂载了那些脚本，游戏运行时通过反射调用固定名字的函数，反射可以得到私有成员
+	* 生命周期函数一般为private或protected，不需要外部调用![[屏幕截图 2022-12-05 134752.png]]
+	* 常用函数详解（注意首字母大写）
+		1. Awake函数：脚本这个对象自己被创建时调用（可以先不挂载，在游戏运行过程中动态挂载（动态挂载的操作不会被记录下来即只在这一次运行生效），发现挂载时Awake被调用）。类似构造函数，可以在脚本类创建时进行一些初始化
+		2. FixedUpdate:
+			用于物理更新，重复执行，可以自己设置间隔时间（project settings）
+		3. LateUpdate：
+			在Update之后执行，**一般用于摄像机位置更新**，因为在两者之间Unity会进行渲染相关的处理，摄像机位置更新一般放在渲染之后
+	* 对象在创建后激活，销毁前失活
+	**总结：**
+	1. 如果不需要使用该生命周期函数就别写
+	2. 同一个脚本可以挂载到多个GameObject或在同一个GameObject上挂多次，创建多个对象实例
+	3. 如果运行前就设置失活，则该对象生命周期函数不执行
+
+##### 2.3Inspector窗口可编辑变量
+* Inspector可显示和编辑的就是脚本成员变量，默认只有public可以显示和编辑，private和protected需要加上强制序列化字段特性[SerializeField],而public可以加上特性[HideInInspector]不显示，**因为继承MonoBehaviour不写构造函数，Inspector中编辑也可用于变量初始化**
+* 特性：可以通过反射获得额外的特性信息
+* 大部分变量都可通过Inspector编辑，如数组，list，GameObject，但字典和struct，class等自定义类型不行，而加上[System.Serializable]可以使自定义类型可显示编辑(需要加在声明前)
+* **注意**：
+	* Inspector中修改变量的值就是在修改成员变量，二者通过反射关联
+	* 脚本挂载到GameObject后再改变其中脚本文件中变量默认值，该脚本对象实例也即界面上并不会同步改变
+	* 运行过程中修改的值不会被保存，如果想要保存运行中的修改，可以在运行中copy component再在运行结束后paste
+
+###### 辅助特性
+1. 分组说明：[Header("描述")]可以增加说明，在Inspector中分组显示
+2. 悬停注释：[Tooltip("描述")]鼠标指向Inspector中变量时显示描述
+3. 间隔：[Space()]将变量之间进行间隔
+4. **修饰数值滑条范围**:[Range(start,end)]
+5. 多行显示字符串:[Multiline()]设置字符串显示行数
+6. 滚动条显示字符串:[TextArea(最少，最多)]最少为最少显示几行，最多为最多为几行时出现滚动条
+7. **为变量添加快捷方法**[ContextMenuItem("显示按钮名","方法名")]，方法需要无参无返回值，设置后可在Inspector中右键执行相应方法
+8. **为方法添加特性使其能够在Inspector中执行**[ContextMenu("描述")],一般用于调试,点击脚本的三点即可找到并以执行
+
+##### 2.4MonoBehaviour详解
+###### 重要成员
+1. this.gameObject：继承自Mono，获得所挂载的对象
+2. this.transform和this.gameObject.transform效果一致，均为获得挂载对象的transform成员，可通过transform的成员position，eularAngles，lossyScale获得该GameObject位置，角度，大小信息，以及其他成员信息
+3. this.enable可以控制脚本对象是否激活
+* 也可以通过Inspector窗口关联获得其他脚本挂载的不同的对象，从而获得它们的属性和方法
+###### 重要方法
+1. 得到自己挂载的object身上的其他单个脚本
+	* 通过脚本名字符串获取 this.GetComponent("脚本名")
+		返回类型为**Component基类**，可通过as转换为相应派生类，失败返回null
+	* 通过类型获取 this.GetComponent(typeof(脚本类型))
+		此处传入的实际上是type对象，通过type关键字生成
+	* **通过泛型获取** this.GetComponent<脚本类型>() 不用二次转换
+	* **只要能够获得场景中object对象或者其挂载的脚本对象，就能够得到其几乎所有信息，包括对象本身和它的所有脚本**
+	* 如果有多个同类型脚本，往往无法区分获得的是哪一个
+2. 得到自己挂载的object身上的多个脚本
+	this.GetComponents< type >()
+	一般使用泛型，无参数返回对应类型的对象数组，传入List时会把结果放入List中
+3. 得到所挂载对象的子对象（以及子对象的子对象）挂载的脚本, **默认也会找自己是否挂载该脚本** this.GetComponentInChildren()
+	* 如果传入True，则失活脚本也会被返回
+	* 同理加s找回多个相应类型脚本对象
+4. 得到所挂在对象父对象(以及父对象的父对象等)挂载的脚本 this.GetComponentInParent()
+5. 尝试获取脚本 this.tryGetComponent<>(out 脚本对象)
+	参数为该类型脚本对象，成功时返回true
+	更加安全的方法，与常规获取后判断是否为null效果相同
+* 知识点：out的使用[out 参数修饰符 - C# 参考 | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
+
+##### 2.5小结
+![[屏幕截图 2022-12-06 001250.png]]
+![[屏幕截图 2022-12-06 001818.png]]
+##### 辅助知识
+* 调试：
+	如果没有继承MonoBehaviour，使用Debug.Log()，若继承了用print也可以
+* 查看源码
+	[【Unity】如何查看源码-pudn.com](https://www.pudn.com/news/6316e981f35d77499bb1684f.html#:~:text=%E5%BC%95%E6%93%8E%E6%BA%90%E7%A0%81%E6%9F%A5%E7%9C%8B,%E4%BD%BF%E7%94%A8VS%E6%89%93%E5%BC%80%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E7%9A%84%E8%84%9A%E6%9C%AC%EF%BC%8C%E6%8C%89%E4%BD%8FCtrl%E5%8D%95%E5%87%BBMonoBehaviour%E7%B1%BB%EF%BC%88%E6%88%96%E6%8C%89F12%EF%BC%89%EF%BC%8C%E5%B1%95%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B4%E9%83%A8%E7%9A%84Region%EF%BC%8C%E6%9F%A5%E7%9C%8B%E6%BA%90%E7%A0%81%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE%EF%BC%8C%E5%A6%82%E4%B8%8B%E5%9B%BE%E6%89%80%E7%A4%BA%EF%BC%9A)
+
+#### 3.Unity重要组件和API
+##### 3.1最小单位GameObject
+1. 重要成员变量
+	* this.GameObject.name 获取和修改所挂载物体名字
+	* this.GameObject.activeSelf 获取所挂载的激活状态，可通过SetActive修改
+	* this.GameObject.isStatic 获取所挂载是否是静态对象
+	* this.GameObject.layer 获取层级
+	* this.GameObject.tag 标签
+	* 也可以通过this.GameObject.transform获得transform，this.tansform是通过mono的封装获得的，两者等价
+2. **静态方法**
+	1. 创建几何体 
+		GameObj.CreatePrimitive(PrimitiveType.类型)
+		得到创建的object的引用，所创建的object并不属于自身的子object
+	2. 查找单个对象（也可以通过inspector直接拖）
+		* 通过名字查找 GameObj.Find()
+		* 通过标签查找 GameObj.FindWithTag()
+		* 通过查找脚本对象查找（效率更低下）
+			GameObj.FindObjectOfType<>();
+			然后通过该脚本对象.gameObject获取相应对象
+		* 特性：
+			* 无法找到失活对象
+			* 如果场景有多个同名对象，无法找到指定对象
+			* **查找需要遍历效率较低，更多可以用Inspector直接关联**
+	3. 查找多个对象（只能通过tag去找）
+		GameObj.FindGameObjectsWithTag("tag")，返回为数组
+	4. **实例化(克隆)对象**
+		GameObject.Instantiate()，返回值是创建出来的对象
+		**可以是场景中的对象也可以是预设体**
+		**最常用的是先在Inspector中关联预设体，再在脚本中创建**
+		如果继承了Mono，则不用写GameObject也可以使用这个方法，因为这个方法继承自GameObject和Mono共同的父类unity的Object
+	5. 删除对象(也是继承自Object，继承Mono可以直接用)
+		* GameObj.Destroy(obj, time)延迟time秒后删除，若只有一个对象参数立即删除
+		* 不仅可以删除GameObject对象，还可以删除脚本
+		**Destory方法不会立即移除，而是在下一帧时移除并清理内存，只是此时打上标识（为了异步处理降低卡顿）**
+		* 如有特殊需求则可以用GameObj.DestroyImmediate()
+	6. **过场景不移除**(也是Object提供)
+		**默认情况切换场景对象都会被移除**
+		GameObject.DontDestroyOnLoad()可以避免脚本所挂载GameObject过场景不被删除
+3. 成员方法
+	1. 创建空物体
+		直接new一个，可以传入字符串作为名字，可传入typeof（脚本类型）添加相应类型的脚本
+		注意：如果添加的脚本本身也会创建物体，容易造成循环不断创建新物体
+	2. **为对象添加脚本** AddComponent<>()
+		返回值为添加上的脚本对象
+		继承Mono的脚本类不能直接New，可以通过AddComponent的方式创建对象并挂载
+	3. 标签比较 this.gameObject.CompareTag()，或者是直接通过this.gameObject.Tag获取再比较
+	4. 设置激活失活 SetActive()
+	**注意**：类似于this.gameObject.SendMessage（"func"）（发送消息给自己查找所有脚本，执行其中所有的func方法），BroadcastMessage（）（向自己和自己子对象），SendMessageUpwards(向自己和父对象)通过反射查找效率较低，不如直接得到对象引用并使用
+
+##### 3.2时间相关Time
+* 主要用于游戏中位移、计时、时间暂停等，主要用到Time类的一些静态属性
+1. 时间比例缩放（一般用于单机游戏
+2. 
+3. 
+4. ）
+	Time.timeScale 0为停止，1为正常，2为二倍速以此类推
+2. 帧间隔时长
+	最近的一帧用了多长时间（秒）
+	* Time.deltaTime(受scale影响)
+	* Time.unscaleDeltaTime(不受scale影响，实际的帧经过时间)
+	**注意到Unity在编辑模式下一帧能跑多快跑多快，而发行后需要限制帧率**
+	帧间隔时间主要用来计算位移，根据需求选择参与计算的时间间隔，如果希望暂停时不动的就是用deltaTime，如果正常动则unscale
+3. 游戏开始到现在的时间
+	Time.time 主要用来单机游戏计时，服务器都以服务器时间为准
+	Time.unscaleTime 不受Scale影响时间
+4. 物理帧间隔时间 
+	Time.fixedDeltaTime
+	Time.fixedUnscaledDeltaTime
+	* 物理帧间隔在Edit->Project Settings
+	->Time中设置
+5. 帧数（开始到现在跑了多少帧，即多少次循环）
+	Time.frameCount
+
+
+##### 3.3必不可少的Transform
+1. 基础知识点vector3
+	用来表示三维坐标系中的一个点，或者是一个向量
+
+### Tips
+#### Object
+* unity中的Object是Unity自己在命名空间UnityEngine下编写的但也是派生于C#类万物之父Object的一个自定义类，C#的Object在System里，二者是同名类
+
+### 疑问
+
+
+### 遇到的问题
 #### unityHub无法正常打开
 [Unity2020或Unity2019安装后无法启动](https://blog.csdn.net/lzw0321/article/details/118540014#:~:text=%E5%8E%9F%E5%9B%A0%20%E9%80%9A%E8%BF%87%E6%9F%A5%E7%9C%8Bunity%20hub%E7%9A%84%E6%97%A5%E5%BF%97%E5%8F%91%E7%8E%B0Unity%20%E5%90%AF%E5%8A%A8%E7%9A%84%E6%97%B6%E5%80%99%E4%BC%9A%E6%A3%80%E6%9F%A5,liences%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%90%88%E8%A7%84%E5%88%99%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E3%80%82%20unity%20hub%E7%9A%84%E6%97%A5%E5%BF%97%E5%AD%98%E6%94%BE%E5%9C%A8%EF%BC%9AC%3AUsersqingAppDataRoaming%5B%26Un%26%5DityHublogs%EF%BC%8C%E6%8C%89%E4%B8%8BWin%2BR%EF%BC%8C%E5%9C%A8%E8%BF%90%E8%A1%8C%E4%B8%AD%E8%BE%93%E5%85%A5%EF%BC%9A%25USERPROFILE%25AppDataRoaming%5B%26Un%26%5DityHublogs%EF%BC%8C%E5%9B%9E%E8%BD%A6%E5%B0%B1%E5%8F%AF%E4%BB%A5%E6%89%93%E5%BC%80unity%20hub%20log%E7%9B%AE%E5%BD%95%E3%80%82)
 [如何把Unity卸载干净？](https://blog.csdn.net/weixin_46218781/article/details/104959896)
+自己测试过程中，unityhub安装到D盘会闪退，C盘则正常启动
