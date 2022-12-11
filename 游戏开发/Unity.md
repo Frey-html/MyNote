@@ -11,13 +11,6 @@
 	[C# 编译机器码过程原理之再谈反射](https://www.cnblogs.com/netlock/p/14177564.html#:~:text=C%23,%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%B0%E6%9C%BA%E5%99%A8%E7%A0%81%E8%BF%87%E7%A8%8B%EF%BC%9A%201%E3%80%81%E6%BA%90%E4%BB%A3%E7%A0%81%E2%80%94%E2%80%942%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%EF%BC%88vs%E8%87%AA%E5%B8%A6%E7%9A%84csc.exe%EF%BC%8C%E8%BF%98%E6%9C%89mono%E7%9A%84mcs.exe%EF%BC%8C%E3%80%90java%E7%BC%96%E8%AF%91%E5%99%A8javac.exe%E3%80%91%EF%BC%89%E2%80%94%E2%80%943%E3%80%81IL%E4%B8%AD%E9%97%B4%E8%AF%AD%E8%A8%80%E5%AD%97%E8%8A%82%E7%A0%81%E2%80%94%E2%80%944%E3%80%81CLR%E5%90%AF%E5%8A%A8JIT%E5%8D%B3%E6%97%B6%E7%BC%96%E8%AF%91%E2%80%94%E2%80%945%E3%80%81%E5%B0%86IL%E7%BC%96%E8%AF%91%E4%B8%BA%E5%8F%AF%E4%BB%A5%E7%9C%9F%E6%AD%A3%E5%9C%A8CPU%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E6%9C%BA%E5%99%A8%E7%A0%81%E3%80%82)
 	场景本质是配置文件，Unity工作机制就是利用反射(_一个运行的程序查看本身或者其它程序的元数据的行为就叫做反射_)，动态的创建GameObject对象并且关联各种C#脚本对象在其上
 
-<<<<<<< HEAD
-
-
-
-
-#### 遇到的问题
-=======
 #### 2.unity脚本
 ##### 2.1脚本创建规则
 ![[屏幕截图 2022-12-05 121440.png]]
@@ -257,6 +250,113 @@
 		5. 把自己设置成指定位置儿子
 			this.transform.SetSiblingIndex()
 			超出范围时不会报错，自动设置成最大（上溢）或最小（下溢）
+7. 坐标变换
+	1. 世界坐标转本地坐标    应用为大概判断相对位置
+		1. 点的世界坐标系坐标转换为相对本地坐标系的坐标,**受到缩放影响**  this.transform.InverseTransformPoint()
+		2. 方向的世界坐标系表示转换为相对本地坐标系表示
+			1. this.transform.InverseTransformDirection() **不受缩放影响**
+			2. this.transform.InverseTransformVector() **受缩放影响**
+	2. **本地坐标转世界坐标**  很方便子对象或特效之类的位置设置（只需考虑和父对象位置关系）
+		1. 点相对本地坐标系坐标转世界坐标 **受缩放影响**
+			this.transform.TransformPoint()
+		2. 方向相对本地坐标系变为世界坐标
+			this.transform.TransformDirection()
+			this.transform.TransformVector()
+
+#### 4.Input和Screen
+##### 鼠标键盘输入 
+1. 鼠标在屏幕位置
+	屏幕坐标原点是在屏幕左下角，返回值Vector3但z为0
+	Input.mousePosition()
+2. 检测鼠标输入
+	1. 鼠标按下一瞬间进入，0，1，2分别为左右中键
+		Input.GetMouseButtonDown(int) 返回为bool 
+	2. 鼠标抬起时进入
+		Input.GetMouseButtonUp()
+	3. 按下抬起都会进入,如果按住则会持续触发
+		Input.GetMouseButton()
+	4. 中间滚动
+		Input.mouseScrollDelta 返回Vector2，其中y表示滚动方向，上滚为1，下滚-1
+3. 检测键盘输入
+	1. Input.GetKeyDown() 传入一个KeyCode枚举
+		有传入字符串的重载，需要小写
+	2. Input.GetKeyUp() 检测一次抬起
+	3. Input.GetKey() 长按 
+4. **检测默认轴输入**
+	可以在Project Settings的**Input Manager**内查看相应的Axes名称和属性并且设置，渐变，可以用来控制移动
+	* 键盘AD按下时，返回-1到1的变换 Input.GetAxis("Vertical")
+	* WS为Horizental  鼠标横向为Mouse X 纵向Mouse Y
+	GetAxis是渐变的可提现变换速度，GetAxisRaw使用方法相同，只有-1 0 1整数值
+###### 拓展
+1. 检测任意键或鼠标
+2. 在按下状态 Input.anyKey
+3. 是否有任意键按下 input.anyKeyDown    
+	可用于改键检测
+3. Input.inputString 这一帧的输入 获得改键
+4. 获得所连接手柄所有按钮名字
+	string[] str = Input.GetJoystickNames()
+	检测手柄输入使用Input.GetBottonDown("jump")等
+5. 移动设备相关：
+	现在手游很少有触摸处理，一般都是虚拟按键
+	* Input.touchCount 触摸次数
+		Touch t = Input.touches[0]
+		可以得到触摸位置和相对上次位置变换(滑动)等
+	*  Input.multiTouchEnabled 是否启动多点触控
+	*  陀螺仪
+		Input.gyro.enabled = true 开启陀螺仪
+		Input.gyro.gravity 重力加速度向量，用于计算
+		Input.gyro.rotationRate 旋转速度
+		Input.gyro.attitude 旋转四元数
+##### 屏幕相关Screen
+1. 静态属性
+	常用的如下：
+	2. 屏幕分辨率 
+		Resolution r  = Screen.currentResolution;
+		r.width r.height
+	2. 屏幕窗口当前宽高
+		Screen.width Screen.height
+	3. 休眠模式
+		Screen.sleepTimeout = SleepTimeout.xxx
+2. 静态方法
+	设置分辨率（pc上）
+	Screen.SetResolution(width, height, 是否全屏或全屏模式)
+
+#### 5.Camera
+##### 5.1Camera可编辑参数
+1. **Clear Flags**
+	skybox 天空盒   3d游戏
+	Solid Color 颜色填充  2d游戏
+	Depth only 只画该层，背景透明   多个摄像机叠加渲染时选择和Depth配合使用
+	Dont Clear 不移除上一帧的渲染效果（）
+2. **Culling Mask**
+	选择性渲染部分层级，可选择渲染哪些层级的对象
+3. Projection
+	1. Perspective 透视模式 3d游戏
+		* Field of view 视口大小
+		* FOV 视场轴 决定视口大小是从竖直方向算还是水平方向
+		* Physical Camera 有需求时用来模拟真实的摄像机
+	2. Othographic 正交模式 2d游戏 没有近大远小
+		* size 摄制范围
+4. **Clipping Planes** 裁剪平面距离，决定最近和最远能渲染的范围
+5. **Depth** 渲染顺序上的深度
+	多个摄像机时起效，数字越小越先渲染，后渲染的会覆盖先渲染的内容
+	和Depth only结合使用：更高层的摄像机使用depth only时，不渲染背景，即不会用天空盒或纯色完全覆盖之前渲染的层级，达到多个摄像机叠加渲染的效果
+	应用之1：底层级渲染游戏，更高层级渲染UI选择Depth only
+6. Target Texture 渲染纹理
+	右键创建Render Texture，把摄像机画面渲染到RenderTexture上，可用于制作小地图
+7. Occulsion Culling 是否启用剔除遮挡
+	启用则不渲染被完全遮挡的物体，节约计算资源
+8. ViewRect 视口范围，屏幕上绘制摄像机的位置
+	0-1为宽高百分比，主要用于双摄相机游戏
+
+##### 5.2CameraAPI相关
+1. 重要静态成员
+	1. 获取主摄像机 Camera.main() 需要有Tag为Main Camera的摄像机
+		如果有两个，不会报错但不能确定获得的是哪个
+	2. 获取摄像机数量 Camera.allCamerasCount
+	3. 得到所有摄像机
+		Camera[] cameras = Camera.allCameras
+
 
 ### Tips
 #### Object
