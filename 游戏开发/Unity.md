@@ -356,7 +356,10 @@
 	2. 获取摄像机数量 Camera.allCamerasCount
 	3. 得到所有摄像机
 		Camera[] cameras = Camera.allCameras
-
+2. 渲染相关委托
+	1. Camera.onPreCull +=  (c) =>{} 剔除前处理的委托
+	2. Camera
+	
 
 ### Tips
 #### Object
