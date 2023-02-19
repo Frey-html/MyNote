@@ -335,7 +335,10 @@
 	7. 长度
 		1. 长度 Count
 		2. 容量 Capacity
-	8. **装箱拆箱**
+	8. 遍历
+		1. for循环根据count取出
+		2. foreach循环 （foreach使用时该类必须实现迭代器）
+	9. **装箱拆箱**
 		ArrayList本质上是一个可以自动扩容的object数组，由于用万物之父object存储数据自然存在装箱拆箱，需要移动内存
 
 ##### Stack
@@ -358,7 +361,107 @@
 * 本质上也是object[]数组
 
 ##### HashTable
+* 键和值都是object类型的
+* 增删查改
+	* 增 ： Add
+	* 删 ： 
+		* Remove 通过键删除，如果键不存在不进行操作
+		* Clear 清空
+	* 查 ：
+		* 通过 哈希表名[键] 查找，找不到返回空
+		* 查看键是否存在： 
+			* Contains 
+			* ContainsKey
+		* 查看是否存在对应的值
+			* ContainsValue
+	* 改：
+		* 只能改键值对内容，无法修改键
 
+#### 泛型
+* 作用：
+	实现了类型参数化，达到代码重用目的
+	泛型相当于类型占位符，定义类或方法时使用替代符代表变量类型，真正使用类或方法时再具体指定类型
+	使用泛型变量不确定泛型类型时，可以用default（占位字符）获取该占位泛型的默认值
+	可以一定程度避免装箱拆箱
+* 泛型分类
+	![[Pasted image 20230102182753.png]]
+* 泛型类和接口
+	泛型的类型占位符一般用大写字母
+	泛型类填入具体变量类型声明时即创建了该类型，如Test< double >的类型即为Test< double >，和Test< int >是不同类型。实例化的泛型也可作为其他泛型的参数类型
+
+* 泛型方法
+	* 普通类中的泛型方法![[Pasted image 20230103181223.png]]
+	* 泛型类的泛型方法
+		如果使用泛型类声明的类型，则不是泛型方法，因为该方法的数据类型在泛型类声明时已经被确定了
+		如果使用其他的泛型声明，则是泛型类中的泛型方法
+
+#### 泛型约束
+* 什么是泛型约束：
+	让泛型的类型有一定限制
+	语法： where 泛型字母：约束类型
+	1. 值类型:   where 泛型字母:struct
+	2. 引用类型: where 泛型字母：class
+	3. 存在无参公共构造函数  where 泛型字母:new()
+	4. 某个类本身或是其派生类 where 泛型字母：类名
+	5. 某个接口的派生类型 where 泛型字母：接口名
+	6. 另一个泛型类型本身或是派生类型 where 泛型字母：另一个泛型字母
+* 一个泛型多个约束组合使用：使用逗号隔开
+* 多个泛型有约束：写多个where
+
+#### 常用泛型数据结构类
+###### List
+* 本质是可变类型的泛型数组
+* 增删查改
+	* 增 
+		* Add 增加单个元素
+		* AddRange 增加另一个ArrayList的元素
+		* Insert 指定位置插入
+	* 删
+		* Remove 移除指定元素，后面往前挪
+		* RemoveAt 移除指定位置元素
+		* Clear 清空
+	* 查
+		* [] 得到指定位置
+		* Contains 查看元素是否存在
+		* IndexOf 正向查找元素位置
+		* LastIndexOf 反向查找元素位置
+	* 遍历
+		* Count 长度
+		* Capacity 容量
+
+##### Dictionary
+* 可以理解为拥有泛型的HashTable，也是存储键值对
+* 遍历：
+	1. 遍历所有键
+		foreach(var item in dictionary.Keys)
+	2. 遍历所有值
+		foreach(var item in dictionary.Values)
+	3. 遍历键值对
+		foreach(KeyValuePair< type1, type2 > item in dictionary)
+
+##### LinkedList
+* 可变类型的泛型双向链表
+* 声明： LinkedList< type > a = new LinkedList< type >();
+* 需要掌握两个类：链表类和节点类
+* 增删查改
+	* 增
+		* AddLast 在末尾增加节点
+		* AddFirtst 在头部增加节点
+		* AddAfter 在指定节点后插入(需要先用Find获得节点)
+		* AddBefore 在指定节点前插入
+	* 删
+		* RemoveFirst 删除头节点
+		* RemoveLast 删除尾节点
+		* Remove 移除指定节点（按值而不是索引，无法通过位置直接移除）
+		* Clear 清空
+	* 查
+		* 获得头节点 linkedList.First （需要声明一个对应类型的节点对象来获得）
+		* 获得尾节点 Last
+		* 获得对应值节点 Find
+* 遍历：
+	*  foreach遍历，不需要取节点，通过迭代器进行了处理
+		foreach(type item in linkedlist){}
+	* 从头到尾/反向：取出节点逐个遍历
 
 ### 常见问题
 #### 零碎知识点
