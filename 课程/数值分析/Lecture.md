@@ -76,7 +76,6 @@
 	[主子式、顺序主子式、余子式、代数余子式](https://blog.csdn.net/yskyskyer123/article/details/87891051)
 	
 
-* **Theorem: 如果Ax = b可以使用高斯消元法且不经过行交换（也即顺序主子式不为0），那么A可以进行LU分解成下三角阵L和上三角阵U**
 	**如果L是unitary（对角线全为一），则分解唯一**
 	* 唯一性：反证法 
 		$A=L_1U_1=L_2U_2$
