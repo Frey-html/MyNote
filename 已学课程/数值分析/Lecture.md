@@ -66,7 +66,7 @@
 #### 6.5 Matrix Factorization 
 * Matrix Factorization 矩阵分解
 	* Matrix Form of Gaussian Elimination
-	用矩阵运算的形式表示高斯消元法![[课程/数值分析/附件/SharedScreenshot.jpg|400]]![[课程/数值分析/附件/SharedScreenshot 1.jpg|400]]
+	用矩阵运算的形式表示高斯消元法![[已学课程/数值分析/附件/SharedScreenshot.jpg|400]]![[已学课程/数值分析/附件/SharedScreenshot 1.jpg|400]]
 	理解：$L_k^{-1}$矩阵为把第k行乘以相应系数加到它下面的行中，逐次相乘得到下三角矩阵![[SharedScreenshot 5.jpg|400]]
 	高斯消元法：$L^{-1}A=U$得到$A=LU$
 	将矩阵分解为单位下三角阵和单位上三角阵
