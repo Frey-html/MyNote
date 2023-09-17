@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "841c37b2bcab92fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d26628fab49890ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6439f25ebf0f3b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具学习/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2936b12c4036b8be",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9159e803cfb93b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "442f877c618c323e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69bba8993c7f7fa2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee60d1cddf8c4462",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f60b27018bb95823",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216
+  },
+  "right": {
+    "id": "c6ae143677ab31dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d24e678f9c44c156",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c3d8f6bbd96f71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工具学习/Python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "b3f050ef240ae433",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工具学习/Python.md"
+              }
+            }
+          },
+          {
+            "id": "af020a22caeada50",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工具学习/Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "609ebd8d577059c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "69bba8993c7f7fa2",
+  "lastOpenFiles": [
+    "游戏开发/Unity.md",
+    "游戏开发/游戏随笔.md",
+    "游戏开发/学习路线.md",
+    "游戏开发/图形学.md",
+    "2.md",
+    "数学基础/线性代数.md",
+    "课程/托福阅读/Lecture2.md",
+    "课程/托福阅读/Lecture 8.md",
+    "课程/托福阅读/Lecture3.md",
+    "课程/托福阅读/Lecture 5.md"
+  ]
+}
