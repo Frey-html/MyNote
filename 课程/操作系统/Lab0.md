@@ -1,106 +1,152 @@
 ### 浙江大学实验报告
 ---
 课程名称：操作系统
-实验项目名称：Rinux环境搭建和内核编译
+实验项目名称：GDB & QEMU 调试 64 位 RISC-V LINUX
 学生姓名：展翼飞  学号：3190102196
 电子邮件地址：1007921963@qq.com
-实验日期： 2022年 9 月 26 日
+实验日期： 2023年9月22日
 
 #### 一、实验内容
-##### 1.**搭建Docker环境** 
-* 导入docker镜像
-	![[导入镜像.jpg|500]]
-	```bash
-	cat oslab.tar | docker import - oslab:2022
-	#使用cat命令加管道 使oslab.tar作为docker import的输入导入，命名为 
-    #oslab：2022
-	docker images
-	#导入docker镜像后查看docker镜像
-	chmod a+rw ...
-	#给所有用户对docker.sock文件添加读写权限
-	```
-* 创建容器
-![[创建容器.jpg]]	
+##### 1.搭建实验环境
+* 使用VMware构建Ubuntu 22.04.3 LTS虚拟机，并安装编译内核所需要的交叉编译工具链和用于构建程序的软件包
 ```bash
-	docker run --name oslab -it oslab:2022 /bin/bash
-	# --name 指定容器名为oslab -it交互式操作，运行在终端/bin/bash
+$ sudo apt install gcc-riscv64-linux-gnu 
+$ sudo apt install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev \ gawk build-essential bison flex texinfo gperf libtool patchutils bc \ zlib1g-dev libexpat-dev git
+#sudo 使用管理员权限 apt 包管理工具
+```
+在使用apt安装包时，遇到如下问题：
+![[locate.jpg]]
+在使用sudo apt-get update与sudo apt-get upgrade更新包列表与apt软件后安装命令正常运行
+
+* 安装用于启动 riscv64 平台上的内核的模拟器 `qemu`
+```bash
+$ sudo apt install qemu-system-misc
 ```
 
-
-##### 2.**获取Linux源码和已经编译好的文件系统**
-* 克隆lab0仓库
-![[无法克隆gitee.jpg]]
-  遇见问题： docker内git clone命令无法解析地址
-  解决： 在docker外克隆后复制到容器内
-![[在docker外clone拷贝进docker.jpg]]
+* `gdb` 来对在 `qemu` 上运行的 Linux 内核进行调试
 ```bash
-	docker ps 
-	#显示所有在运行的容器
-	docker cp 源地址 目标容器：目标地址
-	#将文件从docker外拷贝到容器内
-```
-* 安装wget工具
-![[wget过程中发现docker不能联网.jpg]]
-	遇见问题：docker容器内无法联网
-	解决：docker rm删除当前容器，新建容器加入 --net host 与宿主机共享网络配置
-	![[解决：带net命令重新创建容器.jpg]]
-* 下载linux源码并解压
-	![[下载解压完毕.jpg]]
-```bash
-	tar -zxvf filename
-	#tar：用于建立，还原，加入，解开备份（打包）文件
-	#-z 通过gzip压缩或解压 -x 从备份文件还原文件
-	#-v 显示详细过程 -f 指定备份文件
+$ sudo apt install gdb-multiarch
 ```
 
-
-3. **编译Linux内核**
-* 配置环境变量
-![[配置环境变量.jpg]]
+#### 2. 获取 Linux 源码和已经编译好的文件系统
+* 从 [https://www.kernel.org](https://www.kernel.org/) 下载最新的 Linux 源码 6.6-rc2，并拷贝至wsl用户目录中，并解压
 ```bash
-	export RISCV=/opt/riscv
-	#export 设置环境变量 RISCV 仅在当前终端和当前用户生效
-	export PATH=$PATH:$RISCV/bin
-	#将$RISCV/bin添加到PATH中 
+$ tar zxvf linux-6.6-rc2.tar.gz -C ~
 ```
-* 生成配置
-![[使用riscv默认配置.jpg]]
-指定内核编译配置为RISC-V平台的默认配置
-* 开始编译内核
-	![[内核编译选项.jpg]]
-![[编译选项2.jpg]]
-指定交叉编译工具链，进行多线程编程，线程数为4
+![[Pasted image 20230921174450.png]]
 
-4. **使用QEMU运行内核**
-![[QEMU调试命令.jpg]]
+* 使用 git 工具 clone仓库：https://github.com/ZJU-SEC/os23fall-stu。其中已经准备好了根文件系统的镜像
 ```bash
-	qemu-system-riscv64 #使用qemu完成riscv64架构的模拟
-	-nographic #不使用图形化窗口
-	-machine virt #指定要模拟的机器为RISCV VirtIO board
-	-kernel #指定对应架构的内核镜像 
-	-device #指定要模拟的设备 virtio-blk-device指定的为 storage device
-	#即存储设备 相应的总线bus为virtio-bus hd0:第一个硬盘
-	-append cmdline #使⽤cmdline作为内核的命令⾏
-	-bios default #使⽤默认的 OpenSBI firmware 作为 bootloader
-	#ttyS0 串行端口终端
-	-drive #指定文件系统
+$ git clone https://github.com/ZJU-SEC/os23fall-stu.git 
+$ cd os23fall-stu/src/lab0 
+$ ls 
+rootfs.img # 已经构建完成的根文件系统的镜像
+```
+![[Pasted image 20230921174710.png|400]]
+
+#### 3.编译 Linux 内核
+* 进入解压后的linux内核源码文件夹，编译linux内核
+```bash
+$ cd linux-6.6-rc2
+$ make ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- defconfig
+#在内核根目录下根据RISC-V默认配置生成一个名为 `.config` 的文件，包含了内核完整的配置，内核在编译时会根据 `.config` 进行编译
+$ make ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- -j4
+#使用4线程编译内核
 ```
 
-5. **使用gdb对内核进行调试**
-* 使用QEMU启动linux内核
-![[terminal1启动内核并暂停cpu.jpg]]
-```bash
-	-S #启动时暂停cpu执行
-	-s #-gdb tcp::1234 的简写，使用gdb调试，可用tcp 1234端口连接
-```
-* 打开另一个Terminal Session，连接docker使用gdb连接QEMU
-![[尝试gdb.jpg]]
-	此处显示(No debugging symbols found)，则需重新编译内核
-* 修改内核MAKEFILE
-![[加入编译选项.jpg]]
-* 重新编译内核
-![[重新编译.jpg]]
+* 编译后结果如下图所示![[Pasted image 20230921200705.png]]
 
-三、讨论心得
-1. 在docker内使用git clone失败
-	原本认为是gitee连接有问题，遂在docker容器外下载文件系统并拷贝入容器，但在后续实验过程中使用wget，apt等工具时均无法连接到网络，经过查询重新建立容器并加入-net host选项使docker容器与宿主机共享网络配置，解决了容器的联网问题。
+
+#### 4.使用 QEMU 运行内核
+编译内核后，在内核源码文件夹中使用QEMU运行内核：
+```bash
+$ qemu-system-riscv64 -nographic -machine virt -kernel ./arch/riscv/boot/Image \ 
+-device virtio-blk-device,drive=hd0 -append "root=/dev/vda ro console=ttyS0" \ 
+-bios default -drive file=../os23fall-stu/src/lab0/rootfs.img,format=raw,id=hd0
+#`-nographic`: 不使用图形窗口，使用命令行
+#`-machine`: 指定要 emulate 的机器为RISC-V VirtIO board
+#`-kernel`: 指定内核 image为该路径下的linux内核
+#`-device`: 指定要模拟的设备为virtio-blk-device，并指定硬盘设备hd0作为后端
+#`-append cmdline`: 使用 cmdline 作为内核的命令行
+#`-bios default`: 使用默认的 OpenSBI firmware 作为 bootloader
+#`-drive, file=<file_name>`: 使用rootfs.img作为文件系统
+```
+结果如下图：
+![[Pasted image 20230921203042.png]]
+![[Pasted image 20230921203120.png]]
+
+
+#### 5.使用 GDB 对内核进行调试
+开启两个 Terminal Session，一个 Terminal 使用 QEMU 启动 Linux，另一个 Terminal 使用 GDB 与 QEMU 远程通信（使用 tcp::1234 端口）进行调试：
+```bash
+#Terminal 1
+$ qemu-system-riscv64 -nographic -machine virt -kernel ./arch/riscv/boot/Image \
+-device virtio-blk-device,drive=hd0 -append "root=/dev/vda ro console=ttyS0" \
+-bios default -drive file=../os23fall-stu/src/lab0/rootfs.img,format=raw,id=hd0 -S -s
+#- `-S`: 启动时暂停 CPU 执行
+#- `-s`: `-gdb tcp::1234`的简写
+
+#Terminal 2
+$ gdb-multiarch ~/linux-6.6-rc2/vmlinux
+(gdb) target remote :1234 # 连接 qemu 
+(gdb) b start_kernel # 设置断点 
+(gdb) continue # 继续执行 
+(gdb) quit # 退出 gdb
+```
+结果：
+Terminal 1启动后直接停止执行，直至Terminal 2连结qemu键入gdb continue指令后继续执行
+![[Pasted image 20230921210015.png]]
+运行到断点时：
+![[Pasted image 20230921210118.png]]
+gdb调试结束后：
+![[Pasted image 20230921210252.png]]
+
+
+Terminal 2通过gdb远程连接Terminal 1中的qemu进行调试：
+![[Pasted image 20230921210310.png]]
+
+#### 二、思考题
+##### 1. 使用 `riscv64-linux-gnu-gcc` 编译单个 `.c` 文件
+* 编写一个简单的.c文件，并拷贝至wsl
+![[Pasted image 20230921225753.png|300]]
+* 使用`riscv64-linux-gnu-gcc`编译得到编译产物a.out：
+![[Pasted image 20230921231841.png]]
+
+##### 2. 使用 `riscv64-linux-gnu-objdump` 反汇编 1 中得到的编译产物
+```
+$ riscv64-linux-gnu-objdump -d a.out  #编译指令-d显示程序可执行部分反汇编结果
+```
+其中main函数反汇编结果如下：
+![[Pasted image 20230921234736.png|500]]
+
+
+##### 3. 调试 Linux 时 :
+1. 在 GDB 中查看汇编代码
+使用gdb连接qemu后，使用指令`layout asm`查看汇编代码![[Pasted image 20230921235644.png|300]]
+2. 在 0x80000000 处下断点
+![[Pasted image 20230921235834.png]]
+3. 查看所有已下的断点
+![[Pasted image 20230921235943.png]]
+4. 在 0x80200000 处下断点
+![[Pasted image 20230922000024.png]]
+5. 清除 0x80000000 处的断点
+![[Pasted image 20230922000216.png]]
+6. 继续运行直到触发 0x80200000 处的断点
+![[Pasted image 20230922001044.png]]
+7. 单步调试一次
+![[Pasted image 20230922001247.png]]
+8. 退出 QEMU
+
+
+##### 4. 使用 `make` 工具清除 Linux 的构建产物
+使用指令`$ make clean`即可清除当前文件夹下的构建产物，同时可以编写makefile中`clean:`的部分使用命令行命令指定需要清除的构建产物
+
+##### 5. `vmlinux` 和 `Image` 的关系和区别是什么？
+* vmlinux是Linux内核编译出来的原始的内核文件，elf格式，未做压缩处理。该映像可用于定位内核问题，但不能直接引导Linux系统启动。
+* Image是Linux内核编译时，使用objcopy处理vmlinux后生成的二进制内核映像。该映像未压缩，可直接引导Linux系统启动。
+
+
+#### 三、讨论心得
+1. 在使用wsl，docker之类工具新建linux操作系统环境时，使用apt-get获取软件前要注意使用apt-get update更新软件列表，避免unable to locate的错误
+2. 在cpu核心数量与内存大小允许时，编译时可以增加多线程编译的指令来缩短编译时间
+3. 操作系统内核源码在不同的硬件体系结构下既有跨架构的相同部分，也有依赖于体系结构的代码部分，根据不同环境要选择相应的编译工具链与配置
