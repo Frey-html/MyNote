@@ -1,31 +1,19 @@
 {
   "main": {
-    "id": "841c37b2bcab92fc",
+    "id": "ed0ec40ada2404dd",
     "type": "split",
     "children": [
       {
-        "id": "d26628fab49890ce",
+        "id": "687edc9dd0264742",
         "type": "tabs",
         "children": [
           {
-            "id": "a6439f25ebf0f3b8",
+            "id": "621dd5ce232bbbc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74a0f3d65b97fcc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project勇士传说.md",
+                "file": "毕设记录/毕设工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f9159e803cfb93b4",
+    "id": "cbc572628f896f8b",
     "type": "split",
     "children": [
       {
-        "id": "442f877c618c323e",
+        "id": "c0f9edcea17d4d54",
         "type": "tabs",
         "children": [
           {
-            "id": "69bba8993c7f7fa2",
+            "id": "14e045ed2ca7e7f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +43,7 @@
             }
           },
           {
-            "id": "ee60d1cddf8c4462",
+            "id": "3e2b20757eab6e3c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,15 +58,7 @@
             }
           },
           {
-            "id": "f60b27018bb95823",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "976db7d155f38b73",
+            "id": "e58a75767e158f4a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,57 +69,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216
+    "width": 300
   },
   "right": {
-    "id": "c6ae143677ab31dc",
+    "id": "0b053c579c2d8714",
     "type": "split",
     "children": [
       {
-        "id": "d24e678f9c44c156",
+        "id": "795b52d051b194cf",
         "type": "tabs",
         "children": [
           {
-            "id": "38c3d8f6bbd96f71",
+            "id": "fe3a88bb12c98712",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "毕设记录/毕设工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b3f050ef240ae433",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "游戏开发/Unity.md"
-              }
-            }
-          },
-          {
-            "id": "af020a22caeada50",
+            "id": "81faaf3e9c54e321",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "毕设记录/毕设工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "609ebd8d577059c3",
+            "id": "c9ce524694f67a45",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,67 +118,47 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "1f3ac626852bbdc6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "毕设记录/毕设工作记录.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "canvas:Create new canvas": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a6439f25ebf0f3b8",
+  "active": "14e045ed2ca7e7f7",
   "lastOpenFiles": [
-    "Project勇士传说.md",
-    "游戏开发/Unity.md",
-    "游戏开发/C#.md",
-    "游戏开发/游戏随笔.md",
-    "游戏开发/学习路线和进度.md",
-    "游戏开发/Unreal.md",
-    "游戏开发/设计模式.md",
-    "游戏开发/算法巩固.md",
-    "课程/体系结构/实验注意点.md",
-    "课程/操作系统/习题本.md",
-    "课程/操作系统/Lab0.md",
-    "课程/操作系统/Lab0（旧）.md",
-    "阅读与思考/旅游/福建出行.md",
-    "阅读与思考/读书学习随笔.md",
-    "阅读与思考/日记随笔.md",
-    "阅读与思考/旅游",
-    "阅读与思考",
-    "课程/图形学/HW0.md",
-    "课程/图形学",
-    "已学课程/网络安全/网络安全实验/Lab1.md",
-    "已学课程/网络安全/网络安全课堂笔记.md",
-    "已学课程/网络安全/网络安全实验",
-    "已学课程/网络安全",
-    "Pic/两寸.jpg",
-    "Pic/locate.jpg",
-    "Pic/Pasted image 20230922001247.png",
-    "Pic/Pasted image 20230922001205.png",
-    "Pic/Pasted image 20230922001044.png",
-    "Pic/Pasted image 20230922000216.png",
-    "Pic/Pasted image 20230922000024.png",
-    "Pic/Pasted image 20230921235943.png",
-    "Pic/Pasted image 20230921235834.png",
-    "Pic/Pasted image 20230921235822.png",
-    "工具学习/Python.md",
-    "课程/计算理论/疑问.md",
-    "课程/计算理论/Lecture.md",
-    "游戏开发/学习路线.md",
-    "游戏开发/图形学.md",
-    "2.md",
-    "数学基础/线性代数.md",
-    "课程/托福阅读/Lecture2.md"
+    "Pic/lQDPJwTqlqjRIRjNAj7NBP-wddAuVgKLrFYFLE_mc4k3AA_1279_574.jpg",
+    "Pic/lQDPJwIS_h5C4tjNAj7NBP-wtIFIEsGXdZ0FLE62452yAA_1279_574.jpg",
+    "Pic/95c423deac5f9ed37dc79c0b109df93a.jpg",
+    "Pic/Screenshot_20231026_142657.jpg",
+    "毕设记录/毕设工作记录.md",
+    "Pic/lQDPJxvwHUznBljNAj7NBP-w2p15y97E55gFLFBKjmofAA_1279_574.jpg",
+    "Pic/lQDPJx8ZkHv7ytjNAj7NBP-wmYZzdxkEKgUFLE82Ky4tAA_1279_574.jpg",
+    "Pic/lQDPJxkzzZ6LZfjNAj7NBP-wKYlg5l3wsCoFLE1YZ8gaAA_1279_574.jpg",
+    "Pic/lQDPJxBI-LoeZvjNAj7NBP-wxMHQhvCtVwIFLE1ZZMxSAA_1279_574.jpg",
+    "游戏开发/Project勇士传说.md",
+    "毕设记录"
   ]
 }
