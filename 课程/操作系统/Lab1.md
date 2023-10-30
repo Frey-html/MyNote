@@ -52,4 +52,4 @@ ls
 7. Explain what is ELF file? Try readelf and objdump command on an ELF file, give screenshot of the output. Run an ELF file and cat `/proc/PID/maps` to give its memory layout.
 8. 在我们使用 make run 时， OpenSBI 会产生如下输出 :通过查看 `RISC-V Privileged Spec` 中的 `medeleg` 和 `mideleg` ，解释上面 `MIDELEG` 值的含义。
 
-三、讨论心得
+#### 三、讨论心得

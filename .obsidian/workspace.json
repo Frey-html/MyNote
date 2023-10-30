@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea4c3283a0f386e9",
+            "id": "6ecd99e10f0aa734",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6ecd99e10f0aa734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/操作系统/Lab0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/操作系统/Lab0.md",
+                "file": "课程/操作系统/Lab1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/操作系统/Lab0.md"
+                "file": "课程/操作系统/Lab1.md"
               }
             }
           },
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/操作系统/Lab0.md",
+                "file": "课程/操作系统/Lab1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,14 +149,23 @@
   },
   "active": "6ecd99e10f0aa734",
   "lastOpenFiles": [
+    "课程/操作系统/Lab0（旧）.md",
+    "课程/操作系统/Lab1.md",
+    "课程/体系结构/实验注意点.md",
+    "Pic/Pasted image 20231022092056.png",
+    "Pic/Pasted image 20231021101741.png",
+    "Pic/Pasted image 20231021100622.png",
+    "Pic/Pasted image 20231021095836.png",
+    "Pic/Pasted image 20231021095048.png",
+    "课程/Java应用/Java爬虫报告.md",
+    "Pic/Pasted image 20231020175218.png",
+    "Pic/Pasted image 20231020175001.png",
+    "Pic/Pasted image 20231020174811.png",
+    "Pic/Pasted image 20231020174609.png",
+    "Pic/Pasted image 20231020174140.png",
+    "课程/操作系统/Lab0.md",
     "数学基础/线性代数.md",
     "课程/图形学/HW0.md",
-    "课程/体系结构/实验注意点.md",
-    "课程/操作系统/Lab1.md",
-    "Pic/Pasted image 20231010161922.png",
-    "课程/操作系统/Lab0.md",
-    "课程/操作系统/Lab0（旧）.md",
-    "课程/Java应用/HW1.md",
     "课程/操作系统/实验报告模板.md",
     "课程/Java应用",
     "课程/操作系统/实验记录.md",
@@ -183,25 +179,15 @@
     "课程/体系结构/疑问.md",
     "课程/计算理论/Lecture.md",
     "课程/汇编与接口",
-    "Pic/Pasted image 20230921234736.png",
-    "Pic/Pasted image 20230921203120.png",
-    "Pic/Pasted image 20230921203042.png",
-    "Pic/Pasted image 20230921174450.png",
-    "Pic/Pasted image 20230921174107.png",
-    "Pic/locate.jpg",
-    "Pic/两寸.jpg",
-    "Pic/Pasted image 20230921235644.png",
     "阅读与思考/读书学习随笔.md",
     "未命名.canvas",
     "阅读与思考/日记随笔.md",
-    "Pic/Pasted image 20230922001247.png",
     "课程/操作系统/习题本.md",
     "课程/操作系统/疑问.md",
     "课程/操作系统/Lecture.md",
     "课程/体系结构/Lab.md",
     "课程/体系结构/Lecture.md",
     "课程/图形学",
-    "工具学习/C++/CH2-3 类与对象.md",
     "阅读与思考/旅游",
     "已学课程/网络安全/网络安全实验",
     "已学课程/社会实践/社会实践准备.pdf",
