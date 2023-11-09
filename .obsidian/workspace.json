@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "841c37b2bcab92fc",
+    "id": "207c4bede4899759",
     "type": "split",
     "children": [
       {
-        "id": "1ac7ba6776f767eb",
+        "id": "c2a2d86d6e62e965",
         "type": "tabs",
         "children": [
           {
-            "id": "6ecd99e10f0aa734",
+            "id": "260faf5ea0385937",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/操作系统/Lab1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f9159e803cfb93b4",
+    "id": "d043a9c6eb879bba",
     "type": "split",
     "children": [
       {
-        "id": "442f877c618c323e",
+        "id": "4a7bbe4cb5fd411c",
         "type": "tabs",
         "children": [
           {
-            "id": "69bba8993c7f7fa2",
+            "id": "1f1fbc6b35192970",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "ee60d1cddf8c4462",
+            "id": "57d14f7bf8f3c346",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "03575841b61cb449",
+            "id": "e6c491504578cb43",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,57 +65,45 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216
+    "width": 300
   },
   "right": {
-    "id": "c6ae143677ab31dc",
+    "id": "32d98f6b191a924a",
     "type": "split",
     "children": [
       {
-        "id": "d24e678f9c44c156",
+        "id": "dd44c203365bc9eb",
         "type": "tabs",
         "children": [
           {
-            "id": "38c3d8f6bbd96f71",
+            "id": "d59c4c9f4be0de97",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/操作系统/Lab1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b3f050ef240ae433",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "课程/操作系统/Lab1.md"
-              }
-            }
-          },
-          {
-            "id": "af020a22caeada50",
+            "id": "286f093b1ce2fd48",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/操作系统/Lab1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "609ebd8d577059c3",
+            "id": "91a9969c7c943e3f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,71 +112,33 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "378ec0e14f7634ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6ecd99e10f0aa734",
-  "lastOpenFiles": [
-    "课程/操作系统/Lab0（旧）.md",
-    "课程/操作系统/Lab1.md",
-    "课程/体系结构/实验注意点.md",
-    "Pic/Pasted image 20231022092056.png",
-    "Pic/Pasted image 20231021101741.png",
-    "Pic/Pasted image 20231021100622.png",
-    "Pic/Pasted image 20231021095836.png",
-    "Pic/Pasted image 20231021095048.png",
-    "课程/Java应用/Java爬虫报告.md",
-    "Pic/Pasted image 20231020175218.png",
-    "Pic/Pasted image 20231020175001.png",
-    "Pic/Pasted image 20231020174811.png",
-    "Pic/Pasted image 20231020174609.png",
-    "Pic/Pasted image 20231020174140.png",
-    "课程/操作系统/Lab0.md",
-    "数学基础/线性代数.md",
-    "课程/图形学/HW0.md",
-    "课程/操作系统/实验报告模板.md",
-    "课程/Java应用",
-    "课程/操作系统/实验记录.md",
-    "游戏开发/C#.md",
-    "游戏开发/算法巩固.md",
-    "游戏开发/设计模式.md",
-    "游戏开发/Unreal.md",
-    "游戏开发/Unity.md",
-    "游戏开发/游戏随笔.md",
-    "课程/图形学/实验报告模板.md",
-    "课程/体系结构/疑问.md",
-    "课程/计算理论/Lecture.md",
-    "课程/汇编与接口",
-    "阅读与思考/读书学习随笔.md",
-    "未命名.canvas",
-    "阅读与思考/日记随笔.md",
-    "课程/操作系统/习题本.md",
-    "课程/操作系统/疑问.md",
-    "课程/操作系统/Lecture.md",
-    "课程/体系结构/Lab.md",
-    "课程/体系结构/Lecture.md",
-    "课程/图形学",
-    "阅读与思考/旅游",
-    "已学课程/网络安全/网络安全实验",
-    "已学课程/社会实践/社会实践准备.pdf",
-    "已学课程/社会实践/[双面彩打][介绍函]浙江大学2022-2023学年寒假社会实践活动介绍函.pdf",
-    "已学课程/人工智能安全",
-    "已学课程/网络安全"
-  ]
+  "active": "260faf5ea0385937",
+  "lastOpenFiles": []
 }
