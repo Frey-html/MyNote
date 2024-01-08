@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,17 +146,20 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "14e045ed2ca7e7f7",
+  "active": "621dd5ce232bbbc0",
   "lastOpenFiles": [
-    "Pic/lQDPJwTqlqjRIRjNAj7NBP-wddAuVgKLrFYFLE_mc4k3AA_1279_574.jpg",
-    "Pic/lQDPJwIS_h5C4tjNAj7NBP-wtIFIEsGXdZ0FLE62452yAA_1279_574.jpg",
-    "Pic/95c423deac5f9ed37dc79c0b109df93a.jpg",
-    "Pic/Screenshot_20231026_142657.jpg",
+    "Pic/lQLPJwz7JGFTRVTNAXTNAemwnQ4sTYk8ha8FQ4Fs_AD6AA_489_372.png",
+    "Pic/ABB12E9E-B161-4651-B4DD-54A27B8EBC0A.png",
+    "Pic/D006EE5E-98F6-4cf8-AADD-D60AFE9C76AD.png",
+    "Pic/lQDPJxxB-CMxljTNAj7NBP-w8M-bVpHnPrEFPSLes7x0AA_1279_574.jpg",
+    "Pic/lQDPJyCpviTrqXTNAj7NBP-wxaXpSQ--DwsFPSHhdqv1AA_1279_574.jpg",
+    "Pic/70152b0abf14bc099ec3806faf1c1caa.jpg",
+    "Pic/Pasted image 20231108162116.png",
+    "Pic/23927684f78f2eff387c570ba152d69a.jpg",
+    "Pic/4dd2fd424a16214626c32714a313bea3.jpg",
+    "Pic/afa737a51c790d183b11f2a972844173.jpg",
+    "Pic/75b46489432d2133a0999fef586074bb.jpg",
     "毕设记录/毕设工作记录.md",
-    "Pic/lQDPJxvwHUznBljNAj7NBP-w2p15y97E55gFLFBKjmofAA_1279_574.jpg",
-    "Pic/lQDPJx8ZkHv7ytjNAj7NBP-wmYZzdxkEKgUFLE82Ky4tAA_1279_574.jpg",
-    "Pic/lQDPJxkzzZ6LZfjNAj7NBP-wKYlg5l3wsCoFLE1YZ8gaAA_1279_574.jpg",
-    "Pic/lQDPJxBI-LoeZvjNAj7NBP-wxMHQhvCtVwIFLE1ZZMxSAA_1279_574.jpg",
     "游戏开发/Project勇士传说.md",
     "毕设记录"
   ]
