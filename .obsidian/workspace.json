@@ -11,8 +11,12 @@
             "id": "260faf5ea0385937",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/学习资料及心得.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏开发/学习资料及心得.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏开发/学习资料及心得.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏开发/学习资料及心得.md"
+              }
             }
           }
         ]
@@ -140,5 +148,13 @@
     }
   },
   "active": "260faf5ea0385937",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "阅读与思考/读书学习随笔.md",
+    "游戏开发/学习资料及心得.md",
+    "游戏开发/C#.md",
+    "游戏开发/Unity.md",
+    "阅读与思考/旅游/福建出行.md",
+    "游戏开发/Project勇士传说.md",
+    "游戏开发/游戏随笔.md"
+  ]
 }
