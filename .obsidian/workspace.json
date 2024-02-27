@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "9b64e08669abfbd4",
+    "id": "ded5370338e2ef1e",
     "type": "split",
     "children": [
       {
-        "id": "c5f0ea0f298e3372",
+        "id": "2a69cc7a5bc67bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "9ebfd1cbf2f373f7",
+            "id": "5f116ccddb38f906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "阅读与思考/读书学习随笔.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c58a2649fd0f5b65",
+    "id": "06d678f93dd36fbe",
     "type": "split",
     "children": [
       {
-        "id": "e56e160308aeaa2a",
+        "id": "50a7a66a504f7b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "3eef328340676d94",
+            "id": "64bd8fb7d4e2ef9e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "02a7e4eaa11c766c",
+            "id": "72b65d1cf48d2c75",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "6327f7101863af4b",
+            "id": "be83fc719f3b3804",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "a650290923530a54",
+    "id": "4ddfa4d48b3ecef5",
     "type": "split",
     "children": [
       {
-        "id": "470296bd110b2fe6",
+        "id": "4097304f345ab4da",
         "type": "tabs",
         "children": [
           {
-            "id": "0370b0c6503c8c6f",
+            "id": "2dcd1501e40c053e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "阅读与思考/读书学习随笔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "7be46952d6dd0afb",
+            "id": "57030bc58fee330e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "阅读与思考/读书学习随笔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "53c4f1c8ddfd148c",
+            "id": "9bd8b15f82ca30a6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "3fcd60167fdfbcf1",
+            "id": "b154f0ff8e9cfb47",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "阅读与思考/读书学习随笔.md"
               }
             }
           }
@@ -147,17 +147,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9ebfd1cbf2f373f7",
+  "active": "5f116ccddb38f906",
   "lastOpenFiles": [
-    "游戏开发/C#.md",
-    "游戏开发/Unity.md",
-    "游戏开发/Project勇士传说.md",
+    "阅读与思考/日记随笔.md",
     "阅读与思考/读书学习随笔.md",
-    "毕设记录/毕设工作记录.md",
-    "课程/Java应用/Java爬虫报告.md",
-    "课程/图形学/HW0.md",
-    "课程/计算理论/疑问.md",
-    "课程/计算理论/Lecture.md",
-    "论文阅读/知识点/逻辑回归.md"
+    "游戏开发/Unity.md"
   ]
 }
