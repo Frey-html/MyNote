@@ -56,6 +56,8 @@
 8. **为方法添加特性使其能够在Inspector中执行**[ContextMenu("描述")],一般用于调试,点击脚本的三点即可找到并以执行
 
 ##### 2.4MonoBehaviour详解
+[Unity 脚本基类 MonoBehaviour 与 GameObject 的关系](https://blog.csdn.net/hihozoo/article/details/66970467)
+[Unity入门一，什么是GameObject,MonoBehaviour ](https://www.cnblogs.com/zhxmdefj/p/10526858.html)
 ###### 重要成员
 1. this.gameObject：继承自Mono，获得所挂载的对象
 2. this.transform和this.gameObject.transform效果一致，均为获得挂载对象的transform成员，可通过transform的成员position，eularAngles，lossyScale获得该GameObject位置，角度，大小信息，以及其他成员信息
