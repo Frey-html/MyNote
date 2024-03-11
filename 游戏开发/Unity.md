@@ -266,6 +266,8 @@
 			this.transform.TransformVector()
 
 #### 4.Input和Screen
+##### 新输入系统 InputManager
+[Unity新版InputSystem之实践篇](https://blog.csdn.net/qq_33064771/article/details/116899576)
 ##### 鼠标键盘输入 
 1. 鼠标在屏幕位置
 	屏幕坐标原点是在屏幕左下角，返回值Vector3但z为0

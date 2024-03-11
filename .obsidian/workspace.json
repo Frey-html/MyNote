@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3596cf89c73cf34a",
+            "id": "ce9724ddf3507064",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/网安Lab1.md",
+                "file": "周期总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/网安Lab1.md",
+                "file": "周期总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/网安Lab1.md",
+                "file": "周期总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/网安Lab1.md"
+                "file": "周期总结.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,13 +147,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3596cf89c73cf34a",
+  "active": "ce9724ddf3507064",
   "lastOpenFiles": [
-    "游戏开发/Unity.md",
-    "课程/网安Lab1.md",
-    "游戏开发/C#.md",
-    "游戏开发/学习资料及心得.md",
+    "已学课程/技术沟通/Lecture.md",
+    "周期总结.md",
     "阅读与思考/读书学习随笔.md",
+    "已学课程/技术沟通/寻找论文方向.md",
+    "已学课程/技术沟通/文档评审-2.md",
+    "已学课程/技术沟通/文档评审.md",
+    "已学课程/技术沟通/开题报告评价.md",
+    "附件/2.png",
+    "附件/1.png",
+    "附件/33b15add5028b441c0f04c151ee8fc7.png",
+    "附件/711d327b32c904bfe1a1a7465f285a3.jpg",
+    "附件/屏幕截图 2022-12-01 115708.png",
+    "附件/屏幕截图 2022-12-07 125048.png",
+    "附件/a5405143b642c827833decfe0fcdaab.png",
+    "附件/e3fff04bc7d4e95440c32f3711370f7.jpg",
+    "附件/e468fea8c0ba82f69797a1490b47701.png",
+    "附件/Pasted image 20230131111713.png",
+    "游戏开发/Unity.md",
+    "游戏开发/C#.md",
+    "课程/网安Lab1.md",
+    "游戏开发/学习资料及心得.md",
     "阅读与思考/日记随笔.md"
   ]
 }
