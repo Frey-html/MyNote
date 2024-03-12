@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "游戏开发/学习资料及心得.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "游戏开发/学习资料及心得.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "游戏开发/学习资料及心得.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "游戏开发/学习资料及心得.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,11 +149,22 @@
   },
   "active": "260faf5ea0385937",
   "lastOpenFiles": [
-    "游戏开发/C#.md",
     "阅读与思考/读书学习随笔.md",
+    "附件/2.png",
+    "附件/1.png",
+    "附件/Pasted image 20230131112609.png",
+    "附件/Pasted image 20230131111713.png",
+    "附件/Pasted image 20221214162633.png",
+    "附件/a5405143b642c827833decfe0fcdaab.png",
+    "附件/屏幕截图 2022-12-07 124731.png",
+    "附件/29995dd73b64e97710bd4956ae52ba7.jpg",
+    "附件/40fe97a58b2768e785c983f2ef16d27.png",
+    "附件/33b15add5028b441c0f04c151ee8fc7.png",
+    "论文阅读/机器学习论文.md",
     "游戏开发/学习资料及心得.md",
-    "阅读与思考/日记随笔.md",
+    "游戏开发/C#.md",
     "游戏开发/Unity.md",
+    "阅读与思考/日记随笔.md",
     "阅读与思考/旅游/福建出行.md",
     "游戏开发/Project勇士传说.md",
     "游戏开发/游戏随笔.md"
