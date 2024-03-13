@@ -465,6 +465,9 @@
 		foreach(type item in linkedlist){}
 	* 从头到尾/反向：取出节点逐个遍历
 
+#### 反射与Type类
+[C# 反射和Type类](https://www.cnblogs.com/forever-Ys/p/10396906.html)
+
 ### 常见问题
 #### 零碎知识点
 * 函数等不能直接定义在命名空间里，需要定义在类中
