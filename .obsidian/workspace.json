@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/学习资料及心得.md",
+                "file": "游戏开发/C#.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/学习资料及心得.md",
+                "file": "游戏开发/C#.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/学习资料及心得.md",
+                "file": "游戏开发/C#.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/学习资料及心得.md"
+                "file": "游戏开发/C#.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "260faf5ea0385937",
   "lastOpenFiles": [
+    "游戏开发/学习资料及心得.md",
     "阅读与思考/读书学习随笔.md",
     "附件/2.png",
     "附件/1.png",
@@ -161,7 +162,6 @@
     "附件/40fe97a58b2768e785c983f2ef16d27.png",
     "附件/33b15add5028b441c0f04c151ee8fc7.png",
     "论文阅读/机器学习论文.md",
-    "游戏开发/学习资料及心得.md",
     "游戏开发/C#.md",
     "游戏开发/Unity.md",
     "阅读与思考/日记随笔.md",
