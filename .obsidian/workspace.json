@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "周期总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "周期总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "周期总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md"
+                "file": "周期总结.md"
               }
             }
           }
@@ -162,12 +162,12 @@
   },
   "active": "4c49ed5409b0f2ba",
   "lastOpenFiles": [
+    "阅读与思考/读书学习随笔.md",
     "游戏开发/Unity.md",
     "游戏开发/学习资料及心得.md",
     "周期总结.md",
     "游戏开发/C#.md",
     "已学课程/技术沟通/Lecture.md",
-    "阅读与思考/读书学习随笔.md",
     "已学课程/技术沟通/寻找论文方向.md",
     "已学课程/技术沟通/文档评审-2.md",
     "已学课程/技术沟通/文档评审.md",
