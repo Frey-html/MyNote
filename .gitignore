@@ -1,3 +1,11 @@
-.obsidian
-.trash
-.sh
+# Ignore Obsidian cache files
+.obsidian/
+
+# Ignore any files or folders starting with a dot
+.*
+
+# Ignore backup files
+*.bak
+
+# Ignore specific files or folders
+push.sh
