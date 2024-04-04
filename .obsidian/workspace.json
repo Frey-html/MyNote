@@ -1,23 +1,36 @@
 {
   "main": {
-    "id": "ded5370338e2ef1e",
+    "id": "56022fe792ee6505",
     "type": "split",
     "children": [
       {
-        "id": "2a69cc7a5bc67bcd",
+        "id": "a69fdec189a02eff",
         "type": "tabs",
         "children": [
           {
-            "id": "ce9724ddf3507064",
+            "id": "fc44a68845e72085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "mode": "source",
                 "source": false
               }
             }
+<<<<<<< HEAD
+          },
+          {
+            "id": "41eba2064346cf6c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+=======
+>>>>>>> ff7d6409081f7dfb262aae7e25fe303377fb6037
           }
         ]
       }
@@ -25,15 +38,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "06d678f93dd36fbe",
+    "id": "ca54f0dc063a1555",
     "type": "split",
     "children": [
       {
-        "id": "50a7a66a504f7b0f",
+        "id": "cc2d61f7dd76f1e0",
         "type": "tabs",
         "children": [
           {
-            "id": "64bd8fb7d4e2ef9e",
+            "id": "d2ddde812f718a35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +56,7 @@
             }
           },
           {
-            "id": "72b65d1cf48d2c75",
+            "id": "0c5f67866db5ea6c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "be83fc719f3b3804",
+            "id": "c2e58c5e9b1ab3ea",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "4ddfa4d48b3ecef5",
+    "id": "26d9fb0cb3855375",
     "type": "split",
     "children": [
       {
-        "id": "4097304f345ab4da",
+        "id": "ae6ca471d6458beb",
         "type": "tabs",
         "children": [
           {
-            "id": "2dcd1501e40c053e",
+            "id": "b359227aa0469186",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +110,19 @@
             }
           },
           {
-            "id": "57030bc58fee330e",
+            "id": "ab2c23b2923640b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9bd8b15f82ca30a6",
+            "id": "9b06601b9693aabc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,33 +133,56 @@
             }
           },
           {
-            "id": "b154f0ff8e9cfb47",
+            "id": "cc8fa421a48e5fd7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读与思考/读书学习随笔.md"
+                "file": "课程/人工智能安全/论文阅读.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false
     }
   },
+<<<<<<< HEAD
+  "active": "41eba2064346cf6c",
+  "lastOpenFiles": [
+    "课程/Java应用/学习记录.md",
+    "课程/人工智能安全/论文阅读.md",
+    "课程/Java应用/HW1.md",
+    "课程/Java应用/Java爬虫报告.md",
+    "课程/零碎知识点.md",
+    "工具学习/Python.md",
+    "零碎知识点/Windows注册表.md",
+    "零碎知识点/镜像站点.md",
+    "已学课程/计网/协议详解.md",
+    "已学课程/计网/实验记录.md",
+    "已学课程/机器学习/Reading report.md",
+    "已学课程/机器学习/Lecture.md",
+    "已学课程/机器学习/助教课.md",
+    "已学课程/数值分析/HW3.md",
+    "已学课程/数值分析/HW5.md",
+    "已学课程/数值分析/HW7.md",
+    "已学课程/数值分析/HW8.md",
+    "已学课程/数值分析/HW1.md",
+    "已学课程/网络安全/网络安全实验/Lab1.md"
+=======
   "active": "ce9724ddf3507064",
   "lastOpenFiles": [
     "周期总结.md",
@@ -171,5 +207,6 @@
     "附件/Pasted image 20230131111713.png",
     "课程/网安Lab1.md",
     "阅读与思考/日记随笔.md"
+>>>>>>> ff7d6409081f7dfb262aae7e25fe303377fb6037
   ]
 }
