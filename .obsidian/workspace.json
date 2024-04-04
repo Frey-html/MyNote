@@ -1,31 +1,31 @@
 {
   "main": {
-    "id": "c0e4b3e4437395c9",
+    "id": "56022fe792ee6505",
     "type": "split",
     "children": [
       {
-        "id": "a1fd55712db42589",
+        "id": "a69fdec189a02eff",
         "type": "tabs",
         "children": [
           {
-            "id": "933f0c33eea173ac",
+            "id": "fc44a68845e72085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7eba0945c2b2c3d8",
+            "id": "41eba2064346cf6c",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.5.11"
+                "currentVersion": "1.5.12"
               }
             }
           }
@@ -36,15 +36,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "61d38dfbd445a9eb",
+    "id": "ca54f0dc063a1555",
     "type": "split",
     "children": [
       {
-        "id": "40d31863c1bd3dce",
+        "id": "cc2d61f7dd76f1e0",
         "type": "tabs",
         "children": [
           {
-            "id": "c832f12aff4e01e9",
+            "id": "d2ddde812f718a35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "45e9b71fd6f69950",
+            "id": "0c5f67866db5ea6c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -69,7 +69,7 @@
             }
           },
           {
-            "id": "76fc11115faf14de",
+            "id": "c2e58c5e9b1ab3ea",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,23 +80,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "a8f355d06ffbb792",
+    "id": "26d9fb0cb3855375",
     "type": "split",
     "children": [
       {
-        "id": "730efade1b38d2cf",
+        "id": "ae6ca471d6458beb",
         "type": "tabs",
         "children": [
           {
-            "id": "cc418929479c6876",
+            "id": "b359227aa0469186",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,19 +108,19 @@
             }
           },
           {
-            "id": "271c04c3d8ef93cc",
+            "id": "ab2c23b2923640b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学基础/线性代数.md",
+                "file": "课程/人工智能安全/论文阅读.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "652b4bbffd005990",
+            "id": "9b06601b9693aabc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,12 +131,12 @@
             }
           },
           {
-            "id": "6a0aa062f96fe821",
+            "id": "cc8fa421a48e5fd7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学基础/线性代数.md"
+                "file": "课程/人工智能安全/论文阅读.md"
               }
             }
           }
@@ -144,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +158,26 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7eba0945c2b2c3d8",
+  "active": "41eba2064346cf6c",
   "lastOpenFiles": [
-    "游戏开发/Unity.md"
+    "课程/Java应用/学习记录.md",
+    "课程/人工智能安全/论文阅读.md",
+    "课程/Java应用/HW1.md",
+    "课程/Java应用/Java爬虫报告.md",
+    "课程/零碎知识点.md",
+    "工具学习/Python.md",
+    "零碎知识点/Windows注册表.md",
+    "零碎知识点/镜像站点.md",
+    "已学课程/计网/协议详解.md",
+    "已学课程/计网/实验记录.md",
+    "已学课程/机器学习/Reading report.md",
+    "已学课程/机器学习/Lecture.md",
+    "已学课程/机器学习/助教课.md",
+    "已学课程/数值分析/HW3.md",
+    "已学课程/数值分析/HW5.md",
+    "已学课程/数值分析/HW7.md",
+    "已学课程/数值分析/HW8.md",
+    "已学课程/数值分析/HW1.md",
+    "已学课程/网络安全/网络安全实验/Lab1.md"
   ]
 }
