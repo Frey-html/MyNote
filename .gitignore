@@ -1,5 +1,6 @@
 # Ignore Obsidian cache files
-.obsidian/
+.obsidian/*
+workspace.json
 
 # Ignore any files or folders starting with a dot
 .*
