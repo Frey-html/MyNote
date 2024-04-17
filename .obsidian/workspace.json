@@ -86,7 +86,7 @@
               "type": "backlink",
               "state": {
                 "file": "课程/人工智能安全/黑白棋程序报告.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,5 +148,17 @@
     }
   },
   "active": "4cbff5f8ae65a990",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pic/Pasted image 20240416170750.png",
+    "Pic/Pasted image 20240416170609.png",
+    "Pic/Pasted image 20240416170530.png",
+    "Pic/Pasted image 20240416170434.png",
+    "Pic/Pasted image 20240416170310.png",
+    "Pic/Pasted image 20240416170140.png",
+    "Pic/Pasted image 20240416165855.png",
+    "Pic/Pasted image 20240416165727.png",
+    "Pic/Pasted image 20240416165435.png",
+    "Pic/Pasted image 20240416165409.png",
+    "Pic/Pasted image 20240416165328.png"
+  ]
 }
