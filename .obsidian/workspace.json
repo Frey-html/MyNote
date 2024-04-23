@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "ffcccb5ba7d599c9",
+    "id": "d713519126bf582a",
     "type": "split",
     "children": [
       {
-        "id": "4ef66b9cf5ca9b52",
+        "id": "f268ba22444181d9",
         "type": "tabs",
         "children": [
           {
-            "id": "4cbff5f8ae65a990",
+            "id": "b6ea5119c9ea29da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能安全/黑白棋程序报告.md",
+                "file": "课程/游戏设计/游戏体验报告.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ca5023372579eea4",
+    "id": "a8e55ee96b3c1fe9",
     "type": "split",
     "children": [
       {
-        "id": "6bebef080bfc5674",
+        "id": "84bd55564ab2b344",
         "type": "tabs",
         "children": [
           {
-            "id": "509c4f48d7b157fe",
+            "id": "197940098c8590f4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "6c15991ef9c7d14a",
+            "id": "95093c50449b415f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "43afe6fbf064ac14",
+            "id": "6a333022603fcf0f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,21 +72,21 @@
     "width": 300
   },
   "right": {
-    "id": "a7f97840a2a30cad",
+    "id": "cb79b3dc5469b908",
     "type": "split",
     "children": [
       {
-        "id": "a60e516cd13bf546",
+        "id": "7efb838d4f4b9fa6",
         "type": "tabs",
         "children": [
           {
-            "id": "145feb63dbea6ae8",
+            "id": "3ca5311bc7876ad6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能安全/黑白棋程序报告.md",
-                "collapseAll": true,
+                "file": "课程/游戏设计/游戏体验报告.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "972210876f819ee8",
+            "id": "96e11a8a5b000d8b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能安全/黑白棋程序报告.md",
+                "file": "课程/游戏设计/游戏体验报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c9c9f8a5362253d4",
+            "id": "c3dfe4778ec0ece5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,21 +120,21 @@
             }
           },
           {
-            "id": "3625d577da341527",
+            "id": "8bdbc39f776673b1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能安全/黑白棋程序报告.md"
+                "file": "课程/游戏设计/游戏体验报告.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,19 +147,6 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4cbff5f8ae65a990",
-  "lastOpenFiles": [
-    "课程/人工智能安全/论文阅读报告.md",
-    "课程/人工智能安全/黑白棋程序报告.md",
-    "Pic/Pasted image 20240416170750.png",
-    "Pic/Pasted image 20240416170609.png",
-    "Pic/Pasted image 20240416170530.png",
-    "Pic/Pasted image 20240416170434.png",
-    "Pic/Pasted image 20240416170310.png",
-    "Pic/Pasted image 20240416170140.png",
-    "Pic/Pasted image 20240416165855.png",
-    "Pic/Pasted image 20240416165727.png",
-    "Pic/Pasted image 20240416165435.png",
-    "Pic/Pasted image 20240416165409.png"
-  ]
+  "active": "b6ea5119c9ea29da",
+  "lastOpenFiles": []
 }
