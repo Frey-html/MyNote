@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a784bd8fdaa0def",
+            "id": "041a918c0e000e6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,8 +147,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2a784bd8fdaa0def",
+  "active": "041a918c0e000e6b",
   "lastOpenFiles": [
+    "课程/人工智能安全/K-Means程序报告.md",
+    "课程/人工智能安全/隐私保护思考题.md",
+    "课程/人工智能安全/黑白棋程序报告.md",
     "课程/游戏设计/游戏技术报告.md",
     "课程/人工智能安全/K-Means程序报告.md",
     "课程/人工智能安全/论文阅读报告.md",
