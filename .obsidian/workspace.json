@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/游戏设计/游戏技术报告.md",
+                "file": "课程/人工智能安全/隐私保护思考题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/游戏设计/游戏技术报告.md",
+                "file": "课程/人工智能安全/隐私保护思考题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/游戏设计/游戏技术报告.md",
+                "file": "课程/人工智能安全/隐私保护思考题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/游戏设计/游戏技术报告.md"
+                "file": "课程/人工智能安全/隐私保护思考题.md"
               }
             }
           }
@@ -149,14 +149,15 @@
   },
   "active": "041a918c0e000e6b",
   "lastOpenFiles": [
-    "课程/游戏设计/游戏体验报告.md",
+    "课程/人工智能安全/K-Means程序报告.md",
     "课程/人工智能安全/隐私保护思考题.md",
-    "课程/人工智能安全/数据投毒课后思考题.md",
+    "课程/人工智能安全/黑白棋程序报告.md",
     "课程/游戏设计/游戏技术报告.md",
+    "课程/游戏设计/游戏体验报告.md",
+    "课程/人工智能安全/数据投毒课后思考题.md",
     "阅读与思考/读书学习随笔.md",
     "周期总结.md",
     "课程/人工智能安全/后门攻击课后思考题.md",
-    "课程/人工智能安全/论文阅读报告.md",
-    "课程/人工智能安全/K-Means程序报告.md"
+    "课程/人工智能安全/论文阅读报告.md"
   ]
 }
