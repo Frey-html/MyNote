@@ -469,6 +469,10 @@
 #### 反射与Type类
 [C# 反射和Type类](https://www.cnblogs.com/forever-Ys/p/10396906.html)
 
+#### 特性
+https://chat.openai.com/share/2662a9aa-8587-4ff7-989c-1b6c4c9e4eb3
+
+
 ### 常见问题
 #### 零碎知识点
 * 函数等不能直接定义在命名空间里，需要定义在类中
