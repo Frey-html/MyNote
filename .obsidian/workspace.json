@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f268ba22444181d9",
+        "id": "eaf2433f828e81ad",
         "type": "tabs",
         "children": [
           {
-            "id": "041a918c0e000e6b",
+            "id": "1f9aa805e3e90078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/K-Means程序报告.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/K-Means程序报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/K-Means程序报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "课程/人工智能/K-Means程序报告.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,18 +147,46 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "041a918c0e000e6b",
+  "active": "1f9aa805e3e90078",
   "lastOpenFiles": [
-    "课程/游戏设计/游戏技术报告.md",
+    "Pic/Pasted image 20240518190004.png",
+    "Pic/Pasted image 20240518185942.png",
+    "Pic/Pasted image 20240518185416.png",
+    "课程/人工智能/黑白棋程序报告.md",
+    "课程/人工智能/K-Means程序报告.md",
+    "课程/人工智能/手写数字识别与垃圾分类报告.md",
+    "Pic/Pasted image 20240516160120.png",
+    "Pic/Pasted image 20240516144053.png",
+    "Pic/Pasted image 20240516143845.png",
+    "Pic/Pasted image 20240516142712.png",
+    "Pic/Pasted image 20240516142406.png",
+    "Pic/Pasted image 20240516141423.png",
+    "Pic/Pasted image 20240516140602.png",
+    "Pic/Pasted image 20240516134127.png",
+    "数学基础/概率统计复习1.pdf",
+    "数学基础/线性代数.md",
+    "游戏开发/C#.md",
+    "数学基础/7334f70967f846f2a47a0fad27ae3233/98f34850fa614c9a85b2a590012f806c.pdf",
+    "数学基础/7334f70967f846f2a47a0fad27ae3233",
+    "数学基础/164e600fbcb14e46968bef8f5a284b6b/c390238060614ffaa8ab1ff73e6eefb0.pdf",
+    "数学基础/164e600fbcb14e46968bef8f5a284b6b",
+    "数学基础/6b6abbc8ed4544ec9537e9dc21904893/97e9fc73d8d846beba545237352c086e.pdf",
+    "数学基础/6b6abbc8ed4544ec9537e9dc21904893",
+    "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a/275419d5aaf74639befb0ce3257a58b5.pdf",
+    "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a",
+    "数学基础/5551f8d3a16241afa802f17a99204767/119d072a20024513a4c076c8653ec454.pdf",
+    "游戏开发/学习资料及知识点.md",
     "课程/人工智能安全/隐私保护思考题.md",
-    "课程/人工智能安全/K-Means程序报告.md",
-    "课程/人工智能安全/黑白棋程序报告.md",
-    "课程/人工智能安全/K-Means程序报告.md",
+    "课程/人工智能安全/第二次上机实验报告.md",
     "课程/人工智能安全/论文阅读报告.md",
     "课程/人工智能安全/后门攻击课后思考题.md",
-    "课程/人工智能安全/黑白棋程序报告.md",
+    "课程/操作系统/Lab0.md",
+    "课程/操作系统/Lab1.md",
+    "课程/操作系统/Lab0（旧）.md",
+    "游戏开发/Unity.md",
+    "课程/游戏设计/游戏技术报告.md",
+    "课程/游戏设计/游戏体验报告.md",
     "课程/人工智能安全/数据投毒课后思考题.md",
-    "阅读与思考/读书学习随笔.md",
-    "Pic/Pasted image 20240424100649.png"
+    "阅读与思考/读书学习随笔.md"
   ]
 }
