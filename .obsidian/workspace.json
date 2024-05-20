@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f9aa805e3e90078",
+            "id": "c6eafd3f8b46e3a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能/K-Means程序报告.md",
+                "file": "前后端交互.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能/K-Means程序报告.md",
+                "file": "前后端交互.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能/K-Means程序报告.md",
+                "file": "前后端交互.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能/K-Means程序报告.md"
+                "file": "前后端交互.md"
               }
             }
           }
@@ -147,14 +147,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1f9aa805e3e90078",
+  "active": "c6eafd3f8b46e3a5",
   "lastOpenFiles": [
+    "Pic/Pasted image 20240519171117.png",
+    "课程/人工智能/黑白棋程序报告.md",
+    "前后端交互.md",
+    "课程/人工智能/手写数字识别与垃圾分类报告.md",
+    "课程/人工智能/K-Means程序报告.md",
     "Pic/Pasted image 20240518190004.png",
     "Pic/Pasted image 20240518185942.png",
     "Pic/Pasted image 20240518185416.png",
-    "课程/人工智能/黑白棋程序报告.md",
-    "课程/人工智能/K-Means程序报告.md",
-    "课程/人工智能/手写数字识别与垃圾分类报告.md",
     "Pic/Pasted image 20240516160120.png",
     "Pic/Pasted image 20240516144053.png",
     "Pic/Pasted image 20240516143845.png",
@@ -162,7 +164,6 @@
     "Pic/Pasted image 20240516142406.png",
     "Pic/Pasted image 20240516141423.png",
     "Pic/Pasted image 20240516140602.png",
-    "Pic/Pasted image 20240516134127.png",
     "数学基础/概率统计复习1.pdf",
     "数学基础/线性代数.md",
     "游戏开发/C#.md",
