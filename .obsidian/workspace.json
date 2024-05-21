@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周期总结.md"
+                "file": "前后端交互.md"
               }
             }
           }
@@ -138,22 +138,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "c6eafd3f8b46e3a5",
+  "active": "197940098c8590f4",
   "lastOpenFiles": [
-    "前后端交互.md",
-<<<<<<< HEAD
-=======
+    "计算机学院本科生学习周报-20240512-展翼飞  2.xlsx",
     "周期总结.md",
->>>>>>> 9c9b68c5d9b7d9ee6a958887a5158822ba2f8bcd
+    "读书学习随笔.md",
+    "计算机学院本科生学习周报-20240512-展翼飞  1.xlsx",
+    "计算机学院本科生学习周报-20240512-展翼飞 .xlsx",
+    "前后端交互.md",
     "Pic/Pasted image 20240519171117.png",
     "课程/人工智能/黑白棋程序报告.md",
     "课程/人工智能/手写数字识别与垃圾分类报告.md",
@@ -177,8 +178,6 @@
     "数学基础/6b6abbc8ed4544ec9537e9dc21904893/97e9fc73d8d846beba545237352c086e.pdf",
     "数学基础/6b6abbc8ed4544ec9537e9dc21904893",
     "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a/275419d5aaf74639befb0ce3257a58b5.pdf",
-    "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a",
-    "数学基础/5551f8d3a16241afa802f17a99204767/119d072a20024513a4c076c8653ec454.pdf",
     "游戏开发/学习资料及知识点.md",
     "课程/人工智能安全/隐私保护思考题.md",
     "课程/人工智能安全/第二次上机实验报告.md",
@@ -190,7 +189,6 @@
     "游戏开发/Unity.md",
     "课程/游戏设计/游戏技术报告.md",
     "课程/游戏设计/游戏体验报告.md",
-    "课程/人工智能安全/数据投毒课后思考题.md",
-    "阅读与思考/读书学习随笔.md"
+    "课程/人工智能安全/数据投毒课后思考题.md"
   ]
 }
