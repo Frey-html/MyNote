@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周期总结.md",
+                "file": "前后端交互.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周期总结.md"
+                "file": "前后端交互.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "c6eafd3f8b46e3a5",
   "lastOpenFiles": [
-    "前后端交互.md",
     "周期总结.md",
+    "前后端交互.md",
+    "毕设记录/毕设工作记录.md",
     "Pic/Pasted image 20240519171117.png",
     "课程/人工智能/黑白棋程序报告.md",
     "课程/人工智能/手写数字识别与垃圾分类报告.md",
@@ -188,6 +189,6 @@
     "课程/游戏设计/游戏技术报告.md",
     "课程/游戏设计/游戏体验报告.md",
     "课程/人工智能安全/数据投毒课后思考题.md",
-    "阅读与思考/读书学习随笔.md"
+    "读书学习随笔.md"
   ]
 }
