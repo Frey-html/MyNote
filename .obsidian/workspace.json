@@ -157,8 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2fec512956832d54",
+  "active": "197940098c8590f4",
   "lastOpenFiles": [
+    "游戏开发/Unity.md",
+    "CustomFont.css.md",
     "周期总结.md",
     "工具学习/Python.md",
     "工具学习/Makefile.md",
@@ -203,8 +205,6 @@
     "课程/人工智能安全/后门攻击课后思考题.md",
     "课程/操作系统/Lab0.md",
     "课程/操作系统/Lab1.md",
-    "课程/操作系统/Lab0（旧）.md",
-    "游戏开发/Unity.md",
-    "课程/游戏设计/游戏技术报告.md"
+    "课程/操作系统/Lab0（旧）.md"
   ]
 }
