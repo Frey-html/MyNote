@@ -1,1 +1,0 @@
-[Obsidian教程一 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/492198616)

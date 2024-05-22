@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "d713519126bf582a",
+    "id": "ca89ddaacbd42386",
     "type": "split",
     "children": [
       {
-        "id": "eaf2433f828e81ad",
+        "id": "4e0ff9c535b084a3",
         "type": "tabs",
         "children": [
           {
-            "id": "c6eafd3f8b46e3a5",
+            "id": "55e6152c0d30616c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前后端交互.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a8e55ee96b3c1fe9",
+    "id": "d7e50dd857c0b329",
     "type": "split",
     "children": [
       {
-        "id": "84bd55564ab2b344",
+        "id": "197ba895855aa078",
         "type": "tabs",
         "children": [
           {
-            "id": "197940098c8590f4",
+            "id": "083616bdc5883e72",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "95093c50449b415f",
+            "id": "de5d329023db5980",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "6a333022603fcf0f",
+            "id": "12f118149d2a6e85",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 300
   },
   "right": {
-    "id": "cb79b3dc5469b908",
+    "id": "ee56278de0572028",
     "type": "split",
     "children": [
       {
-        "id": "7efb838d4f4b9fa6",
+        "id": "86391622bb258433",
         "type": "tabs",
         "children": [
           {
-            "id": "3ca5311bc7876ad6",
+            "id": "9676641ca1f9e3b2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前后端交互.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "96e11a8a5b000d8b",
+            "id": "5d2517f35291b901",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前后端交互.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c3dfe4778ec0ece5",
+            "id": "ce6714bbf9d68c9c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,21 +114,19 @@
             }
           },
           {
-            "id": "8bdbc39f776673b1",
+            "id": "572a2fa1b56d9395",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "前后端交互.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,48 +139,6 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c6eafd3f8b46e3a5",
-  "lastOpenFiles": [
-    "周期总结.md",
-    "前后端交互.md",
-    "毕设记录/毕设工作记录.md",
-    "Pic/Pasted image 20240519171117.png",
-    "课程/人工智能/黑白棋程序报告.md",
-    "课程/人工智能/手写数字识别与垃圾分类报告.md",
-    "课程/人工智能/K-Means程序报告.md",
-    "Pic/Pasted image 20240518190004.png",
-    "Pic/Pasted image 20240518185942.png",
-    "Pic/Pasted image 20240518185416.png",
-    "Pic/Pasted image 20240516160120.png",
-    "Pic/Pasted image 20240516144053.png",
-    "Pic/Pasted image 20240516143845.png",
-    "Pic/Pasted image 20240516142712.png",
-    "Pic/Pasted image 20240516142406.png",
-    "Pic/Pasted image 20240516141423.png",
-    "数学基础/概率统计复习1.pdf",
-    "数学基础/线性代数.md",
-    "游戏开发/C#.md",
-    "数学基础/7334f70967f846f2a47a0fad27ae3233/98f34850fa614c9a85b2a590012f806c.pdf",
-    "数学基础/7334f70967f846f2a47a0fad27ae3233",
-    "数学基础/164e600fbcb14e46968bef8f5a284b6b/c390238060614ffaa8ab1ff73e6eefb0.pdf",
-    "数学基础/164e600fbcb14e46968bef8f5a284b6b",
-    "数学基础/6b6abbc8ed4544ec9537e9dc21904893/97e9fc73d8d846beba545237352c086e.pdf",
-    "数学基础/6b6abbc8ed4544ec9537e9dc21904893",
-    "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a/275419d5aaf74639befb0ce3257a58b5.pdf",
-    "数学基础/b425cd3a9cd74dc58c24c353bd9e3b6a",
-    "数学基础/5551f8d3a16241afa802f17a99204767/119d072a20024513a4c076c8653ec454.pdf",
-    "游戏开发/学习资料及知识点.md",
-    "课程/人工智能安全/隐私保护思考题.md",
-    "课程/人工智能安全/第二次上机实验报告.md",
-    "课程/人工智能安全/论文阅读报告.md",
-    "课程/人工智能安全/后门攻击课后思考题.md",
-    "课程/操作系统/Lab0.md",
-    "课程/操作系统/Lab1.md",
-    "课程/操作系统/Lab0（旧）.md",
-    "游戏开发/Unity.md",
-    "课程/游戏设计/游戏技术报告.md",
-    "课程/游戏设计/游戏体验报告.md",
-    "课程/人工智能安全/数据投毒课后思考题.md",
-    "读书学习随笔.md"
-  ]
+  "active": "55e6152c0d30616c",
+  "lastOpenFiles": []
 }

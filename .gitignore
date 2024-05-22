@@ -1,12 +1,23 @@
-# Ignore Obsidian cache files
-.obsidian/*
-workspace.json
-
-# Ignore any files or folders starting with a dot
+# Ignore any files or folders starting with a dot, except .obsidian
 .*
+!.obsidian/
+!.obsidian/**
+
+# Ignore workspace.json file
+.obsidian/workspace.json
+
+# Ignore other unnecessary files
+.DS_Store
+Thumbs.db
 
 # Ignore backup files
 *.bak
 
 # Ignore specific files or folders
 push.sh
+
+# Include all notes and other Obsidian configuration (this should be last to ensure exceptions are applied correctly)
+*
+!.obsidian/
+!.obsidian/plugins/
+!.obsidian/plugins/**
