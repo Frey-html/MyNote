@@ -1,0 +1,22 @@
+{
+  "showStatusBarItem": true,
+  "filterSettings": {
+    "FeaturedFirst": true,
+    "StrictSearch": false,
+    "HighlightCustom": false,
+    "HighlightDuplicates": false,
+    "DisplayWOhotkeys": false,
+    "DisplayIDs": false
+  },
+  "featuredCommandIDs": [
+    "command-palette:open",
+    "global-search:open",
+    "app:open-settings",
+    "editor:open-search-replace",
+    "editor:open-search",
+    "editor:toggle-bold",
+    "editor:toggle-comments",
+    "editor:toggle-italics",
+    "easy-typing-obsidian:easy-typing-insert-codeblock"
+  ]
+}

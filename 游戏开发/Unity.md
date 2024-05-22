@@ -3,7 +3,7 @@
 * [唐老狮Unity教程](https://www.bilibili.com/video/BV1HX4y1V71E?p=5&vd_source=8636d68797fa4651942df4dc09db7987)
 ### 1.基础学习
 #### 1.基本界面学习
-* Scene窗口快捷键 ![[游戏开发/附件/SharedScreenshot.jpg]]
+* Scene窗口快捷键 ![[游戏开发/附件/SharedScreenshot.jpg|658]]
 	[Unity中的快捷键](https://blog.csdn.net/LJH_Gemini/article/details/89052132)
 
 * 反射机制 
