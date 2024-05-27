@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59c405e50023eced",
+        "id": "ef9ed3eedb7dcd1a",
         "type": "tabs",
         "children": [
           {
-            "id": "2fec512956832d54",
+            "id": "7391bc3eb6a27dbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "前后端交互.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "前端调用.md"
               }
             }
           },
@@ -159,9 +157,16 @@
   },
   "active": "197940098c8590f4",
   "lastOpenFiles": [
+    "前后端交互.md",
+    "前端调用.md",
+    "周期总结.md",
+    "课程/人工智能/机器人走迷宫报告.md",
+    "课程/人工智能/黑白棋程序报告.md",
+    "课程/人工智能/K-Means程序报告.md",
+    "课程/人工智能/手写数字识别与垃圾分类报告.md",
+    "读书学习随笔.md",
     "游戏开发/Unity.md",
     "CustomFont.css.md",
-    "周期总结.md",
     "工具学习/Python.md",
     "工具学习/Makefile.md",
     "工具学习/正则.md",
@@ -170,16 +175,11 @@
     "工具学习/QT.md",
     "工具学习/C++/CH2-3 类与对象.md",
     "工具学习/C++/CH1 从C到C++.md",
-    "前后端交互.md",
-    "读书学习随笔.md",
     "未命名.canvas",
     "计算机学院本科生学习周报-20240512-展翼飞  2.xlsx",
     "计算机学院本科生学习周报-20240512-展翼飞  1.xlsx",
     "计算机学院本科生学习周报-20240512-展翼飞 .xlsx",
     "Pic/Pasted image 20240519171117.png",
-    "课程/人工智能/黑白棋程序报告.md",
-    "课程/人工智能/手写数字识别与垃圾分类报告.md",
-    "课程/人工智能/K-Means程序报告.md",
     "Pic/Pasted image 20240518190004.png",
     "Pic/Pasted image 20240518185942.png",
     "Pic/Pasted image 20240518185416.png",
@@ -203,8 +203,6 @@
     "课程/人工智能安全/第二次上机实验报告.md",
     "课程/人工智能安全/论文阅读报告.md",
     "课程/人工智能安全/后门攻击课后思考题.md",
-    "课程/操作系统/Lab0.md",
-    "课程/操作系统/Lab1.md",
-    "课程/操作系统/Lab0（旧）.md"
+    "课程/操作系统/Lab0.md"
   ]
 }
