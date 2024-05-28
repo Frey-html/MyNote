@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd215fe1eb71d6bf",
+            "id": "23b656ccc8732033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "file": "接口文档.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
-                "collapseAll": false,
+                "file": "接口文档.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "file": "接口文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md"
+                "file": "接口文档.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,6 +148,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "cd215fe1eb71d6bf",
-  "lastOpenFiles": []
+  "active": "23b656ccc8732033",
+  "lastOpenFiles": [
+    "周期总结.md",
+    "接口文档.md",
+    "前后端交互.md",
+    "课程/人工智能/机器人走迷宫报告.md"
+  ]
 }
