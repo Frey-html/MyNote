@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55e6152c0d30616c",
+            "id": "4ce117a96b942e10",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前后端交互.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前后端交互.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前后端交互.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前后端交互.md"
+              }
             }
           }
         ]
@@ -130,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -139,6 +148,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "55e6152c0d30616c",
-  "lastOpenFiles": []
+  "active": "4ce117a96b942e10",
+  "lastOpenFiles": [
+    "读书学习随笔.md",
+    "前后端交互.md",
+    "周期总结.md",
+    "课程/人工智能安全/第三次上机实验报告.md",
+    "Pic/fig31.png",
+    "Pic/fig2.png",
+    "课程/人工智能安全/第二次上机实验报告.md"
+  ]
 }
