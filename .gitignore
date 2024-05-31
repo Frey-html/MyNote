@@ -16,8 +16,8 @@ Thumbs.db
 # Ignore specific files or folders
 push.sh
 
-# Include all notes and other Obsidian configuration (this should be last to ensure exceptions are applied correctly)
-*
+# Include all notes and other Obsidian configuration
 !.obsidian/
 !.obsidian/plugins/
 !.obsidian/plugins/**
+
