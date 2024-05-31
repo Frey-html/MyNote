@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "1671133a9fecf979",
+    "id": "1a7f0af167dd79d2",
     "type": "split",
     "children": [
       {
-        "id": "46b138da7ca68440",
+        "id": "05f44b69d9307c99",
         "type": "tabs",
         "children": [
           {
-            "id": "23b656ccc8732033",
+            "id": "65870b8796dbe9a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能/手写数字识别与垃圾分类报告.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d3783acb99aaf8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/人工智能安全/公平性课后思考题.md",
+                "file": "课程/人工智能/机器人走迷宫报告.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "28de59ff33ccc76e",
+    "id": "c0ffe47707994888",
     "type": "split",
     "children": [
       {
-        "id": "2e8467de621a4423",
+        "id": "4933c7919e94aeec",
         "type": "tabs",
         "children": [
           {
-            "id": "1067cdea9d0a42ee",
+            "id": "0491c6e1766ad75d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "8da84ecf539389cb",
+            "id": "9469f88e6d34d549",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "c8b91e3fa9f5bdc0",
+            "id": "0e6ae27d4482cc77",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,21 +72,21 @@
     "width": 300
   },
   "right": {
-    "id": "7e32a9374fd4ccb5",
+    "id": "4668208f855e7bea",
     "type": "split",
     "children": [
       {
-        "id": "91bf686d85e96169",
+        "id": "18fa219e1fb8fb9b",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb256db7f22e269",
+            "id": "0c3df1867b8093d2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能安全/公平性课后思考题.md",
-                "collapseAll": true,
+                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,19 +97,19 @@
             }
           },
           {
-            "id": "6baabe6dc7e655fb",
+            "id": "8e9aa00c9b24a5bc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能安全/公平性课后思考题.md",
+                "file": "课程/人工智能/机器人走迷宫报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1acff797801122fc",
+            "id": "7b3a4e9ded8f5c9a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,32 +120,24 @@
             }
           },
           {
-            "id": "9df5789a722086c6",
+            "id": "b4db5a689365aabc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能安全/公平性课后思考题.md"
+                "file": "课程/人工智能/机器人走迷宫报告.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -169,18 +148,8 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1067cdea9d0a42ee",
+  "active": "65870b8796dbe9a8",
   "lastOpenFiles": [
-    "课程/人工智能/手写数字识别与垃圾分类报告.md",
-    "课程/人工智能安全/公平性课后思考题.md",
-    "Pic/Pasted image 20240529102827.png",
-    "课程/人工智能/机器人走迷宫报告.md",
-    "课程/人工智能安全/第二次上机实验报告.md",
-    "课程/体系结构/实验注意点.md",
-    "课程/人工智能安全/后门攻击课后思考题.md",
-    "数学基础/概率统计复习1.pdf",
-    "周期总结.md",
-    "前后端交互.md",
-    "接口文档.md"
+    "课程/人工智能/黑白棋程序报告.md"
   ]
 }
