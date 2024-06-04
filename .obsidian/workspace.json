@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/C#.md"
+                "file": "课程/人工智能/AI Checklist.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "65870b8796dbe9a8",
   "lastOpenFiles": [
+    "游戏开发/C#.md",
+    "课程/人工智能/AI Checklist.md",
     "周期总结.md",
     "课程/软件工程/接口文档.md",
     "课程/软件工程/前后端交互.md",
