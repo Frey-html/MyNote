@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "file": "游戏开发/C#.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "file": "游戏开发/C#.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md",
+                "file": "游戏开发/C#.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能/机器人走迷宫报告.md"
+                "file": "游戏开发/C#.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,6 +149,11 @@
   },
   "active": "65870b8796dbe9a8",
   "lastOpenFiles": [
+    "周期总结.md",
+    "课程/软件工程/接口文档.md",
+    "课程/软件工程/前后端交互.md",
+    "课程/软件工程",
+    "课程/人工智能/机器人走迷宫报告.md",
     "课程/人工智能/黑白棋程序报告.md"
   ]
 }
