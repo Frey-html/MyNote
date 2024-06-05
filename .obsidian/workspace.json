@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/人工智能/AI Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/Unity.md"
+                "file": "课程/人工智能/AI Checklist.md"
               }
             }
           }
@@ -149,15 +149,13 @@
   },
   "active": "0dd2bac11684b79c",
   "lastOpenFiles": [
+    "游戏开发/C#.md",
+    "课程/人工智能/AI Checklist.md",
+    "周期总结.md",
+    "课程/软件工程/接口文档.md",
+    "课程/软件工程/前后端交互.md",
+    "课程/软件工程",
     "课程/人工智能/机器人走迷宫报告.md",
-    "Pic/Pasted image 20240531172446.png",
-    "Pic/Pasted image 20240531172432.png",
-    "Pic/Pasted image 20240531172414.png",
-    "Pic/Pasted image 20240531172358.png",
-    "Pic/Pasted image 20240531172323.png",
-    "课程/人工智能/K-Means程序报告.md",
-    "课程/人工智能/手写数字识别与垃圾分类报告.md",
-    "课程/人工智能安全/第三次上机实验报告.md",
-    "课程/人工智能安全/第二次上机实验报告.md"
+    "课程/人工智能/黑白棋程序报告.md"
   ]
 }
