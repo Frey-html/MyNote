@@ -11,8 +11,12 @@
             "id": "0dd2bac11684b79c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/Unity.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏开发/Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏开发/Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +124,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏开发/Unity.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,5 +148,16 @@
     }
   },
   "active": "0dd2bac11684b79c",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "课程/人工智能/机器人走迷宫报告.md",
+    "Pic/Pasted image 20240531172446.png",
+    "Pic/Pasted image 20240531172432.png",
+    "Pic/Pasted image 20240531172414.png",
+    "Pic/Pasted image 20240531172358.png",
+    "Pic/Pasted image 20240531172323.png",
+    "课程/人工智能/K-Means程序报告.md",
+    "课程/人工智能/手写数字识别与垃圾分类报告.md",
+    "课程/人工智能安全/第三次上机实验报告.md",
+    "课程/人工智能安全/第二次上机实验报告.md"
+  ]
 }
