@@ -1,6 +1,7 @@
    ### 0.学习路线
 #### 过一遍Unity基础
 * [唐老狮Unity教程](https://www.bilibili.com/video/BV1HX4y1V71E?p=5&vd_source=8636d68797fa4651942df4dc09db7987)
+
 ### 1.基础学习
 #### 1.基本界面学习
 * Scene窗口快捷键 ![[游戏开发/附件/SharedScreenshot.jpg|658]]
@@ -365,9 +366,13 @@
 	2. Camera
 	
 
-### Tips
+### Tips 与拓展
 #### Object
 * unity中的Object是Unity自己在命名空间UnityEngine下编写的但也是派生于C#类万物之父Object的一个自定义类，C#的Object在System里，二者是同名类
+* 
+#### Unity 协程
+[Unity 协程(Coroutine)原理与用法详解](https://blog.csdn.net/xinzhilinger/article/details/116240688)
+
 
 ### 疑问
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/人工智能/AI Checklist.md",
+                "file": "主页.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/人工智能/AI Checklist.md",
+                "file": "主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/人工智能/AI Checklist.md",
+                "file": "主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/人工智能/AI Checklist.md"
+                "file": "主页.md"
               }
             }
+          },
+          {
+            "id": "4959ca1798787063",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,11 +156,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0dd2bac11684b79c",
+  "active": "4959ca1798787063",
   "lastOpenFiles": [
+    "读书学习随笔.md",
+    "主页.md",
+    "游戏开发/Unity.md",
     "游戏开发/C#.md",
+    "游戏开发/学习资料及知识点.md",
     "课程/人工智能/AI Checklist.md",
-    "周期总结.md",
     "课程/软件工程/接口文档.md",
     "课程/软件工程/前后端交互.md",
     "课程/软件工程",
