@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ef66e07e039557f0",
+    "id": "f4e9623df1372a3a",
     "type": "split",
     "children": [
       {
-        "id": "ba98d05e65fcb95c",
+        "id": "26964719ecb48d22",
         "type": "tabs",
         "children": [
           {
-            "id": "080131c6f4814bb6",
+            "id": "cef54db89378140f",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -32,15 +32,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f7fabfb74befeeee",
+    "id": "63ae6948b99f730e",
     "type": "split",
     "children": [
       {
-        "id": "4280dcf833f3f088",
+        "id": "d72c1bdc1f6a1f5b",
         "type": "tabs",
         "children": [
           {
-            "id": "7421f20dd759b544",
+            "id": "3efa5684f433448b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "78c6c0311fab927d",
+            "id": "c2291d0d91411bf7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "8d8e64cf039ad356",
+            "id": "31ed927cf0fce205",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,18 +76,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "91df43dd07648ccc",
+    "id": "349053efbd0f550e",
     "type": "split",
     "children": [
       {
-        "id": "4a40bff718193fdd",
+        "id": "d7286f127fab6d80",
         "type": "tabs",
         "children": [
           {
-            "id": "dc43b1f46bc17922",
+            "id": "cd47a376b96507b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "646b4ed18876e335",
+            "id": "8367a7787ef857f6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,7 +116,7 @@
             }
           },
           {
-            "id": "40dc6adedf1b2190",
+            "id": "73a21436c868cd32",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -127,7 +127,7 @@
             }
           },
           {
-            "id": "3d9963c934a006df",
+            "id": "e9239fdfe0d7ed6f",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -137,65 +137,46 @@
             }
           },
           {
-            "id": "da6b44ae5e401fb5",
+            "id": "365304c8f9de7be5",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:创建新看板": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "da6b44ae5e401fb5",
+  "active": "cef54db89378140f",
   "lastOpenFiles": [
-    "未命名看板.md",
-    "日程管理.md",
     "主页.md",
+    "日程管理.md",
+    "已学课程/人工智能安全/后门攻击课后思考题.md",
+    "已学课程/人工智能安全/后门攻击课后思考题.pdf",
+    "已学课程/人工智能安全/公平性课后思考题.md",
     "读书学习随笔.md",
-    "规划",
-    "TEST @{2024-06-26}.md",
-    "mark.md",
-    "2024-6-23.md",
-    "课程/游戏设计/游戏技术报告.md",
-    "课程/人工智能安全/AI安全-大作业-3190102196-展翼飞.md",
-    "课程/游戏设计/游戏体验报告.md",
-    "Pic/uap_single.png",
-    "Pic/benign.png",
-    "Pic/adversarial.png",
-    "Pic/uap_single_10.png",
-    "Pic/Pasted image 20240612172146.png",
-    "Pic/Pasted image 20240612162212.png",
-    "Pic/Pasted image 20240612095700.png",
-    "Pic/Pasted image 20240612095641.png",
-    "Pic/Pasted image 20240612095607.png",
-    "课程/人工智能安全/第三次上机实验报告.md",
-    "课程/人工智能安全/第四次上机实验报告.md",
     "游戏开发/Games101.md",
-    "游戏开发/Unity.md",
-    "游戏开发/C#.md",
-    "游戏开发/学习资料及知识点.md",
-    "课程/人工智能/AI Checklist.md",
-    "课程/软件工程/接口文档.md",
-    "课程/软件工程/前后端交互.md",
-    "课程/软件工程",
-    "课程/人工智能/机器人走迷宫报告.md",
-    "课程/人工智能/黑白棋程序报告.md"
+    "游戏设计",
+    "已学课程/软件工程/前后端交互.md",
+    "已学课程/软件工程/接口文档.md",
+    "已学课程/游戏设计/游戏体验报告.md",
+    "课程/游戏设计/大作业技术设计Part1.md",
+    "已学课程/游戏设计/游戏技术报告.md"
   ]
 }
