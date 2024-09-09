@@ -1,0 +1,4 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+WARNING: File rom.hex referenced on C:/Users/Frey/Desktop/Lab1/core/ROM_D.v at line 11 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File ram.hex referenced on C:/Users/Frey/Desktop/Lab1/core/RAM_B.v at line 15 cannot be opened for reading. Please ensure that this file is available in the current working directory.

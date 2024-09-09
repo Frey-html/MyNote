@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Sep 23 07:54:19 2023
+# Process ID: 2340
+# Current directory: C:/Users/Frey/Desktop/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16020 C:\Users\Frey\Desktop\Lab1\Lab1.xpr
+# Log file: C:/Users/Frey/Desktop/Lab1/vivado.log
+# Journal file: C:/Users/Frey/Desktop/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Frey/Desktop/Lab1/Lab1.xpr
+update_compile_order -fileset sources_1

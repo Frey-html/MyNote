@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../auxillary" \
+"../../../../core/ALU.v" \
+"../../../../auxillary/CPUTEST.v" \
+"../../../../auxillary/Code2Inst.v" \
+"../../../../core/CtrlUnit.v" \
+"../../../../auxillary/Font816.v" \
+"../../../../core/HazardDetectionUnit.v" \
+"../../../../core/ImmGen.v" \
+"../../../../common/MUX2T1_32.v" \
+"../../../../common/MUX4T1_32.v" \
+"../../../../core/RAM_B.v" \
+"../../../../common/REG32.v" \
+"../../../../core/REG_EX_MEM.v" \
+"../../../../core/REG_ID_EX.v" \
+"../../../../core/REG_IF_ID.v" \
+"../../../../core/REG_MEM_WB.v" \
+"../../../../core/ROM_D.v" \
+"../../../../core/RV32core.v" \
+"../../../../core/Regs.v" \
+"../../../../auxillary/VGATEST.v" \
+"../../../../common/add_32.v" \
+"../../../../auxillary/btn_scan.v" \
+"../../../../auxillary/clk_diff.v" \
+"../../../../common/cmp_32.v" \
+"../../../../auxillary/debug_clk.v" \
+"../../../../auxillary/display.v" \
+"../../../../auxillary/my_clk_gen.v" \
+"../../../../auxillary/parallel2serial.v" \
+"../../../../auxillary/vga.v" \
+"../../../../auxillary/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

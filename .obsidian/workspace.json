@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/体系结构/RISCV常用指令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "404f2aec7994313f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/体系结构/RISCV常用指令.md",
+                "file": "课程/体系结构Note/RISCV常用指令.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/体系结构/RISCV常用指令.md",
+                "file": "课程/体系结构Note/RISCV常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/体系结构/RISCV常用指令.md",
+                "file": "课程/体系结构Note/RISCV常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/体系结构/RISCV常用指令.md"
+                "file": "课程/体系结构Note/RISCV常用指令.md"
               }
             }
           },
@@ -169,39 +156,53 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "404f2aec7994313f",
+  "active": "3efa5684f433448b",
   "lastOpenFiles": [
-    "Pic/Pasted image 20240909152719.png",
-    "Pic/Comp_Arch_Exp-1.Pipelined CPU supporting RV32I(1).pdf",
-    "课程/体系结构/数据冒险与控制冒险.md",
-    "课程/体系结构/Hint.md",
-    "课程/体系结构/RISCV常用指令.md",
-    "Pic/Pasted image 20240909113518.png",
-    "Pic/Pasted image 20240909112748.png",
-    "Pic/Pasted image 20240909112336.png",
-    "课程/体系结构/实验注意点.md",
-    "课程/计算理论/Hint.md",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/xsoup-0.3.1.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/webmagic-extension-0.6.1-SNAPSHOT.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/webmagic-core-0.6.1-SNAPSHOT.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/slf4j-log4j12-1.7.6.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/log4j-1.2.17.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/slf4j-api-1.7.6.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/junit-4.11.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/json-smart-1.1.1.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/jsoup-1.8.3.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/json-path-0.8.1.jar",
+    "在学课程资料/Java/爬虫 展翼飞/webmagic-0.6.0-all/lib/jedis-2.9.0.jar",
+    "在学课程资料/操作系统/OS实验/oslab0/4.5/重新编译.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.5/尝试gdb.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.5/加入编译选项.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.5/terminal1启动内核并暂停cpu.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.3/配置环境变量.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.3/编译选项2.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.2/解决：带net命令重新创建容器.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.3/内核编译选项.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.2/在docker外clone拷贝进docker.jpg",
+    "在学课程资料/操作系统/OS实验/oslab0/4.3/使用riscv默认配置.jpg",
+    "在学课程资料/操作系统/参考/考试复习资料/exam.md",
+    "在学课程资料/操作系统/参考/README.md",
+    "在学课程资料/操作系统/参考/notebook2.md",
+    "在学课程资料/操作系统/参考/notebook1.md",
+    "在学课程资料/体系结构/资料参考/README.md",
+    "在学课程资料/体系结构实验/Lab1/Lab1/sim/README.md",
+    "未命名看板.md",
+    "课程/体系结构Note/RISCV常用指令.md",
+    "课程/体系结构Note/数据冒险与控制冒险.md",
+    "课程/体系结构Note/Hint.md",
+    "课程/体系结构Note/实验注意点.md",
+    "课程/计算理论Note/Hint.md",
     "游戏开发/Unity.md",
     "游戏开发/毕设想法.md",
-    "课程/计算理论",
     "游戏开发/毕业设计.md",
     "游戏开发/C#.md",
     "日程管理.md",
     "主页.md",
     "游戏开发/Games101.md",
     "游戏开发/算法积累.md",
-    "Pic/Pasted image 20240628192446.png",
     "游戏设计/游戏品鉴/八方旅人2.md",
-    "游戏设计/游戏品鉴",
-    "已学课程/人工智能安全/后门攻击课后思考题.md",
-    "已学课程/人工智能安全/后门攻击课后思考题.pdf",
-    "已学课程/人工智能安全/公平性课后思考题.md",
+    "已学课程资料/人工智能安全/后门攻击课后思考题.md",
+    "已学课程资料/人工智能安全/公平性课后思考题.md",
     "读书学习随笔.md",
-    "游戏设计",
-    "已学课程/软件工程/前后端交互.md",
-    "已学课程/软件工程/接口文档.md",
-    "已学课程/游戏设计/游戏体验报告.md",
-    "课程/游戏设计/大作业技术设计Part1.md",
-    "已学课程/游戏设计/游戏技术报告.md"
+    "已学课程资料/软件工程/前后端交互.md"
   ]
 }

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  1 18:36:39 2022
+# Process ID: 3620
+# Current directory: C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23584 C:\Users\Frey\Desktop\计组\Lab01 warmup（学生版）\OExp01\OExp01-ALU\OExp01-ALU.xpr
+# Log file: C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU/vivado.log
+# Journal file: C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU/OExp01-ALU.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU/OExp01-ALU.srcs/sources_1/bd/ALU/ALU.bd}
+open_bd_design {C:/Users/Frey/Desktop/计组/Lab01 warmup（学生版）/OExp01/OExp01-ALU/OExp01-ALU.srcs/sources_1/bd/ALU/ALU.bd}
