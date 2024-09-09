@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0a34aea34bc9f56",
+            "id": "7db10506391b6f52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/Unity.md",
+                "file": "课程/体系结构/RISCV常用指令.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2e8c718bfd61e0c1",
+            "id": "404f2aec7994313f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/毕设想法.md",
+                "file": "课程/体系结构/RISCV常用指令.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/毕设想法.md",
+                "file": "课程/体系结构/RISCV常用指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/毕设想法.md",
+                "file": "课程/体系结构/RISCV常用指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/毕设想法.md"
+                "file": "课程/体系结构/RISCV常用指令.md"
               }
             }
           },
@@ -150,30 +150,41 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "obsidian-kanban:创建新看板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "2e8c718bfd61e0c1",
+  "active": "404f2aec7994313f",
   "lastOpenFiles": [
-    "游戏开发/毕业设计.md",
-    "游戏开发/毕设想法.md",
+    "Pic/Pasted image 20240909152719.png",
+    "Pic/Comp_Arch_Exp-1.Pipelined CPU supporting RV32I(1).pdf",
+    "课程/体系结构/数据冒险与控制冒险.md",
+    "课程/体系结构/Hint.md",
+    "课程/体系结构/RISCV常用指令.md",
+    "Pic/Pasted image 20240909113518.png",
+    "Pic/Pasted image 20240909112748.png",
+    "Pic/Pasted image 20240909112336.png",
+    "课程/体系结构/实验注意点.md",
+    "课程/计算理论/Hint.md",
     "游戏开发/Unity.md",
+    "游戏开发/毕设想法.md",
+    "课程/计算理论",
+    "游戏开发/毕业设计.md",
     "游戏开发/C#.md",
     "日程管理.md",
     "主页.md",
