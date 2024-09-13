@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7db10506391b6f52",
+            "id": "52f2da2a4c16d2bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/体系结构Note/实验梳理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae026d4ea893bb79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程/体系结构Note/知识点/Branch not taken.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89ed7e8d6b1516aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程/体系结构Note/RISCV常用指令.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +62,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/体系结构Note/实验梳理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/C#.md",
+                "file": "课程/体系结构Note/实验梳理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/C#.md"
+                "file": "课程/体系结构Note/实验梳理.md"
               }
             }
           },
@@ -156,53 +180,53 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7db10506391b6f52",
+  "active": "52f2da2a4c16d2bd",
   "lastOpenFiles": [
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.xpr",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/synth/ROM_D.vhd",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/simulation/dist_mem_gen_v8_0.v",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/sim/ROM_D.v",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/doc/dist_mem_gen_v8_0_changelog.txt",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/synth",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/simulation",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/sim",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/ROM_D_stub.vhdl",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/ROM_D_sim_netlist.vhdl",
-    "在学课程资料/体系模板/体系refcode/Exp2/code/sim/README.md",
-    "在学课程资料/体系模板/体系refcode/Exp2/code/sim/example.png",
-    "游戏开发/学习资料及知识点.md",
-    "游戏开发/知识点/特性，反射，热更新与DLL.md",
-    "游戏开发/毕设想法.md",
-    "游戏开发/Games101.md",
-    "游戏开发/Unity.md",
-    "游戏开发/C#.md",
-    "游戏开发/算法积累.md",
-    "游戏开发/毕业设计.md",
-    "课程/体系结构Note/RISCV常用指令.md",
-    "课程/体系结构Note/数据冒险与控制冒险.md",
+    "课程/体系结构Note/知识点/Branch not taken.md",
     "课程/体系结构Note/实验梳理.md",
-    "课程/Java应用Note/Hint.md",
-    "Pic/Pasted image 20240910085514.png",
-    "Pic/Pasted image 20240910084732.png",
+    "课程/体系结构Note/RISCV常用指令.md",
+    "课程/体系结构Note/知识点/Stall, flush and reset.md",
+    "课程/体系结构Note/知识点/数据冒险与控制冒险概述.md",
+    "课程/操作系统Note/Lab0.md",
+    "课程/操作系统Note/知识点/Interrupt Basic.md",
+    "课程/操作系统Note/知识点/Multi-threading and Callbacks.md",
+    "课程/操作系统Note/知识点/CPU bound task.md",
+    "课程/操作系统Note/知识点/Two IO methods.md",
+    "在学课程资料/操作系统/00bd68db5eba43c58b94aeeeab0f1be9/cac0f9682ddb4354bb06e53bc84a16aa.pdf",
+    "在学课程资料/操作系统/00bd68db5eba43c58b94aeeeab0f1be9",
+    "在学课程资料/操作系统/bd4e27c15e704b138e8c025def5079e8/339249d767b54e33834f815fc7e7386a.pdf",
+    "在学课程资料/操作系统/bd4e27c15e704b138e8c025def5079e8",
+    "在学课程资料/操作系统/0b8a551743cf4b28828e19f9d0da52fa/2f6b404d90234d1a9eba861b6c4a92a1.pdf",
+    "在学课程资料/操作系统/0b8a551743cf4b28828e19f9d0da52fa",
+    "在学课程资料/操作系统/7f0dcdcb91b44fe49dde0c5766cbc07c/a0049da1a78e4ce0bae5490f94435554.pdf",
+    "在学课程资料/操作系统/7f0dcdcb91b44fe49dde0c5766cbc07c",
+    "课程/操作系统Note/知识点/Kernel booting process.md",
+    "课程/操作系统Note/知识点/Direct Memory Access.md",
+    "在学课程资料/操作系统/8319913cea9a441c9dc839797f0bbc0f/752b16557457416c8f251ab39a7ae0e0.pdf",
+    "在学课程资料/操作系统/8319913cea9a441c9dc839797f0bbc0f",
+    "课程/操作系统Note/知识点/OpenSBI and initial process.md",
+    "课程/操作系统Note/知识点/BootStrap Program In linux.md",
+    "课程/操作系统Note/知识点/Rootfts of Linux.md",
+    "课程/操作系统Note/知识点/Vmlinux and bzImage.md",
+    "课程/操作系统Note/知识点/Kernel compile.md",
+    "课程/操作系统Note/知识点/Linux kernel and Qemu compile.md",
+    "课程/操作系统Note/LessonNote.md",
+    "课程/操作系统Note/实验报告模板.md",
+    "课程/操作系统Note/实验记录.md",
+    "课程/操作系统Note/Lab1.md",
+    "课程/体系结构Note/知识点/DataHazardDetail.md",
     "课程/体系结构Note/Hint.md",
-    "Pic/Pasted image 20240909205306.png",
-    "在学课程资料/操作系统/OS实验/oslab0/4.5/重新编译.jpg",
-    "在学课程资料/操作系统/OS实验/oslab0/4.5/尝试gdb.jpg",
-    "在学课程资料/操作系统/OS实验/oslab0/4.5/加入编译选项.jpg",
-    "在学课程资料/操作系统/OS实验/oslab0/4.5/terminal1启动内核并暂停cpu.jpg",
-    "在学课程资料/操作系统/OS实验/oslab0/4.3/配置环境变量.jpg",
-    "在学课程资料/操作系统/OS实验/oslab0/4.3/编译选项2.jpg",
-    "在学课程资料/操作系统/参考/考试复习资料/exam.md",
-    "在学课程资料/操作系统/参考/README.md",
-    "在学课程资料/操作系统/参考/notebook2.md",
-    "在学课程资料/操作系统/参考/notebook1.md",
-    "在学课程资料/体系结构/资料参考/README.md",
-    "在学课程资料/体系结构实验/Lab1/Lab1/sim/README.md",
-    "未命名看板.md",
-    "课程/计算理论Note/Hint.md",
-    "日程管理.md",
-    "主页.md",
-    "游戏设计/游戏品鉴/八方旅人2.md"
+    "Pic/Pasted image 20240911210942.png",
+    "Pic/Pasted image 20240911210722.png",
+    "Pic/Pasted image 20240911210650.png",
+    "Pic/Pasted image 20240911210502.png",
+    "课程/操作系统Note/知识点/Device files, image and Blocks.md",
+    "Pic/Pasted image 20240911205245.png",
+    "Pic/Pasted image 20240911205215.png",
+    "课程/操作系统Note/知识点/Mount in linux.md",
+    "Pic/Pasted image 20240911204913.png",
+    "Pic/Pasted image 20240911204339.png",
+    "Pic/Pasted image 20240911153901.png",
+    "Pic/Pasted image 20240911153733.png"
   ]
 }
