@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52f2da2a4c16d2bd",
+            "id": "d8a324b928dec586",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "ae026d4ea893bb79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89ed7e8d6b1516aa",
+            "id": "22e14f77595d5f70",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "52f2da2a4c16d2bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程/体系结构Note/知识点/Branch not taken.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/体系结构Note/实验梳理.md",
+                "file": "课程/体系结构Note/知识点/Branch not taken.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/体系结构Note/实验梳理.md",
+                "file": "课程/体系结构Note/知识点/Branch not taken.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/体系结构Note/实验梳理.md"
+                "file": "课程/体系结构Note/知识点/Branch not taken.md"
               }
             }
           },
@@ -182,9 +183,23 @@
   },
   "active": "52f2da2a4c16d2bd",
   "lastOpenFiles": [
+    "课程/体系结构Note/RISCV常用指令.md",
     "课程/体系结构Note/知识点/Branch not taken.md",
     "课程/体系结构Note/实验梳理.md",
-    "课程/体系结构Note/RISCV常用指令.md",
+    "课程/体系结构Note/HW1.md",
+    "在学课程资料/计算理论/HW1.pdf",
+    "课程/体系结构Note/Hint.md",
+    "在学课程资料/体系结构/0fa432e483b643e2b0d4db8f45824625/754f999cb6f241d49757aa69b8e35b8c.pdf",
+    "在学课程资料/体系结构/0fa432e483b643e2b0d4db8f45824625",
+    "在学课程资料/体系结构/b3af72d649714c29b86dc75aff84426b/b99a4d7546e045ffa1de49cdc45de628.pdf",
+    "在学课程资料/体系结构/b3af72d649714c29b86dc75aff84426b",
+    "在学课程资料/体系结构/2649aae879894cf6b9a376970c1af58e",
+    "在学课程资料/体系结构/ce54c77a548445dd958ed048ec941405/d1ad016a94714a3faaf9e306d1fee12c.pdf",
+    "在学课程资料/体系结构/ce54c77a548445dd958ed048ec941405",
+    "在学课程资料/体系结构/d0eeb81a76c94f6e8c8ceb79c8c82d86/5204c285a7644a7087672e40c5f9ca3b.pdf",
+    "在学课程资料/体系结构/d0eeb81a76c94f6e8c8ceb79c8c82d86",
+    "在学课程资料/体系模板/Exp2/code/sim/README.md",
+    "在学课程资料/体系模板/Exp2/code/sim/example.png",
     "课程/体系结构Note/知识点/Stall, flush and reset.md",
     "课程/体系结构Note/知识点/数据冒险与控制冒险概述.md",
     "课程/操作系统Note/Lab0.md",
@@ -192,18 +207,8 @@
     "课程/操作系统Note/知识点/Multi-threading and Callbacks.md",
     "课程/操作系统Note/知识点/CPU bound task.md",
     "课程/操作系统Note/知识点/Two IO methods.md",
-    "在学课程资料/操作系统/00bd68db5eba43c58b94aeeeab0f1be9/cac0f9682ddb4354bb06e53bc84a16aa.pdf",
-    "在学课程资料/操作系统/00bd68db5eba43c58b94aeeeab0f1be9",
-    "在学课程资料/操作系统/bd4e27c15e704b138e8c025def5079e8/339249d767b54e33834f815fc7e7386a.pdf",
-    "在学课程资料/操作系统/bd4e27c15e704b138e8c025def5079e8",
-    "在学课程资料/操作系统/0b8a551743cf4b28828e19f9d0da52fa/2f6b404d90234d1a9eba861b6c4a92a1.pdf",
-    "在学课程资料/操作系统/0b8a551743cf4b28828e19f9d0da52fa",
-    "在学课程资料/操作系统/7f0dcdcb91b44fe49dde0c5766cbc07c/a0049da1a78e4ce0bae5490f94435554.pdf",
-    "在学课程资料/操作系统/7f0dcdcb91b44fe49dde0c5766cbc07c",
     "课程/操作系统Note/知识点/Kernel booting process.md",
     "课程/操作系统Note/知识点/Direct Memory Access.md",
-    "在学课程资料/操作系统/8319913cea9a441c9dc839797f0bbc0f/752b16557457416c8f251ab39a7ae0e0.pdf",
-    "在学课程资料/操作系统/8319913cea9a441c9dc839797f0bbc0f",
     "课程/操作系统Note/知识点/OpenSBI and initial process.md",
     "课程/操作系统Note/知识点/BootStrap Program In linux.md",
     "课程/操作系统Note/知识点/Rootfts of Linux.md",
@@ -214,19 +219,14 @@
     "课程/操作系统Note/实验报告模板.md",
     "课程/操作系统Note/实验记录.md",
     "课程/操作系统Note/Lab1.md",
-    "课程/体系结构Note/知识点/DataHazardDetail.md",
-    "课程/体系结构Note/Hint.md",
     "Pic/Pasted image 20240911210942.png",
     "Pic/Pasted image 20240911210722.png",
     "Pic/Pasted image 20240911210650.png",
     "Pic/Pasted image 20240911210502.png",
-    "课程/操作系统Note/知识点/Device files, image and Blocks.md",
     "Pic/Pasted image 20240911205245.png",
     "Pic/Pasted image 20240911205215.png",
-    "课程/操作系统Note/知识点/Mount in linux.md",
     "Pic/Pasted image 20240911204913.png",
     "Pic/Pasted image 20240911204339.png",
-    "Pic/Pasted image 20240911153901.png",
-    "Pic/Pasted image 20240911153733.png"
+    "Pic/Pasted image 20240911153901.png"
   ]
 }
