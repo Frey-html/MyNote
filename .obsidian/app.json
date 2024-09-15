@@ -7,5 +7,6 @@
     "downscalePercent": 80
   },
   "attachmentFolderPath": "Pic",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
