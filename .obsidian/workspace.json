@@ -8,43 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8a324b928dec586",
+            "id": "2b23744ade3bbdb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/体系结构Note/实验梳理.md",
+                "file": "游戏开发/面试准备.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "22e14f77595d5f70",
+            "id": "767defd7010e522d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/体系结构Note/RISCV常用指令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52f2da2a4c16d2bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
+                "file": "游戏开发/知识点/C++：new与malloc.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
+                "file": "游戏开发/知识点/C++：new与malloc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
+                "file": "游戏开发/知识点/C++：new与malloc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/体系结构Note/知识点/Branch not taken.md"
+                "file": "游戏开发/知识点/C++：new与malloc.md"
               }
             }
           },
@@ -181,44 +169,45 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "52f2da2a4c16d2bd",
+  "active": "767defd7010e522d",
   "lastOpenFiles": [
+    "游戏开发/面试准备.md",
+    "游戏开发/知识点/C++：new与malloc.md",
+    "游戏开发/知识点/特性，反射，热更新与DLL.md",
+    "主页.md",
+    "游戏开发/C#.md",
     "课程/体系结构Note/RISCV常用指令.md",
-    "课程/体系结构Note/知识点/Branch not taken.md",
-    "课程/体系结构Note/实验梳理.md",
     "课程/体系结构Note/HW1.md",
-    "在学课程资料/计算理论/HW1.pdf",
+    "课程/体系结构Note/知识点/数据冒险与控制冒险概述.md",
+    "课程/体系结构Note/实验梳理.md",
+    "课程/体系结构Note/知识点/Branch not taken.md",
+    "课程/体系结构Note/知识点/Stall, flush and reset.md",
+    "课程/操作系统Note/知识点/Interrupt Basic.md",
+    "在学课程资料/操作系统/4fb887bc49fb44bea1231669ecc3a90a/2ed5dbe606d34ba685ce049dc4c4b5c3.pdf",
+    "在学课程资料/操作系统/4fb887bc49fb44bea1231669ecc3a90a",
+    "课程/操作系统Note/知识点/CPU bound task.md",
+    "课程/操作系统Note/知识点/System program与system call.md",
+    "在学课程资料/操作系统/152a6044285a4c979c5399ce5879dbd4/e56fb13468ee4aa786227eed7935fb15.pdf",
+    "在学课程资料/操作系统/152a6044285a4c979c5399ce5879dbd4",
+    "在学课程资料/操作系统/f56b0582567a48f9be3be6a2ce6c28f8/fa5d4c140ee34785b7c95c62e6523b1d.pdf",
+    "在学课程资料/操作系统/f56b0582567a48f9be3be6a2ce6c28f8",
+    "在学课程资料/操作系统/4f3c6c49dfa94135a63117cf7a5bd9df/2a25aacf850f4e69837fc9f5cc2a293b.pdf",
+    "在学课程资料/操作系统/4f3c6c49dfa94135a63117cf7a5bd9df",
+    "在学课程资料/操作系统/e7afae352bc54b00942e8d73072bbe4b/9d5c2d274429406eaa9762e78a5e90c8.pdf",
+    "在学课程资料/操作系统/e7afae352bc54b00942e8d73072bbe4b",
+    "课程/操作系统Note/LessonNote.md",
+    "课程/操作系统Note/Lab0.md",
+    "课程/操作系统Note/知识点/OpenSBI and initial process.md",
     "课程/体系结构Note/Hint.md",
-    "在学课程资料/体系结构/0fa432e483b643e2b0d4db8f45824625/754f999cb6f241d49757aa69b8e35b8c.pdf",
-    "在学课程资料/体系结构/0fa432e483b643e2b0d4db8f45824625",
-    "在学课程资料/体系结构/b3af72d649714c29b86dc75aff84426b/b99a4d7546e045ffa1de49cdc45de628.pdf",
-    "在学课程资料/体系结构/b3af72d649714c29b86dc75aff84426b",
-    "在学课程资料/体系结构/2649aae879894cf6b9a376970c1af58e",
-    "在学课程资料/体系结构/ce54c77a548445dd958ed048ec941405/d1ad016a94714a3faaf9e306d1fee12c.pdf",
-    "在学课程资料/体系结构/ce54c77a548445dd958ed048ec941405",
-    "在学课程资料/体系结构/d0eeb81a76c94f6e8c8ceb79c8c82d86/5204c285a7644a7087672e40c5f9ca3b.pdf",
-    "在学课程资料/体系结构/d0eeb81a76c94f6e8c8ceb79c8c82d86",
     "在学课程资料/体系模板/Exp2/code/sim/README.md",
     "在学课程资料/体系模板/Exp2/code/sim/example.png",
-    "课程/体系结构Note/知识点/Stall, flush and reset.md",
-    "课程/体系结构Note/知识点/数据冒险与控制冒险概述.md",
-    "课程/操作系统Note/Lab0.md",
-    "课程/操作系统Note/知识点/Interrupt Basic.md",
     "课程/操作系统Note/知识点/Multi-threading and Callbacks.md",
-    "课程/操作系统Note/知识点/CPU bound task.md",
     "课程/操作系统Note/知识点/Two IO methods.md",
     "课程/操作系统Note/知识点/Kernel booting process.md",
     "课程/操作系统Note/知识点/Direct Memory Access.md",
-    "课程/操作系统Note/知识点/OpenSBI and initial process.md",
     "课程/操作系统Note/知识点/BootStrap Program In linux.md",
     "课程/操作系统Note/知识点/Rootfts of Linux.md",
     "课程/操作系统Note/知识点/Vmlinux and bzImage.md",
-    "课程/操作系统Note/知识点/Kernel compile.md",
-    "课程/操作系统Note/知识点/Linux kernel and Qemu compile.md",
-    "课程/操作系统Note/LessonNote.md",
-    "课程/操作系统Note/实验报告模板.md",
-    "课程/操作系统Note/实验记录.md",
-    "课程/操作系统Note/Lab1.md",
     "Pic/Pasted image 20240911210942.png",
     "Pic/Pasted image 20240911210722.png",
     "Pic/Pasted image 20240911210650.png",
