@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "d4101823b6f66a29",
     "type": "split",
     "children": [
@@ -17,6 +18,21 @@
                 "mode": "source",
                 "source": false
               }
+=======
+    "id": "aa87dbafd9de5d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a5ae3b1913674e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c86c0ea4ffc7cc2c",
+            "type": "leaf",
+            "state": {
+              "type": "keyboard-shortcuts-visualization",
+              "state": {}
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             }
           }
         ]
@@ -25,6 +41,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "ef7d2bfa045c529a",
     "type": "split",
     "children": [
@@ -34,6 +51,17 @@
         "children": [
           {
             "id": "205332982ee6a5bd",
+=======
+    "id": "70c569f67fd37c4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f1d6dcb16bdbb9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4eda9274e5fde85",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +71,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "6354b0b3f2311cdf",
+=======
+            "id": "da711c65d48f8e06",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +90,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "9b45cdb14aa48e4c",
+=======
+            "id": "e1166fe1477d4dd5",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,6 +108,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "f7c0b5cf2861044d",
     "type": "split",
     "children": [
@@ -81,11 +118,25 @@
         "children": [
           {
             "id": "9badd450b8c38356",
+=======
+    "id": "b2aa4687b5074703",
+    "type": "split",
+    "children": [
+      {
+        "id": "e60f667a27077819",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe2da465ee429131",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "游戏开发/Games101.md",
+=======
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +148,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "5d9186ea235677a6",
+=======
+            "id": "bb60ef7f0e42e4d9",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "游戏开发/Games101.md",
+=======
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "92c9d132ebdd4343",
+=======
+            "id": "060fd64f488b7630",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,6 +182,7 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "49654f8d33882ad0",
             "type": "leaf",
             "state": {
@@ -131,6 +194,17 @@
           },
           {
             "id": "bb0f26d58ce76feb",
+=======
+            "id": "a024322f355f4094",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb3b7120c9e6bce3",
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -156,6 +230,7 @@
       "workspaces:管理工作区布局": false
     }
   },
+<<<<<<< HEAD
   "active": "151a81e4d23c5b18",
   "lastOpenFiles": [
     "游戏开发/学习资料及知识点.md",
@@ -164,5 +239,32 @@
     "游戏开发/面试准备.md",
     "游戏开发/毕设想法.md",
     "游戏设计/游戏品鉴/八方旅人2.md"
+=======
+  "active": "c86c0ea4ffc7cc2c",
+  "lastOpenFiles": [
+    "游戏开发/知识点/DS：Hash conflict.md",
+    "日程管理/日程管理.md",
+    "日程管理/Untitled.md",
+    "游戏开发/知识点/C++：move.md",
+    "Template/Daily Note Template.md",
+    "Template",
+    "日程管理/test.md",
+    "求职问题.md",
+    "日程管理",
+    "读书学习随笔.md",
+    "主页.md",
+    "游戏开发/知识点/特性，反射，热更新与DLL.md",
+    "游戏开发/知识点/Algorithm：sort.md",
+    "游戏开发/知识点/C++：左值与右值、右值引用.md",
+    "游戏开发/知识点/unity：协程与线程.md",
+    "游戏开发/知识点/C++：lambda expression.md",
+    "游戏开发/知识点/C++：auto.md",
+    "游戏开发/知识点/C++：引用传递.md",
+    "游戏开发/知识点/C++：new与malloc.md",
+    "文件/简历-展翼飞.pdf",
+    "游戏开发/知识点/C++：值传递与引用传递.md",
+    "文件/证件照.jpg",
+    "文件"
+>>>>>>> 5f364147059e578773a489e3c24d49aaf7749959
   ]
 }
