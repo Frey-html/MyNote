@@ -11,40 +11,11 @@
             "id": "c86c0ea4ffc7cc2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/C++：move.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f26c5e2ac87a6cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/C++：左值与右值、右值引用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1cbeacd3ec51a6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/C++：引用传递.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "keyboard-shortcuts-visualization",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/知识点/C++：引用传递.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/知识点/C++：引用传递.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "游戏开发/知识点/C++：引用传递.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,18 +148,30 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d1cbeacd3ec51a6f",
+  "active": "c86c0ea4ffc7cc2c",
   "lastOpenFiles": [
+    "游戏开发/知识点/DS：Hash conflict.md",
+    "日程管理/日程管理.md",
+    "日程管理/Untitled.md",
+    "游戏开发/知识点/C++：move.md",
+    "Template/Daily Note Template.md",
+    "Template",
+    "日程管理/test.md",
+    "求职问题.md",
+    "日程管理",
+    "读书学习随笔.md",
+    "主页.md",
+    "游戏开发/知识点/特性，反射，热更新与DLL.md",
+    "游戏开发/知识点/Algorithm：sort.md",
     "游戏开发/知识点/C++：左值与右值、右值引用.md",
+    "游戏开发/知识点/unity：协程与线程.md",
+    "游戏开发/知识点/C++：lambda expression.md",
+    "游戏开发/知识点/C++：auto.md",
     "游戏开发/知识点/C++：引用传递.md",
     "游戏开发/知识点/C++：new与malloc.md",
-    "游戏开发/知识点/C++：move.md",
     "文件/简历-展翼飞.pdf",
     "游戏开发/知识点/C++：值传递与引用传递.md",
     "文件/证件照.jpg",
-    "文件",
-    "求职问题.md",
-    "读书学习随笔.md",
-    "游戏开发/知识点/unity：协程与线程.md"
+    "文件"
   ]
 }
