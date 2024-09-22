@@ -1,62 +1,49 @@
 {
   "main": {
-    "id": "f4e9623df1372a3a",
+    "id": "d4101823b6f66a29",
     "type": "split",
     "children": [
       {
-        "id": "26964719ecb48d22",
+        "id": "cc1e937ee992ffcc",
         "type": "tabs",
         "children": [
           {
-            "id": "2b23744ade3bbdb8",
+            "id": "151a81e4d23c5b18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/面试准备.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "767defd7010e522d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/C++：new与malloc.md",
+                "file": "游戏开发/Games101.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "63ae6948b99f730e",
+    "id": "ef7d2bfa045c529a",
     "type": "split",
     "children": [
       {
-        "id": "d72c1bdc1f6a1f5b",
+        "id": "51333dd69b745378",
         "type": "tabs",
         "children": [
           {
-            "id": "3efa5684f433448b",
+            "id": "205332982ee6a5bd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "c2291d0d91411bf7",
+            "id": "6354b0b3f2311cdf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "31ed927cf0fce205",
+            "id": "9b45cdb14aa48e4c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,27 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "349053efbd0f550e",
+    "id": "f7c0b5cf2861044d",
     "type": "split",
     "children": [
       {
-        "id": "d7286f127fab6d80",
+        "id": "c2bd89f0f8ce0657",
         "type": "tabs",
         "children": [
           {
-            "id": "cd47a376b96507b3",
+            "id": "9badd450b8c38356",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "游戏开发/知识点/C++：new与malloc.md",
-=======
-<<<<<<< HEAD
-=======
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
->>>>>>> d63dd708a2c6e77cdd9923c19d2a5c01b9227005
->>>>>>> eaba1a418ac1e294907bbed1b7c5dac2b8025ece
+                "file": "游戏开发/Games101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,26 +97,19 @@
             }
           },
           {
-            "id": "8367a7787ef857f6",
+            "id": "5d9186ea235677a6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "游戏开发/知识点/C++：new与malloc.md",
-=======
-<<<<<<< HEAD
-=======
-                "file": "课程/体系结构Note/知识点/Branch not taken.md",
->>>>>>> d63dd708a2c6e77cdd9923c19d2a5c01b9227005
->>>>>>> eaba1a418ac1e294907bbed1b7c5dac2b8025ece
+                "file": "游戏开发/Games101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "73a21436c868cd32",
+            "id": "92c9d132ebdd4343",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,128 +120,49 @@
             }
           },
           {
-            "id": "e9239fdfe0d7ed6f",
+            "id": "49654f8d33882ad0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "游戏开发/知识点/C++：new与malloc.md"
-=======
-<<<<<<< HEAD
-                "file": "个人简历.md"
-=======
-                "file": "课程/体系结构Note/知识点/Branch not taken.md"
->>>>>>> d63dd708a2c6e77cdd9923c19d2a5c01b9227005
->>>>>>> eaba1a418ac1e294907bbed1b7c5dac2b8025ece
+                "file": "游戏开发/Games101.md"
               }
             }
           },
           {
-            "id": "365304c8f9de7be5",
+            "id": "bb0f26d58ce76feb",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "obsidian-kanban:创建新看板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false
     }
   },
-<<<<<<< HEAD
-  "active": "767defd7010e522d",
+  "active": "151a81e4d23c5b18",
   "lastOpenFiles": [
-    "游戏开发/面试准备.md",
-    "游戏开发/知识点/C++：new与malloc.md",
-    "游戏开发/知识点/特性，反射，热更新与DLL.md",
-    "主页.md",
-    "游戏开发/C#.md",
-=======
-<<<<<<< HEAD
-  "active": "3efa5684f433448b",
-  "lastOpenFiles": [
-    "游戏开发/C#.md",
-    "个人简历.md",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.xpr",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/synth/ROM_D.vhd",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/simulation/dist_mem_gen_v8_0.v",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/sim/ROM_D.v",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/doc/dist_mem_gen_v8_0_changelog.txt",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/synth",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/simulation",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/sim",
-    "在学课程资料/体系模板/体系refcode/Exp4/Exp4.srcs/sources_1/ip/ROM_D/ROM_D_stub.vhdl",
-    "在学课程资料/体系模板/体系refcode/Exp2/code/sim/README.md",
-    "在学课程资料/体系模板/体系refcode/Exp2/code/sim/example.png",
     "游戏开发/学习资料及知识点.md",
-    "游戏开发/知识点/特性，反射，热更新与DLL.md",
-    "游戏开发/毕设想法.md",
     "游戏开发/Games101.md",
-    "游戏开发/Unity.md",
-    "游戏开发/算法积累.md",
-    "游戏开发/毕业设计.md",
-=======
-  "active": "52f2da2a4c16d2bd",
-  "lastOpenFiles": [
->>>>>>> d63dd708a2c6e77cdd9923c19d2a5c01b9227005
->>>>>>> eaba1a418ac1e294907bbed1b7c5dac2b8025ece
-    "课程/体系结构Note/RISCV常用指令.md",
-    "课程/体系结构Note/HW1.md",
-    "课程/体系结构Note/知识点/数据冒险与控制冒险概述.md",
-    "课程/体系结构Note/实验梳理.md",
-    "课程/体系结构Note/知识点/Branch not taken.md",
-    "课程/体系结构Note/知识点/Stall, flush and reset.md",
-    "课程/操作系统Note/知识点/Interrupt Basic.md",
-    "在学课程资料/操作系统/4fb887bc49fb44bea1231669ecc3a90a/2ed5dbe606d34ba685ce049dc4c4b5c3.pdf",
-    "在学课程资料/操作系统/4fb887bc49fb44bea1231669ecc3a90a",
-    "课程/操作系统Note/知识点/CPU bound task.md",
-    "课程/操作系统Note/知识点/System program与system call.md",
-    "在学课程资料/操作系统/152a6044285a4c979c5399ce5879dbd4/e56fb13468ee4aa786227eed7935fb15.pdf",
-    "在学课程资料/操作系统/152a6044285a4c979c5399ce5879dbd4",
-    "在学课程资料/操作系统/f56b0582567a48f9be3be6a2ce6c28f8/fa5d4c140ee34785b7c95c62e6523b1d.pdf",
-    "在学课程资料/操作系统/f56b0582567a48f9be3be6a2ce6c28f8",
-    "在学课程资料/操作系统/4f3c6c49dfa94135a63117cf7a5bd9df/2a25aacf850f4e69837fc9f5cc2a293b.pdf",
-    "在学课程资料/操作系统/4f3c6c49dfa94135a63117cf7a5bd9df",
-    "在学课程资料/操作系统/e7afae352bc54b00942e8d73072bbe4b/9d5c2d274429406eaa9762e78a5e90c8.pdf",
-    "在学课程资料/操作系统/e7afae352bc54b00942e8d73072bbe4b",
-    "课程/操作系统Note/LessonNote.md",
-    "课程/操作系统Note/Lab0.md",
-    "课程/操作系统Note/知识点/OpenSBI and initial process.md",
-    "课程/体系结构Note/Hint.md",
-    "在学课程资料/体系模板/Exp2/code/sim/README.md",
-    "在学课程资料/体系模板/Exp2/code/sim/example.png",
-    "课程/操作系统Note/知识点/Multi-threading and Callbacks.md",
-    "课程/操作系统Note/知识点/Two IO methods.md",
-    "课程/操作系统Note/知识点/Kernel booting process.md",
-    "课程/操作系统Note/知识点/Direct Memory Access.md",
-    "课程/操作系统Note/知识点/BootStrap Program In linux.md",
-    "课程/操作系统Note/知识点/Rootfts of Linux.md",
-    "课程/操作系统Note/知识点/Vmlinux and bzImage.md",
-    "Pic/Pasted image 20240911210942.png",
-    "Pic/Pasted image 20240911210722.png",
-    "Pic/Pasted image 20240911210650.png",
-    "Pic/Pasted image 20240911210502.png",
-    "Pic/Pasted image 20240911205245.png",
-    "Pic/Pasted image 20240911205215.png",
-    "Pic/Pasted image 20240911204913.png",
-    "Pic/Pasted image 20240911204339.png",
-    "Pic/Pasted image 20240911153901.png"
+    "游戏开发/C#.md",
+    "游戏开发/面试准备.md",
+    "游戏开发/毕设想法.md",
+    "游戏设计/游戏品鉴/八方旅人2.md"
   ]
 }

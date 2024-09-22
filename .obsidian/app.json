@@ -8,5 +8,6 @@
   },
   "attachmentFolderPath": "Pic",
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "promptDelete": false
 }
