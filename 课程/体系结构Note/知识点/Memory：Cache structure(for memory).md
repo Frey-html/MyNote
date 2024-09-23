@@ -1,4 +1,5 @@
 参考资料：[Cache 缓存器介绍 （二）：基础结构和特性](https://zhuanlan.zhihu.com/p/343870184)
+Memory cache write strategy: [[Memory：write strategy]]
 ### 内存缓存（Memory Cache）概述
 
 **内存缓存（Memory Cache）** 是位于 CPU 和主存（RAM）之间的一种高速存储器，用于暂存经常访问的数据，以减少 CPU 对慢速主存的直接访问，从而提高系统的整体性能。缓存通过存储最近或频繁使用的数据或指令，能大幅度降低内存访问的延迟时间。
