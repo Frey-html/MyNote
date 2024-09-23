@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64e2c88c2dd57e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课程/体系结构Note/知识点/Memory：virtual memory and TLB.md",
+                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md",
+                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md",
+                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md"
+                "file": "课程/计算理论Note/知识点/L1：正则表达式.md"
               }
             }
           }
@@ -162,10 +150,12 @@
   },
   "active": "01e71f77d737ec2e",
   "lastOpenFiles": [
-    "课程/体系结构Note/知识点/Memory：virtual memory and TLB.md",
+    "课程/计算理论Note/知识点/L1：有穷语言.md",
+    "课程/计算理论Note/知识点/L1：不可表达语言.md",
     "课程/体系结构Note/知识点/Memory：Page Table.md",
-    "课程/体系结构Note/知识点/Memory：Cache structure(for memory).md",
     "课程/体系结构Note/知识点/Memory：write strategy.md",
+    "课程/体系结构Note/知识点/Memory：virtual memory and TLB.md",
+    "课程/体系结构Note/知识点/Memory：Cache structure(for memory).md",
     "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md",
     "课程/操作系统Note/Lab0 Report.md",
     "游戏开发/知识点/Algorithm：Dynamic Planing.md",
@@ -193,8 +183,6 @@
     "课程/操作系统Note/RiscV-from crane/paging.md",
     "日程管理/日程管理.md",
     "课程/操作系统Note/RiscV-from crane",
-    "课程/操作系统Note/实验报告模板.md",
-    "课程/操作系统Note/实验记录.md",
     "在学课程资料/体系结构/fbc0efbeb54845fd9d22e4c0a17d72d2/8793745be80a42baafb6d5ac42bb2729.pdf",
     "在学课程资料/体系结构/fbc0efbeb54845fd9d22e4c0a17d72d2",
     "在学课程资料/体系结构/8e5398d8b5c44b13aa451489d5e5fe65/d22d99ce3b014b4aa2b6010ddeb45274.pdf",
