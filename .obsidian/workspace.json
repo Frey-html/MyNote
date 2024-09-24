@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01e71f77d737ec2e",
+            "id": "36e09eb90fb92c91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
+                "file": "求职问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
+                "file": "求职问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程/计算理论Note/知识点/L1：正则表达式.md",
+                "file": "求职问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程/计算理论Note/知识点/L1：正则表达式.md"
+                "file": "求职问题.md"
               }
             }
           }
@@ -148,40 +148,41 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "01e71f77d737ec2e",
+  "active": "36e09eb90fb92c91",
   "lastOpenFiles": [
+    "游戏开发/知识点/游戏开发：3C.md",
+    "求职问题.md",
+    "个人文件/简历-展翼飞.pdf",
+    "面试准备.md",
+    "主页.md",
+    "读书学习随笔.md",
+    "游戏开发/知识点/C++：运算符重载.md",
+    "游戏开发/知识点/常用设计模式.md",
+    "游戏开发/知识点/C++：多态.md",
+    "游戏开发/知识点/C++：继承.md",
+    "游戏开发/知识点/Algorithm：Dynamic Planing.md",
+    "游戏开发/知识点/Algorithm：sort.md",
+    "游戏开发/知识点/C++：auto.md",
+    "游戏开发/知识点/C++：lambda expression.md",
+    "游戏开发/知识点/C++：move.md",
+    "游戏开发/知识点/DS：Hash conflict.md",
+    "课程/体系结构Note/知识点/Memory：Cache structure(for memory).md",
+    "课程/计算理论Note/知识点/L1：Right Quotient and Regular expression.md",
+    "课程/计算理论Note/知识点/L1：正则表达式.md",
     "课程/计算理论Note/知识点/L1：有穷语言.md",
     "课程/计算理论Note/知识点/L1：不可表达语言.md",
     "课程/体系结构Note/知识点/Memory：Page Table.md",
     "课程/体系结构Note/知识点/Memory：write strategy.md",
     "课程/体系结构Note/知识点/Memory：virtual memory and TLB.md",
-    "课程/体系结构Note/知识点/Memory：Cache structure(for memory).md",
     "课程/体系结构Note/知识点/Memory：指令取内存完整流程.md",
     "课程/操作系统Note/Lab0 Report.md",
-    "游戏开发/知识点/Algorithm：Dynamic Planing.md",
-    "主页.md",
     "课程/操作系统Note/知识点/OS：Mount in linux.md",
     "Pic/Pasted image 20240923170149.png",
-    "课程/体系结构Note/知识点/Lab：Stall, flush and reset.md",
-    "课程/体系结构Note/知识点/Lab：Branch not taken.md",
-    "课程/体系结构Note/RISCV常用指令.md",
-    "课程/体系结构Note/实验梳理.md",
-    "课程/体系结构Note/HW1.md",
     "Pic/Pasted image 20240923121902.png",
     "Pic/Pasted image 20240923121840.png",
     "Pic/Pasted image 20240923121711.png",
     "Pic/Pasted image 20240923121645.png",
-    "课程/体系结构Note/知识点/Memory：结构示意图.md",
     "Pic/Pasted image 20240923121606.png",
-    "课程/体系结构Note/知识点/Lab：数据冒险与控制冒险概述.md",
-    "课程/操作系统Note/Lab1 Report.md",
-    "课程/操作系统Note/LessonNote.md",
-    "课程/操作系统Note/RiscV-from crane/unprivileged.md",
-    "课程/操作系统Note/RiscV-from crane/spike.md",
-    "课程/操作系统Note/RiscV-from crane/index.md",
-    "课程/操作系统Note/RiscV-from crane/privileged.md",
-    "课程/操作系统Note/RiscV-from crane/paging.md",
-    "日程管理/日程管理.md",
     "课程/操作系统Note/RiscV-from crane",
     "在学课程资料/体系结构/fbc0efbeb54845fd9d22e4c0a17d72d2/8793745be80a42baafb6d5ac42bb2729.pdf",
     "在学课程资料/体系结构/fbc0efbeb54845fd9d22e4c0a17d72d2",
@@ -191,7 +192,6 @@
     "在学课程资料/Java/04 - Mathematical Functions, Characters, and Strings(4).pdf",
     "在学课程资料/计算理论/c1adf5edddb94fae9db978e6b3a53ca6/3a06b5dc7eee4e6eae608967bf69255e.pdf",
     "在学课程资料/计算理论/c1adf5edddb94fae9db978e6b3a53ca6",
-    "在学课程资料/计算理论/9ddd3e54cdcf4b0ab5dfc492ee9ed0d9/5729e8157c974b43b7641c9d889e4d69.pdf",
     "Pic/Pasted image 20240923092554.png"
   ]
 }
