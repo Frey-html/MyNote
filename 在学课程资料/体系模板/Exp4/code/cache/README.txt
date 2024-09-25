@@ -1,1 +1,0 @@
-请把ram.hex放在OrgLab4\OrgLab4.sim\sim_1\behav\xsim目录下，以便仿真程序调用。
