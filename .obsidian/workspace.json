@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "8077e8de0796333a",
+    "id": "5c4bb1fbeec96fd4",
     "type": "split",
     "children": [
       {
-        "id": "52d2582799e43763",
+        "id": "faf9723bb5af6ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "c0ce99302eea27bb",
+            "id": "226f41883a0c6487",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "408整理/README.md",
+                "file": "主页.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e054a62c44e6783e",
+    "id": "4e31f7496f6afffd",
     "type": "split",
     "children": [
       {
-        "id": "a4956a474852ae5b",
+        "id": "a2c98c7ae48e1adb",
         "type": "tabs",
         "children": [
           {
-            "id": "4be6f3d07a9e903e",
+            "id": "1804c89707cb58cf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "bdd124bbf7bb7583",
+            "id": "ac9499830dae7039",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "1a8768ae5197b949",
+            "id": "e1edee9cdf5f4702",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "ace6b71b76b480ea",
+    "id": "2806ca75ad94c501",
     "type": "split",
     "children": [
       {
-        "id": "d2b16b6b74d25380",
+        "id": "111081b825417f3a",
         "type": "tabs",
         "children": [
           {
-            "id": "2e51ed1205bcfc54",
+            "id": "774706594da5e45c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "408整理/README.md",
+                "file": "主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "84f665733b33d057",
+            "id": "fe1be00ac18b1931",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "408整理/README.md",
+                "file": "主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "426915694dc1f6ba",
+            "id": "daa3c28715fccaf7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,21 +120,21 @@
             }
           },
           {
-            "id": "bb947d03e4b9beff",
+            "id": "a4b4e6e8f55f8c5f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "408整理/README.md"
+                "file": "主页.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,53 +148,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4be6f3d07a9e903e",
+  "active": "226f41883a0c6487",
   "lastOpenFiles": [
-    "在学课程资料/操作系统/ch1overview.pdf",
-    "408整理/操作系统/计算机操作系统.md",
-    "408整理/知识点",
     "求职问题.md",
-    "408整理/README.md",
-    "408整理/LICENSE",
-    "408整理/信息安全/信息安全（四）——公私钥密码体制.md",
-    "408整理/信息安全/信息安全（五）——消息认证、数字签名及PGP.md",
-    "408整理/信息安全/信息安全（二）——密码学.md",
-    "408整理/信息安全/信息安全（三）——对称密码体制.md",
-    "408整理/信息安全/信息安全（一）——概述.md",
-    "408整理/信息安全/README.md",
-    "408整理/信息安全",
-    "408整理/数据库/5关系数据库设计理论/关系数据库设计理论.xmind",
-    "408整理/数据库/5关系数据库设计理论/关系数据库设计理论.png",
-    "408整理/数据库/5关系数据库设计理论/关系数据库设计理论.md",
-    "408整理/数据库/3关系模型/关系模型.xmind",
-    "408整理/数据库/3关系模型/关系模型.png",
-    "408整理/数据库/4关系代数/关系代数.png",
-    "408整理/数据库/4关系代数/关系代数.xmind",
-    "408整理/数据库/4关系代数/关系代数.md",
-    "408整理/数据库/3关系模型/关系模型.md",
-    "408整理/数据库/1数据库绪论/数据库绪论.xmind",
-    "408整理/数据库/1数据库绪论/数据库绪论.md",
-    "408整理/数据库/1数据库绪论/数据库绪论.png",
-    "408整理/数据库/9完整性约束/完整性约束.xmind",
-    "408整理/数据库/9完整性约束/完整性约束.png",
-    "408整理/数据库/9完整性约束/完整性约束.md",
-    "408整理/数据库/8查询优化/查询优化.xmind",
-    "408整理/数据库/8查询优化/查询优化.png",
-    "408整理/数据库/8查询优化/查询优化.md",
-    "408整理/数据库/7并发控制/并发控制.xmind",
-    "408整理/数据库/7并发控制/并发控制.png",
-    "408整理/数据库/7并发控制/并发控制.md",
-    "408整理/数据库/6数据库语言SQL/数据库语言SQL.png",
-    "408整理/数据库/6数据库语言SQL/数据库语言SQL.md",
-    "408整理/数据库/2数据库设计/数据库设计.png",
-    "408整理/数据库/2数据库设计/数据库设计.md",
-    "408整理/数据库/10数据库恢复技术/数据库恢复技术.png",
-    "408整理/数据库/10数据库恢复技术/数据库恢复技术.md",
-    "408整理/数据库/数据库.md",
-    "408整理/数据结构/数据结构.md",
-    "408整理/计算机组成原理/计算机组成.md",
-    "408整理/计算机网络/第 6 章  应用层/第 6 章  应用层.md",
-    "408整理/计算机网络/第 5 章  运输层/第 5 章  运输层.md",
-    "408整理/计算机网络/第 4 章  网络层/第 4 章  网络层.md"
+    "个人资料/生活照.jpg",
+    "主页.md",
+    "日程管理.md"
   ]
 }
