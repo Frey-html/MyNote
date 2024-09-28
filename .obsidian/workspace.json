@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "7229c175095e8dc1",
+            "id": "fdf6b90e46017319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发学习/知识点/C++：容器详解.md",
+                "file": "游戏开发学习/知识点/C++：algorithm库.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发学习/知识点/C++：容器详解.md",
+                "file": "求职记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发学习/知识点/C++：容器详解.md",
+                "file": "求职记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发学习/知识点/C++：容器详解.md"
+                "file": "求职记录.md"
               }
             }
           }
@@ -163,7 +162,11 @@
   },
   "active": "4be6f3d07a9e903e",
   "lastOpenFiles": [
+    "在学课程资料/细胞分子生物学/线粒体报告.docx",
+    "在学课程资料/细胞分子生物学/细胞分子生物学展示.pptx",
+    "游戏开发学习/知识点/Algorithm：sort.md",
     "求职记录.md",
+    "游戏开发学习/知识点/C++：algorithm库.md",
     "游戏开发学习/知识点/C++：容器详解.md",
     "日程管理.md",
     "游戏开发学习/知识点/unity：gc中generation与clean的关系.md",
@@ -189,9 +192,6 @@
     "游戏开发学习/知识点/C++：auto.md",
     "已学课程资料/游戏设计/游戏技术报告.md",
     "游戏开发学习/知识点/unity：软件架构模式.md",
-    "游戏开发学习/知识点/unity：游戏框架.md",
-    "游戏开发学习/知识点/unity：Lua热加载.md",
-    "游戏开发学习/知识点/C++：maps与红黑树.md",
     "在学课程资料/操作系统/ch1overview.pdf",
     "408整理/知识点",
     "408整理/LICENSE",
@@ -202,7 +202,6 @@
     "408整理/数据库/3关系模型/关系模型.png",
     "408整理/数据库/4关系代数/关系代数.png",
     "408整理/数据库/4关系代数/关系代数.xmind",
-    "408整理/数据库/1数据库绪论/数据库绪论.xmind",
     "408整理/数据库/1数据库绪论/数据库绪论.png",
     "408整理/数据库/9完整性约束/完整性约束.png",
     "408整理/数据库/8查询优化/查询优化.png",
