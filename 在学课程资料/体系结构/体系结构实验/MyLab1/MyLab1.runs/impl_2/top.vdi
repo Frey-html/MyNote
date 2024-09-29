@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Sep 23 18:38:10 2024
+# Process ID: 12096
+# Current directory: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top.vdi
+# Journal file: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2\vivado.jou
+# Running On        :DESKTOP-5BJAETF
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+# CPU Frequency     :1800 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8325 MB
+# Swap memory       :5905 MB
+# Total Virtual     :14231 MB
+# Available Virtual :6956 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: open_checkpoint top_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 302.180 ; gain = 5.320
+WARNING: [Vivado 12-8410] Design file 'C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top_routed.dcp' has failed integrity check (1). There is either a missing chekcsum or mismatch. Please regenerate the DCP file.
+INFO: [Device 21-403] Loading part xc7k325tffg676-2L
+INFO: [Device 21-9227] Part: xc7k325tffg676-2L does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 953.766 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 930 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4396] File format version for shapeDB does not match. shapeDB will be regenerated.
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1069.922 ; gain = 0.000
+Parsing XDC File [C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top_routed/top_early.xdc]
+Finished Parsing XDC File [C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top_routed/top_early.xdc]
+Parsing XDC File [C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top_routed/top.xdc]
+Finished Parsing XDC File [C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top_routed/top.xdc]
+Reading placement.
+Reading placer database...
+Reading routing.
+Read Old XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1107.000 ; gain = 6.828
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1107.000 ; gain = 6.828
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1550.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 85 instances were transformed.
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 75 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+  RAM64M => RAM64M (inverted pins: WCLK) (RAMD64E(x4)): 2 instances
+  RAM64X1D => RAM64X1D (inverted pins: WCLK) (RAMD64E(x2)): 2 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2017.4 (64-bit) build 2086221
+open_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1550.391 ; gain = 1262.617
+Command: write_bitstream -force top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[113]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[113]/L3_2/O, cell vga/c2i1/inst_reg[113]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[114]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[114]/L3_2/O, cell vga/c2i1/inst_reg[114]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[115]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[115]/L3_2/O, cell vga/c2i1/inst_reg[115]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[32]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[32]/L3_2/O, cell vga/c2i1/inst_reg[32]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[35]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[35]/L3_2/O, cell vga/c2i1/inst_reg[35]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[36]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[36]/L3_2/O, cell vga/c2i1/inst_reg[36]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[38]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[38]/L3_2/O, cell vga/c2i1/inst_reg[38]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[42]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[42]/L3_2/O, cell vga/c2i1/inst_reg[42]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[46]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[46]/L3_2/O, cell vga/c2i1/inst_reg[46]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[48]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[48]/L3_2/O, cell vga/c2i1/inst_reg[48]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[49]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[49]/L3_2/O, cell vga/c2i1/inst_reg[49]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[52]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[52]/L3_2/O, cell vga/c2i1/inst_reg[52]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[56]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[56]/L3_2/O, cell vga/c2i1/inst_reg[56]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[58]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[58]/L3_2/O, cell vga/c2i1/inst_reg[58]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i1/inst_reg[59]/G0 is a gated clock net sourced by a combinational pin vga/c2i1/inst_reg[59]/L3_2/O, cell vga/c2i1/inst_reg[59]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[113]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[113]/L3_2/O, cell vga/c2i2/inst_reg[113]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[114]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[114]/L3_2/O, cell vga/c2i2/inst_reg[114]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[115]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[115]/L3_2/O, cell vga/c2i2/inst_reg[115]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[32]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[32]/L3_2/O, cell vga/c2i2/inst_reg[32]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[35]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[35]/L3_2/O, cell vga/c2i2/inst_reg[35]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[36]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[36]/L3_2/O, cell vga/c2i2/inst_reg[36]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[38]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[38]/L3_2/O, cell vga/c2i2/inst_reg[38]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[42]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[42]/L3_2/O, cell vga/c2i2/inst_reg[42]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[46]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[46]/L3_2/O, cell vga/c2i2/inst_reg[46]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[48]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[48]/L3_2/O, cell vga/c2i2/inst_reg[48]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[49]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[49]/L3_2/O, cell vga/c2i2/inst_reg[49]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[52]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[52]/L3_2/O, cell vga/c2i2/inst_reg[52]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[56]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[56]/L3_2/O, cell vga/c2i2/inst_reg[56]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[58]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[58]/L3_2/O, cell vga/c2i2/inst_reg[58]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i2/inst_reg[59]/G0 is a gated clock net sourced by a combinational pin vga/c2i2/inst_reg[59]/L3_2/O, cell vga/c2i2/inst_reg[59]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[113]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[113]/L3_2/O, cell vga/c2i3/inst_reg[113]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[114]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[114]/L3_2/O, cell vga/c2i3/inst_reg[114]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[115]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[115]/L3_2/O, cell vga/c2i3/inst_reg[115]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[32]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[32]/L3_2/O, cell vga/c2i3/inst_reg[32]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[35]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[35]/L3_2/O, cell vga/c2i3/inst_reg[35]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[36]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[36]/L3_2/O, cell vga/c2i3/inst_reg[36]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[38]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[38]/L3_2/O, cell vga/c2i3/inst_reg[38]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[42]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[42]/L3_2/O, cell vga/c2i3/inst_reg[42]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[46]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[46]/L3_2/O, cell vga/c2i3/inst_reg[46]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[48]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[48]/L3_2/O, cell vga/c2i3/inst_reg[48]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[49]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[49]/L3_2/O, cell vga/c2i3/inst_reg[49]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[52]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[52]/L3_2/O, cell vga/c2i3/inst_reg[52]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[56]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[56]/L3_2/O, cell vga/c2i3/inst_reg[56]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[58]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[58]/L3_2/O, cell vga/c2i3/inst_reg[58]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i3/inst_reg[59]/G0 is a gated clock net sourced by a combinational pin vga/c2i3/inst_reg[59]/L3_2/O, cell vga/c2i3/inst_reg[59]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[113]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[113]/L3_2/O, cell vga/c2i4/inst_reg[113]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[114]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[114]/L3_2/O, cell vga/c2i4/inst_reg[114]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[115]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[115]/L3_2/O, cell vga/c2i4/inst_reg[115]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[32]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[32]/L3_2/O, cell vga/c2i4/inst_reg[32]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[35]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[35]/L3_2/O, cell vga/c2i4/inst_reg[35]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[36]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[36]/L3_2/O, cell vga/c2i4/inst_reg[36]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[38]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[38]/L3_2/O, cell vga/c2i4/inst_reg[38]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[42]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[42]/L3_2/O, cell vga/c2i4/inst_reg[42]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[46]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[46]/L3_2/O, cell vga/c2i4/inst_reg[46]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[48]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[48]/L3_2/O, cell vga/c2i4/inst_reg[48]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[49]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[49]/L3_2/O, cell vga/c2i4/inst_reg[49]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[52]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[52]/L3_2/O, cell vga/c2i4/inst_reg[52]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[56]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[56]/L3_2/O, cell vga/c2i4/inst_reg[56]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[58]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[58]/L3_2/O, cell vga/c2i4/inst_reg[58]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i4/inst_reg[59]/G0 is a gated clock net sourced by a combinational pin vga/c2i4/inst_reg[59]/L3_2/O, cell vga/c2i4/inst_reg[59]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[113]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[113]/L3_2/O, cell vga/c2i5/inst_reg[113]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[114]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[114]/L3_2/O, cell vga/c2i5/inst_reg[114]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[115]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[115]/L3_2/O, cell vga/c2i5/inst_reg[115]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[32]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[32]/L3_2/O, cell vga/c2i5/inst_reg[32]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[35]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[35]/L3_2/O, cell vga/c2i5/inst_reg[35]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[36]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[36]/L3_2/O, cell vga/c2i5/inst_reg[36]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[38]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[38]/L3_2/O, cell vga/c2i5/inst_reg[38]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[42]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[42]/L3_2/O, cell vga/c2i5/inst_reg[42]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[46]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[46]/L3_2/O, cell vga/c2i5/inst_reg[46]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[48]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[48]/L3_2/O, cell vga/c2i5/inst_reg[48]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[49]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[49]/L3_2/O, cell vga/c2i5/inst_reg[49]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[52]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[52]/L3_2/O, cell vga/c2i5/inst_reg[52]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[56]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[56]/L3_2/O, cell vga/c2i5/inst_reg[56]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[58]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[58]/L3_2/O, cell vga/c2i5/inst_reg[58]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net vga/c2i5/inst_reg[59]/G0 is a gated clock net sourced by a combinational pin vga/c2i5/inst_reg[59]/L3_2/O, cell vga/c2i5/inst_reg[59]/L3_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 76 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:59 ; elapsed = 00:00:43 . Memory (MB): peak = 2332.309 ; gain = 781.918
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 23 18:39:35 2024...

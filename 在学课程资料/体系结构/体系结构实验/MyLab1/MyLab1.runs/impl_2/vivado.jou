@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Sep 23 18:38:10 2024
+# Process ID: 12096
+# Current directory: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2/top.vdi
+# Journal file: C:/Users/Frey/Desktop/MyLab1/MyLab1.runs/impl_2\vivado.jou
+# Running On        :DESKTOP-5BJAETF
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+# CPU Frequency     :1800 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8325 MB
+# Swap memory       :5905 MB
+# Total Virtual     :14231 MB
+# Available Virtual :6956 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
