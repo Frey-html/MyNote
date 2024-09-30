@@ -15,7 +15,7 @@ $ sudo apt install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev l
 #sudo 使用管理员权限 apt 包管理工具
 ```
 在使用apt安装包时，遇到如下问题：
-![[Pic/locate.jpg]]
+![[locate.jpg]]
 在使用sudo apt-get update与sudo apt-get upgrade更新包列表与apt软件后安装命令正常运行
 
 * 安装用于启动 riscv64 平台上的内核的模拟器 `qemu`
