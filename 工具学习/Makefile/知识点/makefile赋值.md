@@ -1,3 +1,5 @@
+[使用变量 — 跟我一起写Makefile 1.0 文档 (seisman.github.io)](https://seisman.github.io/how-to-write-makefile/variables.html)
+
 在 `Makefile` 中，有几种不同的赋值方式，每种方式在处理变量时的行为有所不同。下面是 `Makefile` 中常用的赋值方式的详细介绍：
 
 ### 1. 简单赋值（=）

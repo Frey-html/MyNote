@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile通配符.md",
+                "file": "工具学习/Makefile/知识点/makefile赋值.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile通配符.md",
+                "file": "工具学习/Makefile/知识点/makefile赋值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile通配符.md",
+                "file": "工具学习/Makefile/知识点/makefile赋值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile通配符.md"
+                "file": "工具学习/Makefile/知识点/makefile赋值.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   },
   "active": "8ccf827f222e4f7f",
   "lastOpenFiles": [
+    "在学课程笔记/操作系统Note/知识点/Lab1：工程makefile.md",
+    "工具学习/Makefile/知识点/makefile通配符.md",
     "游戏开发学习/习题集/动态规划：矩阵路径最大最小值.md",
     "游戏开发学习/习题集",
     "工具学习/Makefile/知识点/makefile规则模式.md",
-    "工具学习/Makefile/知识点/makefile通配符.md",
     "工具学习/Makefile/知识点/makefile赋值.md",
     "工具学习/Makefile/知识点/makefile静态模式.md",
     "工具学习/Makefile/知识点/makefile静态规则与规则模式辨析.md",
@@ -166,7 +167,6 @@
     "在学课程笔记/操作系统Note/实验记录.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：Linker Script与段顺序.md",
     "在学课程笔记/操作系统Note/Lab1 Report.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：工程makefile.md",
     "0杂项0/Pic/Pasted image 20241007110408.png",
     "0杂项0/Pic/Pasted image 20241007110105.png",
     "在学课程笔记/操作系统Note/知识点/OS：Device files, image and Blocks.md",
