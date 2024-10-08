@@ -9,5 +9,6 @@
   "attachmentFolderPath": "0杂项0/Pic",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheck": true
 }

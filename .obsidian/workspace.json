@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cef2954c1702cf7b",
+        "id": "ca71be71011f5c05",
         "type": "tabs",
         "children": [
           {
-            "id": "8ccf827f222e4f7f",
+            "id": "1a49a5f871440f31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile赋值.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：opensbi与内联汇编在内核引导中功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83bfb33fc9bc7a43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "在学课程笔记/操作系统Note/Lab1 Report.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile赋值.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：opensbi与内联汇编在内核引导中功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile赋值.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：opensbi与内联汇编在内核引导中功能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +138,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具学习/Makefile/知识点/makefile赋值.md"
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：opensbi与内联汇编在内核引导中功能.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,47 +160,52 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "8ccf827f222e4f7f",
+  "active": "1a49a5f871440f31",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/知识点/Lab1：工程makefile.md",
+    "在学课程笔记/操作系统Note/Lab1 Report.md",
+    "在学课程笔记/操作系统Note/知识点/Command：nm and system.map.md",
+    "在学课程笔记/操作系统Note/Lab0 Report.md",
+    "0杂项0/Pic/Pasted image 20241008174241.png",
+    "在学课程笔记/体系结构Note/RISCV常用指令.md",
+    "0杂项0/Pic/Pasted image 20241008171000.png",
+    "在学课程笔记/操作系统Note/知识点/Lab1：内联汇编.md",
+    "在学课程笔记/操作系统Note/知识点/Lab1：opensbi与内联汇编在内核引导中功能.md",
+    "在学课程笔记/操作系统Note/知识点/Lab1：内联汇编命名占位符.md",
+    "0杂项0/Pic/Pasted image 20241008165722.png",
+    "0杂项0/Pic/Pasted image 20241008165525.png",
+    "0杂项0/Pic/Pasted image 20241008165521.png",
+    "0杂项0/Pic/Pasted image 20241008165316.png",
+    "0杂项0/Pic/Pasted image 20241008164612.png",
+    "0杂项0/Pic/Pasted image 20241008163455.png",
+    "0杂项0/Pic/Pasted image 20241008162908.png",
+    "主页.md",
+    "0杂项0/Pic/Pasted image 20241008161830.png",
+    "在学课程笔记/操作系统Note/知识点/Lab1：head.s解析.md",
+    "在学课程资料/Java/442fa44df824413ca3624455865d0937/79605cdedd014295be04cad9f6a2b902.pdf",
+    "在学课程资料/Java/442fa44df824413ca3624455865d0937",
+    "在学课程资料/Java/2f002a26a15640d0ac5801edef7faafd/698e89a9ec3344a8b55fb18b5f02c429.pdf",
+    "在学课程资料/Java/2f002a26a15640d0ac5801edef7faafd",
+    "在学课程资料/Java/10 - Thinking in Objects(5).pdf",
+    "在学课程资料/Java/0cb8f874c4384547a8896c2258768a0a/0f22bd0f81d743d2b06ebc1fd53cb35b.pdf",
+    "在学课程资料/Java/0cb8f874c4384547a8896c2258768a0a",
+    "在学课程笔记/Java应用Note/知识点/JAVA：Pakage声明.md",
+    "在学课程笔记/Java应用Note/Hint.md",
+    "工具学习/Makefile/知识点/未命名看板.md",
     "工具学习/Makefile/知识点/makefile通配符.md",
-    "游戏开发学习/习题集/动态规划：矩阵路径最大最小值.md",
-    "游戏开发学习/习题集",
-    "工具学习/Makefile/知识点/makefile规则模式.md",
+    "在学课程资料/Java/8e7d1b4b26894cfeb5191a39d729484b/7e2a9b9c3a3f4c6f9406c8daf06fbfcd.pdf",
+    "在学课程资料/Java/8e7d1b4b26894cfeb5191a39d729484b",
+    "在学课程资料/Java/c159e40941ff4688a54c01a9b6f56609/f2dd11508ce74650858f150ffffb4289.pdf",
+    "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
+    "在学课程笔记/操作系统Note/知识点/Lab1：工程makefile.md",
+    "工具学习/Makefile/知识点/makefile：.o与.a文件.md",
+    "工具学习/Makefile/知识点/makefile变量与追加参数.md",
     "工具学习/Makefile/知识点/makefile赋值.md",
+    "游戏开发学习/习题集/动态规划：矩阵路径最大最小值.md",
+    "工具学习/Makefile/知识点/makefile规则模式.md",
     "工具学习/Makefile/知识点/makefile静态模式.md",
     "工具学习/Makefile/知识点/makefile静态规则与规则模式辨析.md",
     "工具学习/Makefile/Makefile介绍.md",
-    "未命名",
     "工具学习/Makefile/未命名.md",
-    "工具学习/Makefile/知识点",
-    "工具学习/Makefile",
-    "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
-    "在学课程笔记/操作系统Note/实验记录.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：Linker Script与段顺序.md",
-    "在学课程笔记/操作系统Note/Lab1 Report.md",
-    "0杂项0/Pic/Pasted image 20241007110408.png",
-    "0杂项0/Pic/Pasted image 20241007110105.png",
-    "在学课程笔记/操作系统Note/知识点/OS：Device files, image and Blocks.md",
-    "在学课程笔记/操作系统Note/知识点/Kernel：Vmlinux and bzImage.md",
-    "在学课程笔记/操作系统Note/实验报告模板.md",
-    "在学课程笔记/操作系统Note/Lab0 Report.md",
-    "游戏开发学习/刷题记录.md",
-    "求职记录.md",
-    "在学课程资料/体系结构/Lesson1-2Introduction.pdf",
-    "在学课程资料/体系结构/Lesson4MemoryImprove.pdf",
-    "在学课程资料/体系结构/Lesson4MemoryReview.pdf",
-    "在学课程资料/体系结构/2022Arch_4_ch2_1.pdf",
-    "在学课程资料/体系结构/Lesson3Analysis.pdf",
-    "在学课程资料/体系结构/2022Arch_3_Ch1_2.pdf",
-    "游戏开发学习/知识点/DS：Hash conflict.md",
-    "游戏开发学习/知识点/网络：TCP连接三次握手与四次挥手.md",
-    "游戏开发学习/知识点/线程：线程同步.md",
-    "游戏开发学习/知识点/C++：堆的使用.md",
-    "游戏开发学习/知识点/游戏开发：3C.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：Branch not taken.md",
-    "在学课程资料/体系结构/思维导图.png",
-    "在学课程资料/体系结构/资料参考/思维导图.png"
+    "在学课程笔记/操作系统Note/实验记录.md"
   ]
 }
