@@ -1,4 +1,33 @@
 在 RISC-V 流水线 CPU 中，中断（interrupt）和异常（exception）是处理器在执行程序过程中遇到的两种特殊事件。它们可以打断正常的指令执行流程，强制 CPU 跳转到特定的服务例程来处理事件。中断通常由外部硬件设备触发，而异常则是在 CPU 内部执行过程中由于错误或特定情况触发。处理这两类事件需要特定的机制，**CSR（Control and Status Register）**在其中起到了重要的作用。
+### 中断处理[¶](https://note.tonycrane.cc/cs/pl/riscv/privileged/#_4 "Permanent link")
+
+RISC-V 中外部中断必须通过 CSR 来开启，开启中断由两个步骤：
+
+- mstatus[MIE] 是全局中断使能位，设置为 1 才会全局开启中断
+- mie 寄存器中是针对各种中断类型的使能位，要将需要的位设置为 1
+
+中断响应程序的入口地址由 mtvec 寄存器指定，如前面写到的，它分为两种模式：
+
+- 直接模式（Direct），所有 trap 都跳转到 mtvec 寄存器指定的地址进行处理
+- 向量化模式（Vectored），中断将根据中断类型跳转到不同偏移位置的中断响应程序，异常仍使用同一个响应程序
+
+当中断发生时，CPU 会：
+
+- 将发生异常的指令（或下一条指令）的地址保存到 mepc 寄存器
+- 将中断类型码保存到 mcause 寄存器
+- 如果中断带有附加信息，将其保存到 mtval 寄存器
+- 如果是外部引发的中断，令 mstatus[MPIE] = mstatus[MIE]（保存），然后令 mstatus[MIE] = 0（关闭中断）
+- 将当前特权模式保存到 mstatus[MPP] 中
+- 将当前特权模式设置为 Machine 模式
+- 根据 mtvec 寄存器的设置，跳转到对应中断响应程序
+
+中断处理结束后要使用 mret 指令进行返回，它会：
+
+- 令 mstatus[MIE] = mstatus[MPIE]（恢复），然后令 mstatus[MPIE] = 1
+- 将当前特权模式设置为 mstatus[MPP] 中保存的值
+- 将 mstatus[MPP] 设置为 U 模式
+- 将 pc 值设置为 mepc 值，即跳转回中断前的程序
+
 
 ### 一、RISC-V 流水线 CPU 的中断与异常
 

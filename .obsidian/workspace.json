@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/实验记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "158ed4375bfe9caf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "在学课程笔记/操作系统Note/Lab1 Report.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,12 +48,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "elf",
+                "query": "模式切换",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab1 Report.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab1 Report.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab1 Report.md"
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md"
               }
             }
           }
@@ -162,8 +149,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "158ed4375bfe9caf",
+  "active": "ea4cc35e104613dd",
   "lastOpenFiles": [
+    "在学课程笔记/操作系统Note/知识点/Lab1：特权函数返回sret与mret.md",
+    "在学课程笔记/体系结构Note/RISCV常用指令.md",
+    "在学课程笔记/操作系统Note/Lab1 Report.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
+    "在学课程笔记/操作系统Note/实验记录.md",
+    "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
+    "0杂项0/Pic/Pasted image 20241011175056.png",
     "在学课程资料/操作系统/OS实验/Lab1/Lab1 Report.txt",
     "在学课程资料/操作系统/OS实验/Lab1/新建文本文档.txt",
     "在学课程资料/操作系统/OS实验/Lab1/lab1 code.zip",
@@ -180,21 +174,16 @@
     "0杂项0/Pic/Pasted image 20241011171520.png",
     "0杂项0/Pic/Pasted image 20241011171431.png",
     "在学课程笔记/操作系统Note/知识点/Lab1：Linker Script与段顺序.md",
-    "在学课程笔记/操作系统Note/Lab1 Report.md",
     "0杂项0/Pic/Pasted image 20241011171313.png",
     "0杂项0/Pic/Pasted image 20241011171210.png",
     "0杂项0/Pic/Pasted image 20241011171012.png",
     "0杂项0/Pic/Pasted image 20241011170747.png",
-    "0杂项0/Pic/Pasted image 20241011170629.png",
-    "在学课程笔记/操作系统Note/实验记录.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：RISCV模式切换.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：mideleg与medeleg.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：Riscv模式切换（存疑）？.md",
     "在学课程笔记/体系结构Note/知识点/Lab：CSR寄存器.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：RISCV函数调用返回流程.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：trap处理函数trap.c实现.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：上下文切换entry.s.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：特权函数返回sret与mret.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：时钟中断相关函数clock.c.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：head.s解析.md",
     "在学课程笔记/操作系统Note/知识点/Lab1：汇编置时钟中断.md",
@@ -207,8 +196,6 @@
     "在学课程笔记/操作系统Note/知识点/Kernel：OpenSBI and initial process.md",
     "在学课程笔记/体系结构Note/知识点/Lab：数据冒险与控制冒险概述.md",
     "在学课程笔记/体系结构Note/知识点/Lab：Stall, flush and reset.md",
-    "在学课程资料/操作系统/586907029e934d58b8594f66e7ea8a98/f9255e6481234932aff033befc35a2d8.pdf",
-    "游戏开发学习/知识点/线程：线程同步.md",
-    "408整理/操作系统/第二章 进程的描述与控制/第二章 进程的描述与控制.md"
+    "游戏开发学习/知识点/线程：线程同步.md"
   ]
 }

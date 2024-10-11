@@ -1,5 +1,7 @@
 在RISC-V架构中，特权模式的进入和退出是通过特定的指令来完成的。RISC-V定义了三种主要的特权模式：用户模式（User Mode）、监管模式（Supervisor Mode）和机器模式（Machine Mode）。每种模式的权限级别不同，适用于不同的操作场景。
 [RISC-V架构的三种特权模式如何切换_riscv m和u mode-CSDN博客](https://blog.csdn.net/weixin_42031299/article/details/136843807)
+
+![[Pasted image 20241011175056.png]]
 ### 特权模式的进入和退出
 
 1. **用户模式（User Mode）**
