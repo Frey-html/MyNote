@@ -1,5 +1,5 @@
 在上述内联汇编实现的 `sbi_ecall` 函数中，使用了 OpenSBI (Open Source Supervisor Binary Interface) 提供的接口，该函数在 RISC-V 架构的系统中用于与底层固件（OpenSBI）进行通信。OpenSBI 负责实现 Supervisor Binary Interface (SBI)，它定义了特权级别之间（M-mode 和 S-mode）的标准接口。这些接口在 Linux 内核引导过程中扮演着重要角色，主要作用是通过与底层固件交互来完成系统级操作，例如调度中断、时钟管理、控制电源、以及系统重启等。
-
+![[Pasted image 20241009161035.png]]
 ### 1. **SBI ecall 机制**
 `ecall` 指令（environment call）是 RISC-V 架构中用于特权模式之间调用的指令。在 `sbi_ecall` 函数中：
 - **a 7 寄存器**：存储 `eid`（Extension ID），用于指定 SBI 扩展类型。
@@ -54,3 +54,51 @@ Linux 内核在引导过程中，特别是针对 RISC-V 平台时，SBI 接口�
 - **内核引导中的核心功能依赖**：在 RISC-V 平台上，Linux 内核需要通过 `sbi_ecall` 调用来完成时钟设置、CPU 启动、输入输出管理、系统重启等基本功能。
 
 总之，`sbi_ecall` 在 Linux 内核引导过程中充当了一个桥梁，将内核的需求传递给 M-mode 中的 OpenSBI，确保系统资源和硬件能够正确初始化并运行。
+
+
+### 拓展：Sbi 接口原理与作用
+
+
+`sbi_*` 函数通常是由开发者自定义的，但它们通常是基于一个标准化的接口（SBI，即 Supervisor Binary Interface）实现的。下面是关于这些函数及其实现的一些详细说明：
+
+#### 1. SBI 接口的标准化
+
+- **SBI 标准**: RISC-V 架构中定义了一个标准化的 SBI 接口，它指定了一组函数和调用约定。这个接口的标准文档通常由 RISC-V 基金会发布，定义了每个系统调用的行为、输入输出参数等信息。
+- **函数命名约定**: 根据这个标准，通常会使用以 `sbi_` 开头的函数名，如 `sbi_ecall`、`sbi_system_reset` 等，来表示这些函数与 SBI 接口的关系。
+
+#### 2. OpenSBI 的实现
+
+- **OpenSBI**: OpenSBI 是一个开源项目，它实现了 RISC-V 的 SBI 接口。它提供了这些标准化函数的具体实现，允许操作系统通过调用这些函数来进行底层操作。
+- **预定义的函数**: OpenSBI 中已经实现了一些常用的 `sbi_*` 函数，如 `sbi_ecall`、`sbi_console_putchar` 和 `sbi_system_reset` 等。操作系统开发者可以直接使用这些函数，无需从头开始实现。
+
+#### 3. 自定义的 `sbi_*` 函数
+
+- **自定义实现**: 尽管 OpenSBI 提供了许多现成的实现，开发者可能会根据特定需求自定义 `sbi_*` 函数。这些自定义函数可能是对 OpenSBI 提供的现有功能的封装，或者实现一些额外的功能。
+- **内联汇编**: 在操作系统的代码中，通常会使用内联汇编来调用 SBI 接口，这部分代码是开发者自定义的。开发者需要确保这些内联汇编能够正确设置寄存器并触发 `ecall` 指令。
+
+#### 4. 代码示例
+
+以下是一个使用 OpenSBI 提供的 `sbi_*` 函数的示例：
+
+```c
+#include "sbi.h"
+
+struct sbiret ret;
+
+// 调用 SBI 接口进行控制台输出
+ret = sbi_console_putchar('A'); // 使用 OpenSBI 实现的 console_putchar
+
+// 调用 SBI 接口进行系统重启
+ret = sbi_system_reset(0, 0); // 使用 OpenSBI 实现的 system_reset
+```
+
+#### 5. 开发者的选择
+
+- **使用 OpenSBI**: 对于大多数开发者来说，使用 OpenSBI 提供的现成实现是最简单的方法。这允许快速实现常见的功能，而不必担心底层细节。
+- **自定义实现**: 如果有特殊需求，开发者可以在 OpenSBI 的基础上扩展或修改功能，或者实现自己的 `sbi_*` 函数。
+
+#### 6.总结
+
+- `sbi_*` 函数通常是基于 RISC-V 的 SBI 标准自定义的。
+- OpenSBI 提供了对这些函数的现成实现，可以被操作系统直接调用。
+- 开发者可以根据具体需求选择使用现有实现或自定义实现。
