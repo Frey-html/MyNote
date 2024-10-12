@@ -14,7 +14,7 @@ Thumbs.db
 *.bak
 
 # Ignore specific files or folders
-push.sh
+
 
 # Include all notes and other Obsidian configuration
 !.obsidian/
