@@ -1,18 +1,13 @@
 Control unit 中的 "exception vector" 在 RISC-V 中用于处理不同类型的异常，例如非法指令、系统调用等。通常会根据指令执行时是否发生了异常（如非法指令、系统调用等）来产生中断或者进入异常处理流程。
 
-对于这个二位的 `exp_vector`，可以这样定义：
+对于这个二位的 `exp_vector`，这样定义：
 
-1. **00**：表示无异常。
-2. **01**：表示系统调用 (`ECALL`) 异常。
-3. **10**：表示非法指令 (`illegal_inst`) 异常。
-4. **11**：保留或扩展为其他异常类型。
+0 号位代表是否存在 ECALL，1 号位代表是否存在非法指令
 
 在代码中，`exp_vector` 的值取决于是否检测到 `ECALL` 或 `illegal_inst` 异常。你可以根据这两类异常的检测结果设置 `exp_vector`。以下是补全后的代码：
 
 ```verilog
-assign exp_vector = illegal_inst ? 2'b10 : 
-                    ECALL       ? 2'b01 : 
-                                  2'b00;  // 默认无异常
+assign exp_vector = {illegal_inst, ecall};
 ```
 
 
@@ -90,63 +85,66 @@ assign mtval_w = epc_cur;  // 一般来说，异常时会保存PC
 `timescale 1ns / 1ps
 
 module ExceptionUnit(
-    input clk, rst,
-    input csr_rw_in,
-    input[1:0] csr_wsc_mode_in,
-    input csr_w_imm_mux,
-    input[11:0] csr_rw_addr_in,
-    input[31:0] csr_w_data_reg,
-    input[4:0] csr_w_data_imm,
-    output[31:0] csr_r_data_out,
+    input clk, rst,                    // 时钟信号和复位信号
+    input csr_rw_in,                   // 外部请求写入CSR信号
+    input[1:0] csr_wsc_mode_in,        // CSR写入模式，控制CSR的写入方式
+    input csr_w_imm_mux,               // CSR写入数据选择信号：选择立即数还是寄存器数据
+    input[11:0] csr_rw_addr_in,        // CSR操作地址
+    input[31:0] csr_w_data_reg,        // CSR写入的数据（从寄存器中来）
+    input[4:0] csr_w_data_imm,         // CSR写入的立即数
+    output[31:0] csr_r_data_out,       // CSR读出的数据
 
-    input interrupt,
-    input illegal_inst,
-    input l_access_fault,
-    input s_access_fault,
-    input ecall_m,
+    input interrupt,                   // 外部中断信号
+    input illegal_inst,                // 非法指令信号
+    input l_access_fault,              // 读取内存时的访问错误
+    input s_access_fault,              // 写内存时的访问错误
+    input ecall_m,                     // 特权级调用异常信号（ecall）
 
-    input mret,
+    input mret,                        // MRET指令信号（用于从异常中返回）
 
-    input[31:0] epc_cur,
-    input[31:0] epc_next,
-    output[31:0] PC_redirect,
-    output redirect_mux,
+    input[31:0] epc_cur,               // 当前程序计数器（异常时PC）
+    input[31:0] epc_next,              // 下一个程序计数器（正常执行时的PC）
+    output[31:0] PC_redirect,          // 异常处理后的PC重定向地址
+    output redirect_mux,               // 控制是否重定向PC
 
-    output reg_FD_flush, reg_DE_flush, reg_EM_flush, reg_MW_flush, 
-    output RegWrite_cancel
+    output reg_FD_flush,               // 用于流水线级联寄存器FD的刷新
+    output reg_DE_flush,               // 用于流水线级联寄存器DE的刷新
+    output reg_EM_flush,               // 用于流水线级联寄存器EM的刷新
+    output reg_MW_flush,               // 用于流水线级联寄存器MW的刷新
+    output RegWrite_cancel             // 是否取消寄存器写入
 );
-    reg TO_BE_FILLED = 0;
 
-    reg[11:0] csr_waddr;
-    reg[31:0] csr_wdata;
-    reg csr_w;
-    reg[1:0] csr_wsc;
-    wire[11:0] csr_raddr;
-    wire[31:0] csr_rdata;
+    reg[11:0] csr_waddr;               // CSR写地址寄存器
+    reg[31:0] csr_wdata;               // CSR写数据寄存器
+    reg csr_w;                         // CSR写使能信号
+    reg[1:0] csr_wsc;                  // CSR写入模式（W, S, C）
+    
+    wire[11:0] csr_raddr;              // CSR读地址
+    wire[31:0] csr_rdata;              // CSR读出的数据
+    
+    wire[31:0] mstatus;                // mstatus寄存器，保存处理器的状态
+    wire[31:0] mepc;                   // mepc寄存器，保存异常发生时的PC
+    wire[31:0] mtvec;                  // mtvec寄存器，保存异常处理程序的入口地址
+    wire[31:0] mie;                    // mie寄存器，保存中断使能信息
+    
 
-    wire[31:0] mstatus;
-    wire[31:0] mepc;
-    wire[31:0] mtvec;
-    wire[31:0] mie;
-
-    wire interrupt_or_exception;
-    wire[31:0] mepc_w;
-    wire[31:0] mcause_w;
-    wire[31:0] mtval_w;
-
-    wire[3:0] waddr_map;
-    wire enable_exception;
-
-    wire [3:0] exception_index;
+    wire interrupt_or_exception;        // 中断或异常标志
+    wire[31:0] mepc_w;                 // 用于写入mepc的值
+    wire[31:0] mcause_w;               // 用于写入mcause的值，记录异常原因
+    wire[31:0] mtval_w;                // 用于写入mtval的值，记录异常相关信息
+    wire[3:0] waddr_map;               // CSR地址映射（从12位地址映射到较小的寄存器地址）
+    wire enable_exception;             // 异常使能信号，决定是否处理异常
+    wire[3:0] exception_index;         // 用于记录当前发生的异常类型
+    
 
     // exception encoding
-    assign exception_index = (illegal_inst)      ? 4'd2 :
-                             (l_access_fault)    ? 4'd5 :
-                             (s_access_fault)    ? 4'd7 :
-                             (ecall_m)           ? 4'd11 :
-                             4'd0;  // default value
-
-    assign enable_exception = mstatus[3];
+	assign exception_index = (illegal_inst)      ? 4'd2 :   // 非法指令异常
+	    (l_access_fault)    ? 4'd5 :   // 读取内存时的访问错误
+	    (s_access_fault)    ? 4'd7 :   // 写入内存时的访问错误
+	    (ecall_m)           ? 4'd11 :  // ecall异常
+	    4'd0;                         // 默认异常类型
+    
+    assign enable_exception = mstatus[3];  // mstatus的第3位控制异常使能
 
     // combine interrupt and exception signals
     assign interrupt_or_exception = interrupt | illegal_inst | l_access_fault | s_access_fault | ecall_m;
