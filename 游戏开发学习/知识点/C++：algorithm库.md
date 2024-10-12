@@ -1,1 +1,0 @@
-[Standard library header algorithm- cppreference.com](https://en.cppreference.com/w/cpp/header/algorithm)
