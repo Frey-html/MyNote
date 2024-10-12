@@ -1,5 +1,5 @@
 参考资料：[Cache 缓存器介绍 （二）：基础结构和特性](https://zhuanlan.zhihu.com/p/343870184)
-Memory cache write strategy: [[Memory：write strategy]]
+Memory cache write strategy: [[Memory：Cache write strategy]]
 ### 内存缓存（Memory Cache）概述
 
 **内存缓存（Memory Cache）** 是位于 CPU 和主存（RAM）之间的一种高速存储器，用于暂存经常访问的数据，以减少 CPU 对慢速主存的直接访问，从而提高系统的整体性能。缓存通过存储最近或频繁使用的数据或指令，能大幅度降低内存访问的延迟时间。
@@ -62,6 +62,10 @@ Memory cache write strategy: [[Memory：write strategy]]
 ### 缓存映射策略（Cache Mapping）
 地址组成：
 ![[Pasted image 20240923121711.png]]
+
+**Cache 容量公式：** $\text{CacheSize}=2^{\text{index+blockoffest}}$
+而 $2^{\text{index}}={\text{n(n way associative)}}$
+N 路组关联意味着每组有 N 个块，每个组内块可以任意排布（组内fully associative）
 
 由于缓存容量有限，不可能将整个主存的数据都存储在缓存中，因此需要缓存映射策略来决定如何将主存地址映射到缓存行。这些映射策略直接影响缓存命中率和性能。常见的映射策略有以下三种：
 ![[Pasted image 20240923121645.png]]
