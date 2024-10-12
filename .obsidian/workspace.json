@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "游戏开发学习/知识点/C++：标准库堆的使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "游戏开发学习/知识点/C++：标准库堆的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "游戏开发学习/知识点/C++：标准库堆的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0杂项0/参考资料.md"
+                "file": "游戏开发学习/知识点/C++：标准库堆的使用.md"
               }
             }
           }
@@ -150,11 +150,17 @@
   },
   "active": "df42853873dfb20f",
   "lastOpenFiles": [
+    "游戏开发学习/知识点/C++：标准库容器maps与红黑树.md",
+    "游戏开发学习/知识点/C++：类与多态.md",
+    "游戏开发学习/知识点/C++：算法库algorithm.md",
+    "游戏开发学习/知识点/C++：标准库容器详解.md",
+    "游戏开发学习/知识点/C++：标准库堆的使用.md",
+    "游戏开发学习/知识点/优化：堆和栈.md",
+    "0杂项0/参考资料.md",
     "0杂项0/Daily Note Template.md",
     "0杂项0/日程管理.md",
     "游戏开发学习/知识点/Csharp：lambda表达式.md",
     "游戏开发学习/知识点/Csharp：0参考资料0.md",
-    "0杂项0/参考资料.md",
     "游戏开发学习/知识点/C++：0参考资料0.md",
     "主页.md",
     "游戏开发学习/知识点/Csharp vs C++：对象创建与传递.md",
@@ -162,20 +168,14 @@
     "游戏开发学习/知识点/C++：语法lambda expression.md",
     "游戏开发学习/知识点/C++：语法值传递与引用传递.md",
     "游戏开发学习/知识点/C++：语法运算符重载.md",
-    "游戏开发学习/知识点/C++：算法库algorithm.md",
     "游戏开发学习/知识点/C++：野指针与安全（智能指针）.md",
-    "游戏开发学习/知识点/C++：标准库堆的使用.md",
     "游戏开发学习/知识点/C++：关键字move移动语意.md",
-    "游戏开发学习/知识点/C++：容器maps与红黑树.md",
     "游戏开发学习/知识点/C++：关键字auto.md",
     "游戏开发学习/知识点/C++：迭代器Iterator.md",
     "游戏开发学习/知识点/算法：sort.md",
     "游戏开发学习/知识点/优化：内存对齐.md",
-    "游戏开发学习/知识点/优化：堆和栈.md",
     "游戏开发学习/知识点/网络：传输层TCP与UDP.md",
     "游戏开发学习/知识点/数据结构：Hash conflict.md",
-    "游戏开发学习/知识点/算法：前中后缀表达式.md",
-    "游戏开发学习/知识点/算法：Dynamic Planing.md",
     "在学课程资料/体系结构/0f24d3cf33ab45549779b965cc20a835/1de319cc1d064abeb8c50bf91c1b6c53.pdf",
     "在学课程资料/体系结构/0f24d3cf33ab45549779b965cc20a835",
     "在学课程资料/体系结构/5c1cb44d5bc04315baccfde5284db9d2/121f9c24b7d2417ba84909280654c508.pdf",
