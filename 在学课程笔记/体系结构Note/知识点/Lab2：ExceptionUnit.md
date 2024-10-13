@@ -7,7 +7,7 @@ Control unit 中的 "exception vector" 在 RISC-V 中用于处理不同类型的
 在代码中，`exp_vector` 的值取决于是否检测到 `ECALL` 或 `illegal_inst` 异常。你可以根据这两类异常的检测结果设置 `exp_vector`。以下是补全后的代码：
 
 ```verilog
-assign exp_vector = {illegal_inst, ecall};
+assign exp_vector = {illegal_inst, ECALL};
 ```
 
 

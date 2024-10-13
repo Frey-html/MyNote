@@ -1,6 +1,8 @@
 [RISC-V架构——中断委托和中断注入_mideleg-CSDN博客](https://blog.csdn.net/weixin_42031299/article/details/134018259)
 统称 machine trap delegation registers，mideleg（machind interrupt delegation register）用于保存哪些中断要委托给 S 模式进行处理。medeleg（machine exception delegation register）用于保存哪些异常要委托给 S 模式进行处理。
 
+![[Pasted image 20241013144445.png]]
+
 中断码：
 
 - 1: Supervisor Software Interrupt
