@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基础：刷题进度.md",
+                "file": "游戏开发学习/知识点/C++：0参考资料0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基础：刷题进度.md",
+                "file": "游戏开发学习/知识点/C++：0参考资料0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基础：刷题进度.md",
+                "file": "游戏开发学习/知识点/C++：0参考资料0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基础：刷题进度.md"
+                "file": "游戏开发学习/知识点/C++：0参考资料0.md"
               }
             }
           }
@@ -148,12 +148,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a0e2cd612cad8e09",
+  "active": "9205c62be9898e18",
   "lastOpenFiles": [
+    "0杂项0/参考资料.md",
+    "游戏开发学习/知识点/C++：语法左值与右值、右值引用.md",
+    "游戏开发学习/知识点/C++：0参考资料0.md",
+    "游戏开发学习/知识点/C++：迭代器Iterator.md",
+    "游戏开发学习/知识点/C++：关键字noexcept.md",
+    "游戏开发学习/知识点/C++：语法引用传递.md",
+    "游戏开发学习/知识点/C++：运算符优先级.md",
+    "主页.md",
+    "游戏开发学习/知识点/C++：标准库容器详解.md",
+    "游戏开发学习/知识点/C++：关键字constexpr与explicit.md",
+    "游戏开发学习/知识点/C++：标准库堆的使用.md",
+    "基础：刷题进度.md",
+    "算法学习/知识点/算法：排序算法.md",
+    "算法学习/习题集/哈希：LRU算法.md",
+    "算法学习/习题集/动态规划：矩阵路径最大最小值.md",
+    "游戏开发学习/知识点/C++：关键字new与malloc.md",
+    "算法学习/知识点/算法：动态规划.md",
+    "算法学习/知识点/数据结构：哈希冲突.md",
+    "算法学习/知识点",
+    "算法学习",
     "游戏开发学习/刷题记录.md",
-    "基础：刷题进度.md",
-    "基础：刷题进度.md",
-    "游戏开发学习/习题集/哈希：LRU算法.md",
     "工具学习/Git.md",
     "工具学习/Python.md",
     "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
@@ -165,32 +182,15 @@
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_IF_ID.v",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_EX_MEM.v",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_ID_EX.v",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/Regs.v",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/RAM_B.v.tmpl",
     "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
     "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs模块实现.md",
     "在学课程笔记/体系结构Note/知识点/Memory：指令取内存完整流程.md",
     "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
-    "在学课程笔记/体系结构Note/知识点/Memory：Page Table.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：CSR寄存器.md",
-    "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs-MPP位.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：特权函数返回sret与mret.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：Branch not taken.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：Stall, flush and reset.md",
     "0杂项0/Pic/Pasted image 20241013151942.png",
     "0杂项0/Pic/Pasted image 20241013151853.png",
     "0杂项0/Pic/Pasted image 20241013150914.png",
-    "在学课程笔记/操作系统Note/知识点/Lab1：trap处理函数trap.c实现.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：mideleg与medeleg.md",
     "0杂项0/Pic/Pasted image 20241013144445.png",
     "0杂项0/Pic/Pasted image 20241013144236.png",
-    "游戏开发学习/知识点/C++：类的继承.md",
-    "游戏开发学习/知识点/C++：多线程与volatile关键字.md",
-    "游戏开发学习/知识点/C++：类的多态.md",
-    "游戏开发学习/知识点/C++：类的继承-菱形继承与虚继承.md",
-    "游戏开发学习/知识点/数据结构：哈希冲突.md",
-    "游戏开发学习/知识点/C++：关键字static.md",
     "0杂项0/Pic/Pasted image 20241011175056.png",
     "0杂项0/Pic/Pasted image 20241011172301.png",
     "0杂项0/Pic/Pasted image 20241011172226.png",
