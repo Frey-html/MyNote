@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md",
+                "file": "游戏开发学习/知识点/C++：类的继承.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f38ecda6d09c4ac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发学习/知识点/C++：多线程与volatile关键字.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md",
+                "file": "游戏开发学习/知识点/C++：多线程与volatile关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md",
+                "file": "游戏开发学习/知识点/C++：多线程与volatile关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md"
+                "file": "游戏开发学习/知识点/C++：多线程与volatile关键字.md"
               }
             }
           }
@@ -151,44 +163,44 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:创建新看板": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8cfb170797066c11",
+  "active": "f38ecda6d09c4ac6",
   "lastOpenFiles": [
-    "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
-    "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md",
-    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
-    "游戏开发学习/知识点/算法：排序算法.md",
+    "游戏开发学习/知识点/C++：类的继承.md",
+    "游戏开发学习/知识点/C++：多线程与volatile关键字.md",
+    "游戏开发学习/知识点/C++：类的多态.md",
+    "游戏开发学习/知识点/C++：类的继承-菱形继承与虚继承.md",
+    "游戏开发学习/知识点/数据结构：哈希冲突.md",
+    "游戏开发学习/知识点/C++：关键字static.md",
+    "游戏开发学习/知识点/算法：动态规划.md",
     "游戏开发学习/知识点/算法：排序稳定性.md",
+    "游戏开发学习/知识点/编译：特性，反射，热更新与DLL.md",
+    "游戏开发学习/知识点/编译：编译时与运行时多态.md",
+    "游戏开发学习/知识点/算法：数组中第k大的数.md",
+    "游戏开发学习/知识点/算法：寻路算法.md",
+    "游戏开发学习/习题集/动态规划：矩阵路径最大最小值.md",
+    "游戏开发学习/知识点/算法：排序算法.md",
+    "游戏开发学习/习题集/哈希：LRU算法.md",
+    "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs.md",
+    "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
     "游戏开发学习/知识点/C++：标准库堆的使用.md",
     "游戏开发学习/知识点/C++：标准库容器详解.md",
-    "游戏开发学习/知识点/算法：寻路算法.md",
     "游戏开发学习/知识点/算法：前中后缀表达式.md",
     "游戏开发学习/知识点/C++：异常处理.md",
-    "游戏开发学习/知识点/C++：类与继承.md",
     "游戏开发学习/知识点/C++：标准库容器maps与红黑树.md",
-    "游戏开发学习/知识点/C++：类与多态.md",
     "游戏开发学习/知识点/C++：算法库algorithm.md",
     "游戏开发学习/知识点/优化：堆和栈.md",
     "0杂项0/参考资料.md",
-    "0杂项0/Daily Note Template.md",
-    "0杂项0/日程管理.md",
-    "游戏开发学习/知识点/Csharp：lambda表达式.md",
-    "游戏开发学习/知识点/Csharp：0参考资料0.md",
-    "游戏开发学习/知识点/C++：0参考资料0.md",
-    "主页.md",
-    "游戏开发学习/知识点/Csharp vs C++：对象创建与传递.md",
-    "游戏开发学习/知识点/C++：语法左值与右值、右值引用.md",
-    "游戏开发学习/知识点/C++：语法lambda expression.md",
-    "游戏开发学习/知识点/C++：语法值传递与引用传递.md",
     "在学课程资料/体系结构/0f24d3cf33ab45549779b965cc20a835/1de319cc1d064abeb8c50bf91c1b6c53.pdf",
     "在学课程资料/体系结构/0f24d3cf33ab45549779b965cc20a835",
     "在学课程资料/体系结构/5c1cb44d5bc04315baccfde5284db9d2/121f9c24b7d2417ba84909280654c508.pdf",
