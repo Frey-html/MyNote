@@ -63,8 +63,8 @@ Memory cache write strategy: [[Memory：Cache write strategy]]
 地址组成：
 ![[Pasted image 20240923121711.png]]
 
-**Cache 容量公式：** $\text{CacheSize}=2^{\text{index+blockoffest}}$
-而 $2^{\text{index}}={\text{n(n way associative)}}$
+**Cache 容量公式：** $\text{CacheSize}=2^{\text{index+blockoffest}} * n$
+而 $2^{\text{index}} * n = {\text{block count}}$
 N 路组关联意味着每组有 N 个块，每个组内块可以任意排布（组内fully associative）
 
 由于缓存容量有限，不可能将整个主存的数据都存储在缓存中，因此需要缓存映射策略来决定如何将主存地址映射到缓存行。这些映射策略直接影响缓存命中率和性能。常见的映射策略有以下三种：
