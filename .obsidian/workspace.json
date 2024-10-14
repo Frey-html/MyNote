@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "知识仓库.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "知识仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0杂项0/参考资料.md",
+                "file": "知识仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0杂项0/参考资料.md"
+                "file": "知识仓库.md"
               }
             }
           }
@@ -151,14 +151,18 @@
   "active": "9205c62be9898e18",
   "lastOpenFiles": [
     "主页.md",
-    "算法学习/知识点/算法：排序算法.md",
+    "知识仓库.md",
+    "0杂项0/学习路线整理.md",
+    "在学课程笔记/体系结构Note/Hint.md",
+    "游戏开发学习/知识点/C++：0参考资料0.md",
     "刷题进度.md",
+    "在学课程笔记/体系结构Note/HW1.md",
+    "个人资料/个人资料.md",
+    "算法学习/知识点/算法：排序算法.md",
     "算法学习/习题集/哈希：LRU算法.md",
     "工具学习/Git.md",
     "在学课程资料/体系结构/体系结构实验/晚ab2指导：中断与异常.pdf - 快捷方式.lnk",
     "游戏开发学习/知识点/编译：特性，反射，热更新与DLL.md",
-    "游戏开发学习/知识点/C++：0参考资料0.md",
-    "0杂项0/参考资料.md",
     "游戏开发学习/知识点/C++：语法左值与右值、右值引用.md",
     "游戏开发学习/知识点/C++：迭代器Iterator.md",
     "游戏开发学习/知识点/C++：关键字noexcept.md",
@@ -175,7 +179,6 @@
     "算法学习",
     "游戏开发学习/刷题记录.md",
     "工具学习/Python.md",
-    "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/RV32core.v",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/ROM_D.v.tmpl",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/ROM_D.v",
@@ -183,8 +186,6 @@
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_MEM_WB.v",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_IF_ID.v",
     "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/REG_EX_MEM.v",
-    "在学课程笔记/操作系统Note/知识点/Lab1：RISCV特权模式切换.md",
-    "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs模块实现.md",
     "0杂项0/Pic/Pasted image 20241013151942.png",
     "0杂项0/Pic/Pasted image 20241013151853.png",
     "0杂项0/Pic/Pasted image 20241013150914.png",
