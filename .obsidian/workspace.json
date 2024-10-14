@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识仓库.md",
+                "file": "0杂项0/学习路线整理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识仓库.md",
+                "file": "0杂项0/学习路线整理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识仓库.md",
+                "file": "0杂项0/学习路线整理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识仓库.md"
+                "file": "0杂项0/学习路线整理.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "9205c62be9898e18",
   "lastOpenFiles": [
-    "主页.md",
     "知识仓库.md",
+    "主页.md",
     "0杂项0/学习路线整理.md",
     "在学课程笔记/体系结构Note/Hint.md",
     "游戏开发学习/知识点/C++：0参考资料0.md",
