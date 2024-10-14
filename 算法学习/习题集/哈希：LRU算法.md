@@ -63,4 +63,116 @@ int main() {
 
 ```
 
+```cpp
+//思路：
+
+//既然要以O（1）get 那必须要用到哈希
+
+//又要O(1) put 那value的结构应该是顺序的，每次put到队首
+
+//然而哈希本身无法实现顺序put，则哈希存指针指向链表，双向链表存value顺序put
+
+//需要unordered_map<int *> (capacity) list<int> (capacity)
+
+//只要list未重新分配空间（超过capacity用allocator申请新的）指针就仍有效
+
+#include <unordered_map>
+
+#include <list>
+
+#include <iostream>
+
+  
+
+using namespace std;
+
+  
+
+// 定义 Pair 结构体
+
+template <typename K, typename V>
+
+using Pair = pair<K, V>;
+
+  
+
+class LRUCache {
+
+public:
+
+    LRUCache(int capacity) : _capacity(capacity) {}
+
+  
+
+    int get(int key) {
+
+        // 检查 key 是否存在于哈希表中
+
+        auto it = _hashMap.find(key);
+
+        if (it == _hashMap.end()) {
+
+            return -1; // Key 不存在，返回 -1
+
+        }
+
+        // 移动访问过的节点到前面
+
+        _myList.splice(_myList.begin(), _myList, it->second);
+
+        return it->second->second; // 返回值
+
+    }
+
+    void put(int key, int value) {
+
+        // 如果 key 已存在，更新值并移动到前面
+
+        auto it = _hashMap.find(key);
+
+        if (it != _hashMap.end()) {
+
+            _myList.splice(_myList.begin(), _myList, it->second);
+
+            it->second->second = value; // 更新值
+
+            return;
+
+        }
+
+        // 如果超出容量，移除最后一个元素
+
+        if (_myList.size() == _capacity) {
+
+            int lruKey = _myList.back().first; // 获取要移除的 key
+
+            _myList.pop_back(); // 移除最后一个元素
+
+            _hashMap.erase(lruKey); // 从哈希表中删除
+
+        }
+
+        // 插入新元素
+
+        _myList.push_front(Pair<int, int>(key, value)); // 添加到前面
+
+        _hashMap[key] = _myList.begin(); // 存储节点迭代器
+
+    }
+
+  
+
+private:
+
+    unordered_map<int, typename list<Pair<int, int>>::iterator> _hashMap; // key -> iterator
+
+    list<Pair<int, int>> _myList; // 存储 key-value 对
+
+    int _capacity;
+
+};
+```
+
+
+
 这个实现使用 `unordered_map` 存储缓存的数据，以便能快速查找；使用 `list` 记录使用的顺序，实现了双向链表，便于快速移除最久未使用的元素。每次访问一个元素时，将其移动到链表头部；每次插入新元素时，如果缓存已满，则移除链表尾部的元素。这样便实现了LRU缓存机制。
