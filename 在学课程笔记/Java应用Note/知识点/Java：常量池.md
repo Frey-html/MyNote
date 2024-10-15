@@ -1,0 +1,1 @@
+[JAVA常量池，一篇文章就足够入门了。（含图解）_javaclass常量池-CSDN博客](https://blog.csdn.net/qq_41376740/article/details/80338158)

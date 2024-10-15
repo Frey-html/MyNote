@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "701a1e700658d632",
+        "id": "b1a1db13e9a61846",
         "type": "tabs",
         "children": [
           {
-            "id": "fddd2efb652c70fc",
+            "id": "9dc84037b71d4a6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试知识点.md",
+                "file": "在学课程笔记/Java应用Note/Java数独报告.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "final",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试知识点.md",
+                "file": "在学课程笔记/Java应用Note/Java数独报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试知识点.md",
+                "file": "在学课程笔记/Java应用Note/Java数独报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试知识点.md"
+                "file": "在学课程笔记/Java应用Note/Java数独报告.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,53 +158,53 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fddd2efb652c70fc",
+  "active": "08c8582ddd091ace",
   "lastOpenFiles": [
+    "在学课程笔记/Java应用Note/HW1.md",
+    "在学课程笔记/Java应用Note/知识点/Java：Pakage声明.md",
+    "语言学习/C++/C++：关键字new与malloc.md",
+    "在学课程笔记/Java应用Note/知识点/Java：常量池.md",
+    "求职记录.md",
     "读书随笔.md",
     "面试知识点.md",
+    "0主页.md",
     "知识仓库.md",
-    "求职记录.md",
+    "语言学习/C++/C++：0参考资料0.md",
+    "在学课程资料/Java/8e85da34a5a64dd592240e41308d6e63/83e2d3c4031c4f36b5fcf810cea214ba.pdf",
+    "在学课程资料/Java/8e85da34a5a64dd592240e41308d6e63",
+    "在学课程资料/Java/040063b0e05a4ec4bcb9fc5517bc2ba4/080794bed76a4316bcc9cd63ad9f3db2.pdf",
+    "在学课程资料/Java/040063b0e05a4ec4bcb9fc5517bc2ba4",
+    "在学课程资料/Java/6a58380ad2684e3abdbe6009b6827003/7235049d07924b7b9dc64a71503b0b47.pdf",
+    "在学课程资料/Java/6a58380ad2684e3abdbe6009b6827003",
+    "在学课程资料/Java/2540f9da17a747c18faae0af1aeb5f12/3dc9517020f247b3830e610191b30b82.pdf",
+    "在学课程资料/Java/2540f9da17a747c18faae0af1aeb5f12",
+    "在学课程资料/体系结构/7195c03cf9d4472da30700e60254b918/3df868e0c4c844d1a971bee4cd4b6935.pdf",
+    "在学课程资料/体系结构/7195c03cf9d4472da30700e60254b918",
+    "0杂项/学习路线整理.md",
+    "语言学习/C++/C++：类的多态.md",
+    "语言学习/C++/C++：类的继承.md",
+    "游戏开发/知识点/网络：传输层TCP与UDP.md",
+    "0杂项/Pic/Pasted image 20241015083248.png",
+    "0杂项/Pic/Pasted image 20241015083240.png",
+    "0杂项/Pic/Pasted image 20241015083153.png",
+    "0杂项/Pic/Pasted image 20241015083123.png",
+    "0杂项/Pic/Pasted image 20241015083012.png",
+    "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
+    "游戏开发/知识点/unity：软件架构模式.md",
+    "在学课程笔记/体系结构Note/知识点/Cache优化：Virtually Indexed physically Taged Cache.md",
+    "游戏开发/知识点/unity：空间划分与碰撞检测.md",
+    "0杂项/Pic/Pasted image 20241014220125.png",
+    "0杂项/Pic/Pasted image 20241014220102.png",
+    "0杂项/Pic/Pasted image 20241014215959.png",
+    "在学课程笔记/体系结构Note/HW2-GPT.md",
+    "在学课程笔记/体系结构Note/HW1.md",
+    "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：数据冒险与控制冒险概述.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
+    "0杂项/Pic/客户端JD.jpg",
     "语言学习/C++/C++：野指针与安全（智能指针）.md",
     "刷题进度.md",
-    "主页.md",
     "计算机基础/操作系统/计算机操作系统.md",
-    "语言学习/C++/C++：关键字move移动语意.md",
-    "计算机基础/操作系统/第二章 进程的描述与控制/第二章 进程的描述与控制.md",
-    "语言学习/C++/C++：关键字constexpr与explicit.md",
-    "语言学习/C++/C++：标准库容器详解.md",
-    "语言学习/C++/C++：标准库堆的使用.md",
-    "语言学习/C++/C++：0参考资料0.md",
-    "语言学习/C++",
-    "语言学习/C++/C++：关键字noexcept.md",
-    "语言学习",
-    "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
-    "在学课程资料/体系结构/e897a968476045168484be24f68794ca",
-    "在学课程笔记/体系结构Note/HW2.md",
-    "在学课程笔记/体系结构Note/知识点/Memory：Cache write strategy.md",
-    "在学课程笔记/体系结构Note/知识点/Memory：Page Table.md",
-    "在学课程笔记/体系结构Note/知识点/Memory：Virtual Cache(reduce hit time).md",
-    "在学课程笔记/体系结构Note/Hint.md",
-    "在学课程笔记/体系结构Note/HW1.md",
-    "在学课程笔记/体系结构Note/知识点/Memory：指令取内存完整流程.md",
-    "语言学习/C++/C++：网络编程.md",
-    "语言学习/C++/C++：标准库容器maps与红黑树.md",
-    "0杂项/学习路线整理.md",
-    "在学课程资料/体系结构/体系结构实验/晚ab2指导：中断与异常.pdf - 快捷方式.lnk",
-    "算法学习/知识点",
-    "算法学习",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/RV32core.v",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/ROM_D.v.tmpl",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/ROM_D.v",
-    "在学课程资料/体系结构/体系结构实验/Lab2/upload_template/src/core/rom.hex",
-    "0杂项/Pic/Pasted image 20241013151942.png",
-    "0杂项/Pic/Pasted image 20241013151853.png",
-    "0杂项/Pic/Pasted image 20241013150914.png",
-    "0杂项/Pic/Pasted image 20241013144445.png",
-    "0杂项/Pic/Pasted image 20241013144236.png",
-    "0杂项/Pic/Pasted image 20241011175056.png",
-    "0杂项/Pic/Pasted image 20241011172301.png",
-    "0杂项/Pic/Pasted image 20241011172226.png",
-    "0杂项/Pic/Pasted image 20241011172120.png",
-    "0杂项/Pic/Pasted image 20241011171520.png"
+    "0杂项/Pic/Pasted image 20241013151942.png"
   ]
 }
