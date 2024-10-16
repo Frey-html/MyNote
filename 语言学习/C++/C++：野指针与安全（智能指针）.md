@@ -1,6 +1,10 @@
+[【C++智能指针】unique_ptr的源码详解以及应用实例_uniqueptr源码分析-CSDN博客](https://blog.csdn.net/b_r_ight/article/details/138039520)
+
+#review
 ### 1. **野指针 (Dangling Pointer)**
 
 在 C++中，**野指针**指的是指向无效内存地址的指针。由于野指针指向的内存位置可能已经被释放、被覆盖或根本没有被分配，这种指针的解引用可能会导致程序崩溃或行为异常，出现**未定义行为**（undefined behavior）。野指针常常由以下几种情况引起：
+
 
 #### 1.1 野指针的几种常见情形
 

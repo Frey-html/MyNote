@@ -1,6 +1,8 @@
 [【C++】多态-CSDN](https://blog.csdn.net/weixin_67596609/article/details/131839669)
-[多态（举例+详解）](https://blog.csdn.net/weixin_67596609/article/details/131839669)
 [C++进阶：详解多态](https://blog.csdn.net/qq_74415153/article/details/136761841)
+[C++虚函数表剖析_c++ 虚函数表-CSDN博客](https://blog.csdn.net/lihao21/article/details/50688337)
+
+#review 
 多态是 C++中一个非常重要的概念，下面将详细介绍与多态相关的所有内容，包括虚函数的使用、限制、纯虚函数和纯虚类、函数重写和重载等。
 
 ### 多态概述
