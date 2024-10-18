@@ -4,22 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "c4179a5f4b627f3a",
+        "id": "ce29d7944cd903fb",
         "type": "tabs",
         "children": [
           {
-            "id": "0f77fb86465621f8",
+            "id": "bdbc82ecb773430b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言学习/C++/C++：语法lambda expression.md",
+                "file": "语言学习/C++/C++：内存野指针与安全（智能指针）.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "C++：内存野指针与安全（智能指针）"
+            }
+          },
+          {
+            "id": "da5a18af64bb779f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/知识点/存储：磁盘调度算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "存储：磁盘调度算法"
+            }
+          },
+          {
+            "id": "5712dab5054f5913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网络：TCP连接三次握手与四次挥手"
+            }
+          },
+          {
+            "id": "6467b3a149cebc75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/完成项目/CardGame文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CardGame文档"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -39,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +95,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lambda",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabeticalReverse"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,11 +111,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语言学习/C++/C++：语法lambda expression.md",
+                "file": "游戏开发/完成项目/CardGame文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +144,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CardGame文档"
             }
           },
           {
@@ -103,10 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语言学习/C++/C++：语法lambda expression.md",
+                "file": "游戏开发/完成项目/CardGame文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CardGame文档"
             }
           },
           {
@@ -117,7 +171,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,8 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言学习/C++/C++：语法lambda expression.md"
-              }
+                "file": "游戏开发/完成项目/CardGame文档.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CardGame文档"
             }
           },
           {
@@ -135,47 +193,70 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "209434306d5f2e08",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0f77fb86465621f8",
+  "active": "6467b3a149cebc75",
   "lastOpenFiles": [
-    "语言学习/C++/C++：关键字decltype.md",
-    "语言学习/C++/C++：语法仿函数.md",
-    "语言学习/C++/C++：标准库容器详解.md",
-    "语言学习/C++/C++：标准库函数包装function.md",
-    "语言学习/C++/C++：标准库容器PriorityQueue.md",
-    "语言学习/C++/C++：新特性.md",
-    "语言学习/C++/C++：0参考资料0.md",
-    "语言学习/C++/C++：算法库algorithm.md",
+    "个人资料/简历-展翼飞.pdf",
+    "语言学习/C++/C++：编译main前后执行流程.md",
+    "游戏开发/完成项目/CardGame文档.md",
+    "游戏开发/知识点/存储：磁盘调度算法.md",
+    "游戏开发/知识点/编译：特性，反射，热更新与DLL.md",
+    "语言学习/C++/C++：语法lambda expression.md",
+    "语言学习/C++/内存：常见内存分配错误.md",
+    "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
+    "自我介绍及项目介绍.md",
     "语言学习/C++/C++：内存野指针与安全（智能指针）.md",
-    "语言学习/C++/C++：应用_多线程编程.md",
-    "语言学习/C++/C++：运算符优先级.md",
-    "刷题进度.md",
-    "语言学习/C++/C++：应用_网络编程.md",
-    "在学课程资料/工商管理讲座/市场推广.md",
-    "求职记录.md",
-    "工具学习/Git.md",
+    "游戏开发/知识点/Csharp：拆箱与装箱.md",
+    "z已学课程资料/计网/协议详解.md",
+    "计算机基础/计算机网络/第 1 章   概述/第 1 章   概述.md",
+    "语言学习/C++/C++：0参考资料0.md",
+    "z已学课程资料/人工智能安全/论文阅读报告.md",
+    "语言学习/C++/C++：语法左值与右值、右值引用.md",
+    "语言学习/C++/C++：标准库容器maps与红黑树.md",
+    "语言学习/C++/C++：关键字null与nullptr.md",
+    "计算机基础/操作系统/第三章 处理机调度与死锁/第三章 处理机调度与死锁.md",
+    "游戏开发/知识点/常用架构模式.md",
+    "语言学习/C++/C++：关键字decltype.md",
+    "语言学习/C++/C++：新特性.md",
+    "游戏开发/知识点/常用设计模式.md",
+    "游戏开发/知识点/网络：Http与Https.md",
+    "游戏开发/知识点/网络：传输层TCP与UDP.md",
+    "游戏开发/知识点/unity：空间划分与碰撞检测.md",
+    "z已学课程资料/游戏设计/游戏设计 (1)/技术设计.pdf",
     "在学课程资料/操作系统/OS实验/Riscv参考/riscv-sbi.pdf",
     "在学课程资料/操作系统/OS实验/Riscv参考/unpriv-isa-asciidoc.pdf",
     "在学课程资料/操作系统/OS实验/Riscv参考/priv-isa-asciidoc.pdf",
@@ -184,19 +265,7 @@
     "在学课程资料/操作系统/OS实验/Lab1/实验报告Lab1.pdf",
     "在学课程资料/操作系统/OS实验/Lab1/OS lab1.pdf",
     "在学课程资料/操作系统/OS实验/Lab1/Lab1.zip",
-    "在学课程资料/操作系统/OS实验/Lab1/code.zip",
-    "在学课程资料/操作系统/OS实验/Lab2",
-    "工具学习/Vscode/Vscode：编译与debug配置.md",
-    "语言学习/C++/VScode.md",
     "0杂项/Pic/Pasted image 20241016150432.png",
-    "语言学习/C++/C++：异常处理.md",
-    "语言学习/C++/C++：语法lambda expression.md",
-    "游戏开发/知识点/线程：线程同步.md",
-    "游戏开发/知识点/unity：协程与线程.md",
-    "语言学习/C++/C++：语法运算符重载.md",
-    "0主页.md",
-    "知识仓库.md",
-    "面试知识点.md",
     "0杂项/Pic/Pasted image 20241015083248.png",
     "0杂项/Pic/Pasted image 20241015083240.png",
     "0杂项/Pic/Pasted image 20241015083153.png",
