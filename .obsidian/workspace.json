@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ce29d7944cd903fb",
+        "id": "a58fce6d8a634404",
         "type": "tabs",
         "children": [
           {
-            "id": "bdbc82ecb773430b",
+            "id": "f27be5783e10df46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言学习/C++/C++：内存野指针与安全（智能指针）.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++：内存野指针与安全（智能指针）"
-            }
-          },
-          {
-            "id": "da5a18af64bb779f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/存储：磁盘调度算法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "存储：磁盘调度算法"
-            }
-          },
-          {
-            "id": "5712dab5054f5913",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "网络：TCP连接三次握手与四次挥手"
-            }
-          },
-          {
-            "id": "6467b3a149cebc75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/完成项目/CardGame文档.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CardGame文档"
+              "title": "Lab1：Riscv汇编"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -103,7 +60,7 @@
                 "sortOrder": "alphabeticalReverse"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -113,10 +70,11 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,80 +140,93 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/完成项目/CardGame文档.md"
+                "file": "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of CardGame文档"
+              "title": "Lab2：dummy与_dummy 的大纲"
             }
           },
           {
-            "id": "2451ceb4066b7829",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "209434306d5f2e08",
+            "id": "7ccd783b3a81e322",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "51a1c8e4fc25621b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "2ae69a3aedd2c7e3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6467b3a149cebc75",
+  "active": "f27be5783e10df46",
   "lastOpenFiles": [
-    "个人资料/简历-展翼飞.pdf",
-    "语言学习/C++/C++：编译main前后执行流程.md",
-    "游戏开发/完成项目/CardGame文档.md",
-    "游戏开发/知识点/存储：磁盘调度算法.md",
-    "游戏开发/知识点/编译：特性，反射，热更新与DLL.md",
-    "语言学习/C++/C++：语法lambda expression.md",
-    "语言学习/C++/内存：常见内存分配错误.md",
-    "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：线程初始化proc.c.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md",
+    "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
+    "在学课程笔记/操作系统Note/Lab2 Report.md",
+    "求职记录.md",
+    "面试知识点.md",
     "自我介绍及项目介绍.md",
-    "语言学习/C++/C++：内存野指针与安全（智能指针）.md",
-    "游戏开发/知识点/Csharp：拆箱与装箱.md",
-    "z已学课程资料/计网/协议详解.md",
-    "计算机基础/计算机网络/第 1 章   概述/第 1 章   概述.md",
+    "0主页.md",
+    "1知识仓库.md",
+    "2刷题进度.md",
+    "读书随笔.md",
+    "0杂项/Pic/Pasted image 20241018155115.png",
+    "0杂项/Pic/Pasted image 20241018152902.png",
+    "毕设想法.md",
+    "语言学习/C++/STLtutorial1.md",
     "语言学习/C++/C++：0参考资料0.md",
-    "z已学课程资料/人工智能安全/论文阅读报告.md",
-    "语言学习/C++/C++：语法左值与右值、右值引用.md",
-    "语言学习/C++/C++：标准库容器maps与红黑树.md",
-    "语言学习/C++/C++：关键字null与nullptr.md",
-    "计算机基础/操作系统/第三章 处理机调度与死锁/第三章 处理机调度与死锁.md",
-    "游戏开发/知识点/常用架构模式.md",
-    "语言学习/C++/C++：关键字decltype.md",
-    "语言学习/C++/C++：新特性.md",
-    "游戏开发/知识点/常用设计模式.md",
-    "游戏开发/知识点/网络：Http与Https.md",
-    "游戏开发/知识点/网络：传输层TCP与UDP.md",
-    "游戏开发/知识点/unity：空间划分与碰撞检测.md",
+    "语言学习/C++/C++：语法智能指针.md",
+    "语言学习/C++/C++：类的初始化.md",
+    "语言学习/C++/STLtutorial3.md",
+    "语言学习/C++/STLtutorial2.md",
+    "语言学习/C++/C++：标准库STL.md",
+    "语言学习/C++/C++：标准库STL.md",
+    "语言学习/C++/C++：编译main前后执行流程.md",
+    "语言学习/C++/STLtutorial4.md",
+    "语言学习/C++/tutorial4 1.md",
+    "语言学习/C++/tutorial3 1.md",
+    "语言学习/C++/tutorial2 1.md",
+    "语言学习/C++/tutorial1 1.md",
+    "个人资料/简历-展翼飞.pdf",
     "z已学课程资料/游戏设计/游戏设计 (1)/技术设计.pdf",
     "在学课程资料/操作系统/OS实验/Riscv参考/riscv-sbi.pdf",
     "在学课程资料/操作系统/OS实验/Riscv参考/unpriv-isa-asciidoc.pdf",
@@ -272,8 +243,6 @@
     "0杂项/Pic/Pasted image 20241015083123.png",
     "0杂项/Pic/Pasted image 20241015083012.png",
     "0杂项/Pic/Pasted image 20241014220125.png",
-    "0杂项/Pic/Pasted image 20241014220102.png",
-    "0杂项/Pic/Pasted image 20241014215959.png",
-    "0杂项/Pic/客户端JD.jpg"
+    "0杂项/Pic/Pasted image 20241014220102.png"
   ]
 }
