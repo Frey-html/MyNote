@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "a58fce6d8a634404",
+        "id": "6ca87e0181577fb2",
         "type": "tabs",
         "children": [
           {
-            "id": "f27be5783e10df46",
+            "id": "27f575617b43fc07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab1：Riscv汇编"
+              "title": "Lab2：mminit解析"
+            }
+          },
+          {
+            "id": "2f0afd00a45416fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lab2：上下文切换的寄存器保存"
+            }
+          },
+          {
+            "id": "438cca797fcaab24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lab2：mminit解析"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,8 +102,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,48 +168,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md"
+                "file": "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md"
               },
               "icon": "lucide-list",
-              "title": "Lab2：dummy与_dummy 的大纲"
-            }
-          },
-          {
-            "id": "7ccd783b3a81e322",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
-            "id": "51a1c8e4fc25621b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "2ae69a3aedd2c7e3",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
+              "title": "Lab2：上下文切换的寄存器保存 的大纲"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 352.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,12 +194,31 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "f27be5783e10df46",
+  "active": "2f0afd00a45416fd",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/知识点/Lab2：线程初始化proc.c.md",
-    "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md",
-    "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md",
     "在学课程笔记/操作系统Note/Lab2 Report.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md",
+    "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
+    "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/RV32core.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ROM_D.v.tmpl",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ROM_D.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_IF_ID.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_MEM_WB.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_EX_MEM.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_ID_EX.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/Regs.v",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/RAM_B.v.tmpl",
+    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ImmGen.v",
+    "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
+    "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
+    "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs模块实现.md",
+    "0杂项/Pic/Pasted image 20241021095605.png",
+    "0杂项/Pic/Pasted image 20241021095534.png",
+    "在学课程笔记/操作系统Note/知识点/Lab1：Riscv汇编.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：线程初始化proc.c.md",
     "求职记录.md",
     "面试知识点.md",
     "自我介绍及项目介绍.md",
@@ -219,30 +236,11 @@
     "语言学习/C++/STLtutorial3.md",
     "语言学习/C++/STLtutorial2.md",
     "语言学习/C++/C++：标准库STL.md",
-    "语言学习/C++/C++：标准库STL.md",
-    "语言学习/C++/C++：编译main前后执行流程.md",
-    "语言学习/C++/STLtutorial4.md",
-    "语言学习/C++/tutorial4 1.md",
-    "语言学习/C++/tutorial3 1.md",
-    "语言学习/C++/tutorial2 1.md",
-    "语言学习/C++/tutorial1 1.md",
-    "个人资料/简历-展翼飞.pdf",
-    "z已学课程资料/游戏设计/游戏设计 (1)/技术设计.pdf",
-    "在学课程资料/操作系统/OS实验/Riscv参考/riscv-sbi.pdf",
-    "在学课程资料/操作系统/OS实验/Riscv参考/unpriv-isa-asciidoc.pdf",
-    "在学课程资料/操作系统/OS实验/Riscv参考/priv-isa-asciidoc.pdf",
-    "在学课程资料/操作系统/OS实验/Riscv参考",
-    "在学课程资料/操作系统/OS实验/Lab1/实验报告Lab1.txt",
-    "在学课程资料/操作系统/OS实验/Lab1/实验报告Lab1.pdf",
-    "在学课程资料/操作系统/OS实验/Lab1/OS lab1.pdf",
-    "在学课程资料/操作系统/OS实验/Lab1/Lab1.zip",
     "0杂项/Pic/Pasted image 20241016150432.png",
     "0杂项/Pic/Pasted image 20241015083248.png",
     "0杂项/Pic/Pasted image 20241015083240.png",
     "0杂项/Pic/Pasted image 20241015083153.png",
     "0杂项/Pic/Pasted image 20241015083123.png",
-    "0杂项/Pic/Pasted image 20241015083012.png",
-    "0杂项/Pic/Pasted image 20241014220125.png",
-    "0杂项/Pic/Pasted image 20241014220102.png"
+    "0杂项/Pic/Pasted image 20241015083012.png"
   ]
 }
