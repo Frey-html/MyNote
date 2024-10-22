@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
+                "file": "在学课程笔记/操作系统Note/Lab2 Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab2：mminit解析"
-            }
-          },
-          {
-            "id": "2f0afd00a45416fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lab2：上下文切换的寄存器保存"
-            }
-          },
-          {
-            "id": "438cca797fcaab24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lab2：mminit解析"
+              "title": "Lab2 Report"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "类型转换",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -168,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md"
+                "file": "在学课程笔记/操作系统Note/Lab2 Report.md"
               },
               "icon": "lucide-list",
-              "title": "Lab2：上下文切换的寄存器保存 的大纲"
+              "title": "Lab2 Report 的大纲"
             }
           }
         ],
@@ -190,28 +161,44 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-spaced-repetition:复习卡片": false
+      "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "2f0afd00a45416fd",
+  "active": "27f575617b43fc07",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
+    "游戏开发/自我介绍及项目介绍.md",
+    "游戏开发/项目：U3d仿Hades动作Rouge开发.md",
+    "在学课程笔记/Java应用Note/知识点/Java：常量池.md",
+    "语言学习/C++/C++：语法类型转换.md",
+    "在学课程笔记/Java应用Note/知识点/Java：关键字Pakage声明.md",
+    "在学课程笔记/Java应用Note/知识点/Java：多态匹配与绑定.md",
+    "在学课程笔记/Java应用Note/Homework1report.md",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework1/Homework1report.pdf",
+    "在学课程笔记/Java应用Note/Homework2Report.md",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework1/Sudoku.java",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework1/新建文本文档.txt",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework1/新建文件夹",
+    "在学课程资料/Java/6961062d83644a7094d4da44e26a367e/9c9078436efb4fbc9a0d327c9c3de410.pdf",
+    "在学课程资料/Java/6961062d83644a7094d4da44e26a367e",
+    "在学课程资料/Java/f47b781194ea4434b7f7c6a4e926bbbb/39377b9b27e34838aba173c51a94686e.pdf",
+    "在学课程资料/Java/f47b781194ea4434b7f7c6a4e926bbbb",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework2.zip",
+    "在学课程资料/Java/HW/3190102196_展翼飞_homework1",
+    "个人资料/生活照.jpg",
+    "个人资料/证件照.jpg",
+    "个人资料/个人资料.md",
+    "算法学习/个人资料/证件照.jpg",
+    "算法学习/个人资料/生活照.jpg",
+    "算法学习/个人资料/个人资料.md",
+    "0杂项/Pic/Pasted image 20241022144042.png",
+    "在学课程笔记/Java应用Note/Java爬虫报告.md",
+    "在学课程笔记/Java应用Note/HW1.md",
     "在学课程笔记/操作系统Note/知识点/Lab2：上下文切换的寄存器保存.md",
+    "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
     "在学课程笔记/操作系统Note/Lab2 Report.md",
     "在学课程笔记/操作系统Note/知识点/Lab2：dummy与_dummy.md",
     "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
     "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/RV32core.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ROM_D.v.tmpl",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ROM_D.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_IF_ID.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_MEM_WB.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_EX_MEM.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/REG_ID_EX.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/Regs.v",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/RAM_B.v.tmpl",
-    "在学课程资料/体系结构/体系结构实验/ArchLab3&4/Lab3&4/lab4/upload_template/src/core/ImmGen.v",
     "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
     "在学课程笔记/体系结构Note/知识点/Lab2：ExceptionUnit.md",
     "在学课程笔记/体系结构Note/知识点/Lab2：CSRRegs模块实现.md",
@@ -221,26 +208,9 @@
     "在学课程笔记/操作系统Note/知识点/Lab2：线程初始化proc.c.md",
     "求职记录.md",
     "面试知识点.md",
-    "自我介绍及项目介绍.md",
     "0主页.md",
-    "1知识仓库.md",
-    "2刷题进度.md",
-    "读书随笔.md",
     "0杂项/Pic/Pasted image 20241018155115.png",
     "0杂项/Pic/Pasted image 20241018152902.png",
-    "毕设想法.md",
-    "语言学习/C++/STLtutorial1.md",
-    "语言学习/C++/C++：0参考资料0.md",
-    "语言学习/C++/C++：语法智能指针.md",
-    "语言学习/C++/C++：类的初始化.md",
-    "语言学习/C++/STLtutorial3.md",
-    "语言学习/C++/STLtutorial2.md",
-    "语言学习/C++/C++：标准库STL.md",
-    "0杂项/Pic/Pasted image 20241016150432.png",
-    "0杂项/Pic/Pasted image 20241015083248.png",
-    "0杂项/Pic/Pasted image 20241015083240.png",
-    "0杂项/Pic/Pasted image 20241015083153.png",
-    "0杂项/Pic/Pasted image 20241015083123.png",
-    "0杂项/Pic/Pasted image 20241015083012.png"
+    "0杂项/Pic/Pasted image 20241016150432.png"
   ]
 }
