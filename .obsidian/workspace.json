@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/知识点/unity：0参考资料0.md",
+                "file": "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "unity：0参考资料0"
+              "title": "Lab4：cmu模块"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/知识点/unity：0参考资料0.md"
+                "file": "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of unity：0参考资料0"
+              "title": "Lab4：cmu模块 的大纲"
             }
           }
         ],
@@ -154,29 +154,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false
     }
   },
   "active": "ad57659522d6886f",
   "lastOpenFiles": [
+    "在学课程笔记/体系结构Note/HW1.md",
+    "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
     "1知识仓库.md",
-    "2学习路线.md",
-    "在学课程笔记/Games101.md",
-    "游戏开发/Unity.md",
-    "游戏开发/知识点/unity：0参考资料0.md",
     "求职记录.md",
     "面试知识点.md",
+    "读书随笔.md",
+    "游戏开发/知识点/unity：0参考资料0.md",
+    "在学课程笔记/Games101",
+    "2学习路线.md",
+    "在学课程笔记/Games101/Games101.md",
+    "游戏开发/Unity.md",
     "游戏开发/自我介绍及项目介绍.md",
     "游戏开发/项目：U3d仿Hades动作Rouge开发.md",
     "毕设想法.md",
-    "读书随笔.md",
     "3刷题进度.md",
     "语言学习/C++/C++：0参考资料0.md",
     "游戏开发/知识点/unity：工具_Lua热加载.md",
@@ -190,8 +193,6 @@
     "游戏开发/知识点/unity：系统_协程与线程.md",
     "游戏开发/知识点/unity：渲染_渲染管线与shader.md",
     "游戏开发/知识点/unity：系统_ui与canvas.md",
-    "游戏开发/知识点/unity：算法_空间划分与碰撞检测.md",
-    "语言学习/Csharp/0Csharp参考资料.md",
     "语言学习/Csharp",
     "游戏开发/GameSample/water2d-unity-master.zip",
     "游戏开发/GameSample/Unity-ARPGGameDemo-TheDawnAbyss-main.zip",
@@ -201,7 +202,6 @@
     "在学课程资料/操作系统/OS实验/Lab2/code.zip",
     "在学课程资料/操作系统/OS实验/Lab2/lab2.zip",
     "在学课程资料/操作系统/OS实验/Lab2/Lab2 Report.txt",
-    "在学课程资料/操作系统/OS实验/Lab2/新建文本文档.txt",
     "0杂项/Pic/c10e948ee0527449fec9b1713d2c3ed.jpg",
     "0杂项/Pic/Pasted image 20241023190249.png",
     "0杂项/Pic/Pasted image 20241023135203.png",
