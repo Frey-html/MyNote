@@ -1,6 +1,9 @@
 #### Unity标准查阅
 [Unity User Manual 2021.3 (LTS) - Unity 手册](https://docs.unity.cn/cn/current/Manual/index.html)
 
+#### 学习路线
+[worrenwyg/UnityPath: Unity3D学习路线（包含源码资料）](https://github.com/worrenwyg/UnityPath)
+
 #### 教程网站
 [【唐老狮】Unity系列之Unity四部曲—Unity入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1HX4y1V71E/)
 [Brackeys - YouTube](https://www.youtube.com/@Brackeys)
