@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/知识点/unity：0参考资料0.md",
+                "file": "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "unity：0参考资料0"
+              "title": "Lab3：cache模块"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "u_b",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/知识点/unity：0参考资料0.md"
+                "file": "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of unity：0参考资料0"
+              "title": "Lab3：cache模块 的大纲"
             }
           }
         ],
@@ -154,42 +155,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "a0e2cd612cad8e09",
+  "active": "08c8582ddd091ace",
   "lastOpenFiles": [
+    "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
+    "在学课程笔记/Games101/线代期末考试复习知识点概要.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_22.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_21.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_20.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_19.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_17.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_16.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_15.pdf",
+    "在学课程笔记/Games101/GAMES101_Lecture_14.pdf",
     "在学课程笔记/Games101/GAMES101_Lecture_13.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_12.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_11.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_10.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_09.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_08.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_07.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_06.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_05.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_04.pdf",
-    "在学课程笔记/Games101/GAMES101_Lecture_03.pdf",
+    "在学课程笔记/体系结构Note/HW1.md",
     "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
-    "在学课程笔记/Games101/Games101.md",
     "1知识仓库.md",
-    "2学习路线.md",
-    "在学课程笔记/Games101.md",
-    "游戏开发/Unity.md",
-    "游戏开发/知识点/unity：0参考资料0.md",
     "求职记录.md",
     "面试知识点.md",
+    "读书随笔.md",
+    "游戏开发/知识点/unity：0参考资料0.md",
+    "2学习路线.md",
+    "在学课程笔记/Games101/Games101.md",
+    "游戏开发/Unity.md",
     "游戏开发/自我介绍及项目介绍.md",
     "游戏开发/项目：U3d仿Hades动作Rouge开发.md",
     "毕设想法.md",
-    "读书随笔.md",
     "3刷题进度.md",
     "语言学习/C++/C++：0参考资料0.md",
     "游戏开发/知识点/unity：工具_Lua热加载.md",
