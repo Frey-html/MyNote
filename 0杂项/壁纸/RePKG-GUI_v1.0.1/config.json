@@ -1,0 +1,11 @@
+{
+  "LocalSaver": {
+    "directoryName": true
+  },
+  "Conversion": {
+    "onlyImage": true,
+    "tex": false,
+    "singledir": true,
+    "overwrite": true
+  }
+}
