@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
+                "file": "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab3：cache模块"
+              "title": "OS：Multi-threading and Callbacks"
             }
           }
         ]
@@ -73,8 +73,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md"
+                "file": "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md"
               },
               "icon": "lucide-list",
-              "title": "Lab3：cache模块 的大纲"
+              "title": "OS：Multi-threading and Callbacks 的大纲"
             }
           }
         ],
@@ -165,8 +164,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "08c8582ddd091ace",
+  "active": "ad57659522d6886f",
   "lastOpenFiles": [
+    "在学课程笔记/操作系统Note/知识点/OS：内存页表（多级，哈希与倒排）.md",
+    "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md",
+    "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
     "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
     "在学课程笔记/Games101/线代期末考试复习知识点概要.pdf",
     "在学课程笔记/Games101/GAMES101_Lecture_22.pdf",
@@ -200,9 +202,6 @@
     "游戏开发/知识点/unity：渲染_shader中的顶点信息详解.md",
     "游戏开发/知识点/unity：系统_navmesh.md",
     "游戏开发/知识点/unity：语法_事件消息范围.md",
-    "游戏开发/知识点/unity：系统_协程.md",
-    "游戏开发/知识点/unity：系统_协程与线程.md",
-    "游戏开发/知识点/unity：渲染_渲染管线与shader.md",
     "0杂项/Pic/c10e948ee0527449fec9b1713d2c3ed.jpg",
     "0杂项/Pic/Pasted image 20241023190249.png",
     "0杂项/Pic/Pasted image 20241023135203.png",
