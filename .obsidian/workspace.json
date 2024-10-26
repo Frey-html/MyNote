@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "u_b",
+                "query": "dp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabeticalReverse"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -73,7 +73,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +143,11 @@
                 "file": "算法学习/知识点/算法：动态规划.md"
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "算法：动态规划 的大纲"
+=======
+              "title": "Outline of 算法：动态规划"
+>>>>>>> 90149fcba4da2ca64d0ed952a7bfb69f94879572
             }
           }
         ],
@@ -154,18 +159,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-kanban:创建新看板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "ad57659522d6886f",
   "lastOpenFiles": [
+<<<<<<< HEAD
+=======
+    "3刷题进度.md",
+    "求职记录.md",
+    "面试知识点.md",
+    "读书随笔.md",
+    "2学习路线.md",
+    "毕设想法.md",
+>>>>>>> 90149fcba4da2ca64d0ed952a7bfb69f94879572
     "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md",
     "在学课程笔记/操作系统Note/知识点/OS：内存页表（多级，哈希与倒排）.md",
     "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
@@ -183,17 +197,11 @@
     "在学课程笔记/体系结构Note/HW1.md",
     "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
     "1知识仓库.md",
-    "求职记录.md",
-    "面试知识点.md",
-    "读书随笔.md",
     "游戏开发/知识点/unity：0参考资料0.md",
-    "2学习路线.md",
     "在学课程笔记/Games101/Games101.md",
     "游戏开发/Unity.md",
     "游戏开发/自我介绍及项目介绍.md",
     "游戏开发/项目：U3d仿Hades动作Rouge开发.md",
-    "毕设想法.md",
-    "3刷题进度.md",
     "语言学习/C++/C++：0参考资料0.md",
     "游戏开发/知识点/unity：工具_Lua热加载.md",
     "游戏开发/知识点/unity：游戏框架.md",
