@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md",
+                "file": "算法学习/知识点/算法：动态规划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS：Multi-threading and Callbacks"
+              "title": "算法：动态规划"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md"
+                "file": "算法学习/知识点/算法：动态规划.md"
               },
               "icon": "lucide-list",
-              "title": "OS：Multi-threading and Callbacks 的大纲"
+              "title": "算法：动态规划 的大纲"
             }
           }
         ],
@@ -166,8 +166,8 @@
   },
   "active": "ad57659522d6886f",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/知识点/OS：内存页表（多级，哈希与倒排）.md",
     "在学课程笔记/操作系统Note/知识点/OS：Multi-threading and Callbacks.md",
+    "在学课程笔记/操作系统Note/知识点/OS：内存页表（多级，哈希与倒排）.md",
     "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
     "在学课程笔记/体系结构Note/知识点/Lab4：cmu模块.md",
     "在学课程笔记/Games101/线代期末考试复习知识点概要.pdf",
