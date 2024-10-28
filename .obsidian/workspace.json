@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d191b82bff6034db",
+        "id": "2bba13466167bac3",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8af5b9e7190bc6",
+            "id": "16ee0211e56f27f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md",
+                "file": "3刷题进度.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNA前向纠错文章翻译总结"
+              "title": "3刷题进度"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#review",
+                "query": "动态规划",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md"
+                "file": "3刷题进度.md"
               },
               "icon": "lucide-list",
-              "title": "DNA前向纠错文章翻译总结 的大纲"
+              "title": "3刷题进度 的大纲"
             }
           }
         ],
@@ -164,10 +164,18 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "2a8af5b9e7190bc6",
+  "active": "16ee0211e56f27f6",
   "lastOpenFiles": [
-    "在学课程资料/细胞分子生物学/作业1-展翼飞-3190102196.md",
+    "算法学习/知识点/算法：动态规划.md",
+    "3刷题进度.md",
+    "4TODO List.md",
+    "毕设想法.md",
+    "读书随笔.md",
+    "秋招记录.md",
+    "面试知识点.md",
+    "2学习路线.md",
     "在学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md",
+    "在学课程资料/细胞分子生物学/作业1-展翼飞-3190102196.md",
     "在学课程笔记/体系结构Note/知识点/ILP：tomasulo算法.md",
     "在学课程资料/体系结构/b71e1462a3a9467687670660a9f0786b",
     "在学课程笔记/体系结构Note/知识点/ILP：scoreboard算法.md",
@@ -182,25 +190,17 @@
     "在学课程笔记/计算理论Note/知识点/L1：不可表达语言.md",
     "在学课程笔记/计算理论Note/知识点/L1：有穷语言.md",
     "在学课程笔记/计算理论Note/知识点/L1：Right Quotient and Regular expression.md",
-    "4TODO List.md",
     "工具学习/Obsidan行内公式Latex语法.md",
     "工具学习/Python.md",
     "游戏开发/知识点/常用架构模式.md",
     "语言学习/C++/C++：类的多态.md",
-    "面试知识点.md",
     "在学课程笔记/操作系统Note/Lab2 Report.md",
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
-    "3刷题进度.md",
-    "2学习路线.md",
-    "算法学习/知识点/算法：动态规划.md",
-    "求职记录.md",
     "在学课程资料/操作系统/44feda4d8d9e462592139642825b2a38/8326b6cc4645462bb42ed288d73c55e8.pdf",
     "在学课程资料/操作系统/44feda4d8d9e462592139642825b2a38",
     "在学课程资料/操作系统/25f88e00b680491e86431a161c837081/ea32297c170e4a1b9ebc8d1e8a1613ec.pdf",
     "在学课程资料/操作系统/25f88e00b680491e86431a161c837081",
     "在学课程资料/操作系统/fb86131cd5854ad6a3892db677d3c0ed/802b7a7d66e5482cb7ef31dd0d320f84.pdf",
     "在学课程资料/操作系统/fb86131cd5854ad6a3892db677d3c0ed",
-    "在学课程资料/操作系统/ec7755a9550f416ba91f3687e84c7132/81261197f62e4b73a21d5aff0ad43495.pdf",
-    "读书随笔.md"
+    "在学课程资料/操作系统/ec7755a9550f416ba91f3687e84c7132/81261197f62e4b73a21d5aff0ad43495.pdf"
   ]
 }
