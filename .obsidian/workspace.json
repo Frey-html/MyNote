@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab2 Report.md",
+                "file": "在学课程笔记/体系结构Note/知识点/ILP：scoreboard算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab2 Report"
+              "title": "ILP：scoreboard算法"
+            }
+          },
+          {
+            "id": "70faea09a7553bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "在学课程笔记/体系结构Note/知识点/ILP：tomasulo算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ILP：tomasulo算法"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab2 Report.md"
+                "file": "在学课程笔记/体系结构Note/知识点/ILP：tomasulo算法.md"
               },
               "icon": "lucide-list",
-              "title": "Lab2 Report 的大纲"
+              "title": "ILP：tomasulo算法 的大纲"
             }
           }
         ],
@@ -164,11 +179,30 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "40520e6fe30801cf",
+  "active": "70faea09a7553bbb",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
-    "在学课程笔记/操作系统Note/Lab2 Report.md",
+    "在学课程资料/体系结构/b71e1462a3a9467687670660a9f0786b",
+    "在学课程笔记/体系结构Note/知识点/ILP：scoreboard算法.md",
+    "在学课程笔记/体系结构Note/知识点/ILP：tomasulo算法.md",
+    "在学课程资料/体系结构/ae47644a0f7740859a29f3cb97098a3b/727874e4bffe48e796b81d60aa2507a6.pdf",
+    "在学课程资料/体系结构/ae47644a0f7740859a29f3cb97098a3b",
+    "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
+    "在学课程笔记/体系结构Note/知识点/Cache优化：Virtually Indexed physically Taged Cache.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：指令取内存完整流程.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：virtual memory and TLB.md",
+    "在学课程笔记/计算理论Note/Hint.md",
+    "在学课程笔记/计算理论Note/知识点/L1：正则表达式.md",
+    "在学课程笔记/计算理论Note/知识点/L1：不可表达语言.md",
+    "在学课程笔记/计算理论Note/知识点/L1：有穷语言.md",
+    "在学课程笔记/计算理论Note/知识点/L1：Right Quotient and Regular expression.md",
     "4TODO List.md",
+    "工具学习/Obsidan行内公式Latex语法.md",
+    "工具学习/Python.md",
+    "游戏开发/知识点/常用架构模式.md",
+    "语言学习/C++/C++：类的多态.md",
+    "面试知识点.md",
+    "在学课程笔记/操作系统Note/Lab2 Report.md",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
     "3刷题进度.md",
     "2学习路线.md",
     "算法学习/知识点/算法：动态规划.md",
@@ -181,12 +215,7 @@
     "在学课程资料/操作系统/fb86131cd5854ad6a3892db677d3c0ed",
     "在学课程资料/操作系统/ec7755a9550f416ba91f3687e84c7132/81261197f62e4b73a21d5aff0ad43495.pdf",
     "在学课程资料/操作系统/ec7755a9550f416ba91f3687e84c7132",
-    "在学课程资料/操作系统/f68a3c77bfc646febacf6956c1a68804/5cd70e165a2d4e988dd02c468c7e8c9d.pdf",
-    "在学课程资料/操作系统/f68a3c77bfc646febacf6956c1a68804",
-    "面试知识点.md",
     "读书随笔.md",
-    "毕设想法.md",
-    "在学课程笔记/体系结构Note/知识点/Memory：Page Table.md",
-    "在学课程笔记/操作系统Note/知识点/OS：内存页表（多级，哈希与倒排）.md"
+    "毕设想法.md"
   ]
 }
