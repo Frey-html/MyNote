@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2bba13466167bac3",
+        "id": "701b2e6d116c998f",
         "type": "tabs",
         "children": [
           {
-            "id": "16ee0211e56f27f6",
+            "id": "73674ed0dd037091",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/知识点/常用架构模式.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用架构模式"
+              "title": "Lab3：vmlinux.lds支持虚拟内存"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#review  ",
+                "query": "STL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab2 Report.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Lab2 Report 的反向链接列表"
+              "title": "Lab3：vmlinux.lds支持虚拟内存 的反向链接列表"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab2 Report.md",
+                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Lab2 Report 的出链列表"
+              "title": "Lab3：vmlinux.lds支持虚拟内存 的出链列表"
             }
           },
           {
@@ -140,14 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/知识点/常用架构模式.md"
+                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 常用架构模式"
+              "title": "Lab3：vmlinux.lds支持虚拟内存 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,53 +153,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "16ee0211e56f27f6",
+  "active": "73674ed0dd037091",
   "lastOpenFiles": [
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "0杂项/Pic/Pasted image 20241029165522.png",
+    "0杂项/Pic/Pasted image 20241029165112.png",
+    "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
+    "0杂项/Pic/Pasted image 20241029164655.png",
+    "0杂项/Pic/Pasted image 20241029164503.png",
+    "在学课程笔记/操作系统Note/知识点/Lab2：mminit解析.md",
+    "在学课程笔记/操作系统Note/Lab2 Report.md",
+    "2学习路线.md",
+    "3刷题进度.md",
+    "1知识仓库.md",
+    "0主页.md",
+    "4TODO List.md",
+    "游戏开发/知识点/常用设计模式.md",
+    "面试知识点.md",
+    "语言学习/C++/STLtutorial1.md",
+    "语言学习/C++/C++：标准库STL.md",
+    "在学课程资料/Java/0680e31eba444acb9520a77b543f9930/dc77bcee209e47d78b5b75527145c2c2.pdf",
+    "在学课程资料/Java/0680e31eba444acb9520a77b543f9930",
+    "在学课程资料/Java/d1bb718b3e15471aa8a4942598e14c51/865333a768fa4649be1edd8d806eb3f4.pdf",
+    "在学课程资料/Java/d1bb718b3e15471aa8a4942598e14c51",
+    "在学课程资料/Java/99661ad431274d3aaa04fdb30c8fa066/8a6a1d7c25ad4b02bc1f57f08780e375.pdf",
+    "在学课程资料/Java/99661ad431274d3aaa04fdb30c8fa066",
+    "在学课程资料/Java/0fb3f86507184affb3198810c16423dd/aa5cb77ce19a4623adceabd02192e125.pdf",
+    "在学课程资料/Java/0fb3f86507184affb3198810c16423dd",
+    "在学课程资料/Java/3b3c6fd8fe9f406ebf58e19f72d82ed2/df50bd264eda43828126ebfad67acce7.pdf",
+    "在学课程资料/Java/3b3c6fd8fe9f406ebf58e19f72d82ed2",
     "算法学习/知识点/算法：动态规划.md",
+    "5秋招记录及春招规划.md",
+    "未命名看板.md",
+    "未命名.canvas",
+    "读书随笔.md",
+    "毕设想法.md",
+    "语言学习/C++/C++：关键字static.md",
+    "游戏开发/知识点/常用架构模式.md",
     "语言学习/C++/C++：编译main前后执行流程.md",
     "语言学习/C++/C++：关键字decltype.md",
     "语言学习/C++/C++：语法左值与右值、右值引用.md",
-    "语言学习/C++/STLtutorial1.md",
     "语言学习/C++/C++：类的多态.md",
-    "游戏开发/知识点/网络：传输层TCP与UDP.md",
-    "游戏开发/知识点/网络：Http与Https.md",
-    "z已学课程资料/计网/协议详解.md",
-    "语言学习/C++/C++：关键字null与nullptr.md",
-    "语言学习/C++/C++：语法智能指针.md",
-    "游戏开发/知识点/unity：算法_空间划分与碰撞检测.md",
-    "游戏开发/知识点/常用架构模式.md",
-    "面试知识点.md",
-    "游戏开发/知识点/网络：TCP连接三次握手与四次挥手.md",
-    "5秋招记录及春招规划.md",
-    "读书随笔.md",
-    "毕设想法.md",
-    "4TODO List.md",
-    "3刷题进度.md",
-    "2学习路线.md",
-    "在学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md",
-    "在学课程资料/细胞分子生物学/作业1-展翼飞-3190102196.md",
-    "在学课程笔记/体系结构Note/知识点/ILP：tomasulo算法.md",
-    "在学课程资料/体系结构/b71e1462a3a9467687670660a9f0786b",
-    "在学课程笔记/体系结构Note/知识点/ILP：scoreboard算法.md",
-    "在学课程资料/体系结构/ae47644a0f7740859a29f3cb97098a3b/727874e4bffe48e796b81d60aa2507a6.pdf",
-    "在学课程资料/体系结构/ae47644a0f7740859a29f3cb97098a3b",
-    "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
-    "在学课程资料/操作系统/44feda4d8d9e462592139642825b2a38/8326b6cc4645462bb42ed288d73c55e8.pdf",
-    "在学课程资料/操作系统/44feda4d8d9e462592139642825b2a38",
-    "在学课程资料/操作系统/25f88e00b680491e86431a161c837081/ea32297c170e4a1b9ebc8d1e8a1613ec.pdf",
-    "在学课程资料/操作系统/25f88e00b680491e86431a161c837081",
-    "在学课程资料/操作系统/fb86131cd5854ad6a3892db677d3c0ed/802b7a7d66e5482cb7ef31dd0d320f84.pdf",
-    "在学课程资料/操作系统/fb86131cd5854ad6a3892db677d3c0ed",
-    "在学课程资料/操作系统/ec7755a9550f416ba91f3687e84c7132/81261197f62e4b73a21d5aff0ad43495.pdf"
+    "游戏开发/知识点/网络：传输层TCP与UDP.md"
   ]
 }

@@ -1,6 +1,5 @@
-[std::vector - cppreference.com](https://en.cppreference.com/w/cpp/container/vector)
+[Containers library - cppreference.com](https://en.cppreference.com/w/cpp/container)
 [C++ STL详解超全总结](https://blog.csdn.net/qq_50285142/article/details/114026148)
-[C++ 标准库容器 | Microsoft Learn](https://learn.microsoft.com/zh-cn/cpp/standard-library/stl-containers?view=msvc-170)
 [8 模板 (II) - 理解 STL - 咸鱼暄的代码空间 (xuan-insr.github.io)](https://xuan-insr.github.io/cpp/cpp_restart/8_stl/)
 [[C++：迭代器Iterator]]
 
