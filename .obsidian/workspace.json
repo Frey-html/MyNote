@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"sr-ease\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "56c9f8c0df12c548",
@@ -154,13 +154,27 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "4f6ac7c3b1fd4b87",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,10 +189,11 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "752daeb5ad63c167",
+  "active": "1f01eba13e334913",
   "lastOpenFiles": [
     "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
     "Z书籍目录.md",

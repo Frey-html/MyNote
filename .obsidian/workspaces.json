@@ -1,4 +1,203 @@
 {
-  "workspaces": {},
-  "active": "PDF Reading"
+  "workspaces": {
+    "Custom": {
+      "main": {
+        "id": "2673c4450be22489",
+        "type": "split",
+        "children": [
+          {
+            "id": "5b68e775c9da36e3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "752daeb5ad63c167",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0主页.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "0主页"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ad5c34cfeda23834",
+        "type": "split",
+        "children": [
+          {
+            "id": "759250860117bb93",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "06f08a9453c33808",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "755c1e3933822ca5",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "[\"sr-ease\"]",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "0cbdeca594a41026",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "56c9f8c0df12c548",
+        "type": "split",
+        "children": [
+          {
+            "id": "da9776d58c830d68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6c403f10b9f6c5c3",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "2学习路线.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2学习路线"
+                }
+              },
+              {
+                "id": "8818559548a40dfd",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "2学习路线.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "2学习路线 的出链列表"
+                }
+              },
+              {
+                "id": "7aaf1a8676826aa3",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "2738eff0ea9a553c",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "0主页.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 0主页"
+                }
+              },
+              {
+                "id": "1f01eba13e334913",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "4f6ac7c3b1fd4b87",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 321.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-git:Open Git source control": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "publish:Publish changes...": false
+        }
+      },
+      "active": "752daeb5ad63c167",
+      "mtime": "2024-11-01T12:44:30+08:00"
+    }
+  },
+  "active": "Custom"
 }
