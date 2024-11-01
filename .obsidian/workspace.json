@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f27f74ddefdf05ea",
+        "id": "d7cb3558724aadb1",
         "type": "tabs",
         "children": [
           {
-            "id": "e3f4d3e75fa340db",
+            "id": "f10a3c717d33f3f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2学习路线.md",
-                "mode": "source",
-                "source": false
+                "file": "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2学习路线"
+              "icon": "lucide-file-text",
+              "title": "Professional-C++-6ed-zh-20240806"
             }
           }
         ]
@@ -43,7 +41,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -60,7 +58,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -70,7 +68,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -139,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2学习路线.md"
+                "file": "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf"
               },
               "icon": "lucide-list",
-              "title": "2学习路线 的大纲"
+              "title": "Outline of Professional-C++-6ed-zh-20240806"
             }
           }
         ],
@@ -150,22 +148,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-kanban:创建新看板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e3f4d3e75fa340db",
+  "active": "06f08a9453c33808",
   "lastOpenFiles": [
+    "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
+    "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
+    "Z书籍目录.md",
+    "0杂项/Annotation/Anotation：CSAPP.md",
+    "z书籍列表",
+    "0杂项/Annotation",
+    "0杂项/日程管理.md",
+    "0主页.md",
+    "Untitled Kanban.md",
+    "数学基础/线性代数.md",
+    "数学基础/概统知识点总结.pdf",
+    "毕设想法.md",
+    "读书随笔.md",
+    "5秋招记录及春招规划.md",
+    "0杂项/壁纸/4.png",
+    "0杂项/壁纸/00007.png",
+    "0杂项/壁纸/7_Dragon_Dance2_4k_a5f25.jpg",
+    "0杂项/壁纸/5095919EFD915F71F37FAEED56D679DA.png",
+    "0杂项/壁纸/41414141.png",
+    "0杂项/壁纸/wallhaven-y8622k_1920x1080.png",
+    "0杂项/壁纸/wallhaven-y8267k_1920x1080.png",
+    "0杂项/壁纸/wallhaven-l3xk6q_1920x1080.png",
+    "0杂项/壁纸/wallhaven-9mjoy1_1920x1080.png",
+    "工具学习/Python.md",
+    "工具学习/Obsidan行内公式Latex语法.md",
+    "3刷题进度.md",
+    "2学习路线.md",
+    "1知识仓库.md",
+    "4TODO List.md",
     "语言学习/C++/C++：0参考资料.md",
     "语言学习/C++/C++：z学习资源FromGithub.md",
     "语言学习/C++/C++：标准库堆的使用.md",
@@ -176,37 +203,12 @@
     "在学课程资料/操作系统/d0cfa5db3ef244178be0cb477dbfef78/80331738f92e4192955d5f693fcba7c9.pdf",
     "在学课程资料/操作系统/d0cfa5db3ef244178be0cb477dbfef78",
     "在学课程资料/操作系统/c3cc2d2383314c769c1dd3b70e67864f/0d60bb9695f64927baaf361e8e668e72.pdf",
-    "在学课程资料/操作系统/c3cc2d2383314c769c1dd3b70e67864f",
-    "在学课程资料/操作系统/3e8787ffb9c840c0ac512a426abd92fa/7501c83e04b24e83960dcef97bde8462.pdf",
-    "在学课程资料/操作系统/3e8787ffb9c840c0ac512a426abd92fa",
     "在学课程笔记/操作系统Note/Lab1 Report.md",
     "语言学习/C++/C++：关键字const.md",
     "在学课程笔记/操作系统Note/Lab2 Report.md",
     "语言学习/C++/C++：编译main前后执行流程.md",
-    "0主页.md",
     "语言学习/C++/C++：内存_内存泄露与内存碎片.md",
-    "4TODO List.md",
-    "毕设想法.md",
-    "读书随笔.md",
-    "1知识仓库.md",
-    "2学习路线.md",
-    "3刷题进度.md",
-    "5秋招记录及春招规划.md",
-    "语言学习/C++/C++：关键字new与malloc.md",
-    "语言学习/C++/91b5ca265f534ab4958e4b27ac29794d - 快捷方式.lnk",
-    "语言学习/C++/42e9beb8d0a84d68931d5cef66829f44/d9d52843b7e940b6bd55ef14f9247841.pdf",
-    "语言学习/C++/C++：关键字decltype.md",
-    "语言学习/C++/C++：类的多态.md",
-    "语言学习/C++/C++：语法类型转换.md",
-    "语言学习/C++/C++：语法左值与右值、右值引用.md",
-    "语言学习/C++/C++：关键字static.md",
-    "语言学习/C++/C++：类的初始化.md",
-    "面试知识点.md",
     "0杂项/Pic/Pasted image 20241030165840.png",
-    "0杂项/Pic/Pasted image 20241029165522.png",
-    "0杂项/Pic/Pasted image 20241029165112.png",
-    "0杂项/Pic/Pasted image 20241029164655.png",
-    "0杂项/Pic/Pasted image 20241029164503.png",
     "未命名.canvas"
   ]
 }
