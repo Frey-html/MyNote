@@ -142,13 +142,23 @@
               "icon": "lucide-list",
               "title": "Outline of Professional-C++-6ed-zh-20240806"
             }
+          },
+          {
+            "id": "1f01eba13e334913",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 463.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +169,8 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "06f08a9453c33808",
