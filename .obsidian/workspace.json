@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d7cb3558724aadb1",
+        "id": "5b68e775c9da36e3",
         "type": "tabs",
         "children": [
           {
-            "id": "f10a3c717d33f3f0",
+            "id": "752daeb5ad63c167",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf"
+                "file": "0主页.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Professional-C++-6ed-zh-20240806"
+              "icon": "lucide-file",
+              "title": "0主页"
             }
           }
         ]
@@ -137,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf"
+                "file": "0主页.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Professional-C++-6ed-zh-20240806"
+              "title": "Outline of 0主页"
             }
           },
           {
@@ -158,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,14 +172,22 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "06f08a9453c33808",
+  "active": "752daeb5ad63c167",
   "lastOpenFiles": [
-    "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
     "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
     "Z书籍目录.md",
+    "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
+    "1知识仓库.md",
+    "2学习路线.md",
+    "5秋招记录及春招规划.md",
+    "毕设想法.md",
+    "读书随笔.md",
     "0杂项/Annotation/Anotation：CSAPP.md",
     "z书籍列表",
     "0杂项/Annotation",
@@ -186,9 +196,6 @@
     "Untitled Kanban.md",
     "数学基础/线性代数.md",
     "数学基础/概统知识点总结.pdf",
-    "毕设想法.md",
-    "读书随笔.md",
-    "5秋招记录及春招规划.md",
     "0杂项/壁纸/4.png",
     "0杂项/壁纸/00007.png",
     "0杂项/壁纸/7_Dragon_Dance2_4k_a5f25.jpg",
@@ -201,8 +208,6 @@
     "工具学习/Python.md",
     "工具学习/Obsidan行内公式Latex语法.md",
     "3刷题进度.md",
-    "2学习路线.md",
-    "1知识仓库.md",
     "4TODO List.md",
     "语言学习/C++/C++：0参考资料.md",
     "语言学习/C++/C++：z学习资源FromGithub.md",
