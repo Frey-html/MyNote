@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0主页.md",
+                "file": "2学习方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0主页"
+              "title": "2学习方法"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0主页.md"
+                "file": "2学习方法.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 0主页"
+              "title": "Outline of 2学习方法"
             }
           },
           {
@@ -193,13 +193,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1f01eba13e334913",
+  "active": "752daeb5ad63c167",
   "lastOpenFiles": [
+    "1知识仓库.md",
+    "2学习方法.md",
+    "0主页.md",
     "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
     "Z书籍目录.md",
     "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
-    "1知识仓库.md",
-    "2学习路线.md",
     "5秋招记录及春招规划.md",
     "毕设想法.md",
     "读书随笔.md",
@@ -207,7 +208,6 @@
     "z书籍列表",
     "0杂项/Annotation",
     "0杂项/日程管理.md",
-    "0主页.md",
     "Untitled Kanban.md",
     "数学基础/线性代数.md",
     "数学基础/概统知识点总结.pdf",
