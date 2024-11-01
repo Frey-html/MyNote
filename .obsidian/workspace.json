@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b68e775c9da36e3",
+        "id": "718611fa30570629",
         "type": "tabs",
         "children": [
           {
-            "id": "752daeb5ad63c167",
+            "id": "67695c8fca85b485",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2学习方法.md",
+                "file": "0主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2学习方法"
+              "title": "0主页"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"sr-ease\"]",
+                "query": "tag:#review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2学习路线.md",
+                "file": "0主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2学习路线 的出链列表"
+              "title": "Outgoing links from 0主页"
             }
           },
           {
@@ -130,7 +130,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2学习方法.md"
+                "file": "0主页.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2学习方法"
+              "title": "Outline of 0主页"
             }
           },
           {
@@ -189,21 +189,25 @@
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "publish:Publish changes...": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "752daeb5ad63c167",
+  "active": "1f01eba13e334913",
   "lastOpenFiles": [
-    "1知识仓库.md",
+    "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
+    "0杂项/Pic/Pasted image 20241101130737.png",
+    "5秋招记录及春招规划.md",
+    "Z书籍目录.md",
+    "语言学习/C++/C++：z学习资源FromGithub.md",
+    "语言学习/C++/C++：关键字const.md",
+    "0杂项/Pic/Pasted image 20241101125109.png",
+    "读书随笔.md",
+    "毕设想法.md",
     "2学习方法.md",
+    "1知识仓库.md",
     "0主页.md",
     "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
-    "Z书籍目录.md",
     "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
-    "5秋招记录及春招规划.md",
-    "毕设想法.md",
-    "读书随笔.md",
     "0杂项/Annotation/Anotation：CSAPP.md",
     "z书籍列表",
     "0杂项/Annotation",
@@ -219,13 +223,11 @@
     "0杂项/壁纸/wallhaven-y8622k_1920x1080.png",
     "0杂项/壁纸/wallhaven-y8267k_1920x1080.png",
     "0杂项/壁纸/wallhaven-l3xk6q_1920x1080.png",
-    "0杂项/壁纸/wallhaven-9mjoy1_1920x1080.png",
     "工具学习/Python.md",
     "工具学习/Obsidan行内公式Latex语法.md",
     "3刷题进度.md",
     "4TODO List.md",
     "语言学习/C++/C++：0参考资料.md",
-    "语言学习/C++/C++：z学习资源FromGithub.md",
     "语言学习/C++/C++：标准库堆的使用.md",
     "语言学习/Csharp/0Csharp笔记.md",
     "语言学习/Csharp/0Csharp参考资料.md",
@@ -235,11 +237,9 @@
     "在学课程资料/操作系统/d0cfa5db3ef244178be0cb477dbfef78",
     "在学课程资料/操作系统/c3cc2d2383314c769c1dd3b70e67864f/0d60bb9695f64927baaf361e8e668e72.pdf",
     "在学课程笔记/操作系统Note/Lab1 Report.md",
-    "语言学习/C++/C++：关键字const.md",
     "在学课程笔记/操作系统Note/Lab2 Report.md",
     "语言学习/C++/C++：编译main前后执行流程.md",
     "语言学习/C++/C++：内存_内存泄露与内存碎片.md",
-    "0杂项/Pic/Pasted image 20241030165840.png",
     "未命名.canvas"
   ]
 }

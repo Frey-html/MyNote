@@ -460,7 +460,7 @@ C++演化（C++ 98 ->C++ 03 -> C++ 11 -> C++ 14 -> C++20 -> ..... ）
 - [值得收藏的几个 C/C++ 学习网站](https://mp.weixin.qq.com/s/hedIn_0aAm84uO1L-eL-NQ)  
 - [假如C++是一只箭，你会用它来射哪只雕？| 就业岗位分享](https://mp.weixin.qq.com/s/vFp7-qf6IbNVvnKiWfB9pw)  
 - [如何优雅地利用C++编程从1乘到20？](https://mp.weixin.qq.com/s/pJPHgTzQ7MYuOJ4ZL5gAtQ)  
-- [C/C++ 中的 #pragma once 作用是什么？](https://mp.weixin.qq.com/s/2CPb0voypyf5tpx37S7hnQ)  
+- [C/C++ 中的 pragma once 作用是什么？](https://mp.weixin.qq.com/s/2CPb0voypyf5tpx37S7hnQ)  
 - [C++ Best Practices (C++最佳实践)翻译与阅读笔记](https://mp.weixin.qq.com/s/zq0en7hQ8vl1IhgBGy77Sw)  
 - [防御性编程技巧](https://mp.weixin.qq.com/s/70iBVxXiPkGvbPASjoOX6w)  
 - [五万字读懂c++](https://mp.weixin.qq.com/s/GOk0jlbJPl9NNtXmdLz9WQ)   
