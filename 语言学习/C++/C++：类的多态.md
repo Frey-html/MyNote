@@ -1,6 +1,7 @@
 [C++进阶：详解多态](https://blog.csdn.net/qq_74415153/article/details/136761841)
 [C++虚函数表剖析_c++ 虚函数表-CSDN博客](https://blog.csdn.net/lihao21/article/details/50688337)
 [图说C++对象模型：对象内存布局详解 - melonstreet - 博客园 (cnblogs.com)](https://www.cnblogs.com/QG-whz/p/4909359.html)
+[深度探索C++对象模型-CSDN博客](https://blog.csdn.net/zzxiaozhao/article/details/102527023)
 
 #review
 多态是 C++中一个非常重要的概念，下面将详细介绍与多态相关的所有内容，包括虚函数的使用、限制、纯虚函数和纯虚类、函数重写和重载等。

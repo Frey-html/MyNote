@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "718611fa30570629",
+        "id": "9ca8d231fdb81bed",
         "type": "tabs",
         "children": [
           {
-            "id": "67695c8fca85b485",
+            "id": "9b32fe1c7c1828c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言学习/C++/C++：类的多态.md",
+                "file": "语言学习/C++/C++：类的继承-菱形继承与虚继承.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++：类的多态"
+              "title": "C++：类的继承-菱形继承与虚继承"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内存布局",
+                "query": "虚继承",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -131,7 +131,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言学习/C++/C++：类的多态.md"
+                "file": "语言学习/C++/C++：类的继承-菱形继承与虚继承.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of C++：类的多态"
+              "title": "C++：类的继承-菱形继承与虚继承 的大纲"
             }
           },
           {
@@ -179,14 +179,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -195,27 +195,44 @@
   },
   "active": "1f01eba13e334913",
   "lastOpenFiles": [
+    "语言学习/C++/C++：类的继承.md",
+    "语言学习/C++/C++：类的继承-菱形继承与虚继承.md",
+    "语言学习/C++/C++：语法仿函数.md",
+    "在学课程资料/体系结构/2a9e5103a603494ca7a1e5d9c9ddd7bd/44f805ce78c645c39d530cc2753288b1.pdf",
+    "在学课程资料/体系结构/2a9e5103a603494ca7a1e5d9c9ddd7bd",
+    "在学课程资料/体系结构/c5efc63ed60c47ef862f4bd4988948ca/6f10830385ec425e9e065eb3621ec7b6.pdf",
+    "在学课程资料/体系结构/c5efc63ed60c47ef862f4bd4988948ca",
+    "在学课程资料/体系结构/dff92974d99a484891b08fc9a5c31602/b2121c8e5d5f48aab49890b26d56d9e3.pdf",
+    "在学课程资料/体系结构/dff92974d99a484891b08fc9a5c31602",
+    "在学课程资料/体系结构/fb0e5a4519b04f358562f3dbbf0c5c66/96d8d59674184c3ba8c5e5562c3c8e0a.pdf",
+    "在学课程资料/体系结构/fb0e5a4519b04f358562f3dbbf0c5c66",
+    "在学课程资料/体系结构/4dd0328551124c41be703f1934f2d6b2/0f5907dab486433d8756ac077889a473.pdf",
+    "在学课程资料/体系结构/4dd0328551124c41be703f1934f2d6b2",
+    "语言学习/C++/C++：语法类型转换.md",
+    "语言学习/C++/C++：语法引用传递.md",
+    "语言学习/C++/C++：关键字new与malloc.md",
+    "语言学习/C++/C++：类的多态.md",
+    "语言学习/C++/C++：内存泄露与内存碎片.md",
     "语言学习/C++/C++：关键字const.md",
+    "5秋招记录及春招规划.md",
+    "语言学习/C++/C++：编译main前后执行流程.md",
+    "算法学习/知识点/算法：动态规划.md",
+    "算法学习/习题集/动态规划：矩阵路径最大最小值.md",
+    "4TODO List.md",
+    "毕设想法.md",
+    "读书随笔.md",
+    "Z书籍目录.md",
     "0主页.md",
     "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
     "0杂项/Pic/Pasted image 20241101130737.png",
-    "5秋招记录及春招规划.md",
-    "Z书籍目录.md",
     "语言学习/C++/C++：z学习资源FromGithub.md",
     "0杂项/Pic/Pasted image 20241101125109.png",
-    "读书随笔.md",
-    "毕设想法.md",
     "2学习方法.md",
     "1知识仓库.md",
-    "语言学习/C++/Professional-C++-6ed-zh-20240806.pdf",
-    "1CS基础/Computer_Systems_A_Programmers_Perspective(3rd).pdf",
     "0杂项/Annotation/Anotation：CSAPP.md",
-    "z书籍列表",
-    "0杂项/Annotation",
     "0杂项/日程管理.md",
     "Untitled Kanban.md",
     "数学基础/线性代数.md",
-    "数学基础/概统知识点总结.pdf",
     "0杂项/壁纸/4.png",
     "0杂项/壁纸/00007.png",
     "0杂项/壁纸/7_Dragon_Dance2_4k_a5f25.jpg",
@@ -224,22 +241,6 @@
     "0杂项/壁纸/wallhaven-y8622k_1920x1080.png",
     "0杂项/壁纸/wallhaven-y8267k_1920x1080.png",
     "工具学习/Python.md",
-    "工具学习/Obsidan行内公式Latex语法.md",
-    "3刷题进度.md",
-    "4TODO List.md",
-    "语言学习/C++/C++：0参考资料.md",
-    "语言学习/C++/C++：标准库堆的使用.md",
-    "语言学习/Csharp/0Csharp笔记.md",
-    "语言学习/Csharp/0Csharp参考资料.md",
-    "在学课程资料/操作系统/422b7a957fd248c88e03f2dc885c5978/5d79a89e7487456cab3da5a5dd270763.pdf",
-    "在学课程资料/操作系统/422b7a957fd248c88e03f2dc885c5978",
-    "在学课程资料/操作系统/d0cfa5db3ef244178be0cb477dbfef78/80331738f92e4192955d5f693fcba7c9.pdf",
-    "在学课程资料/操作系统/d0cfa5db3ef244178be0cb477dbfef78",
-    "在学课程资料/操作系统/c3cc2d2383314c769c1dd3b70e67864f/0d60bb9695f64927baaf361e8e668e72.pdf",
-    "在学课程笔记/操作系统Note/Lab1 Report.md",
-    "在学课程笔记/操作系统Note/Lab2 Report.md",
-    "语言学习/C++/C++：编译main前后执行流程.md",
-    "语言学习/C++/C++：内存_内存泄露与内存碎片.md",
     "未命名.canvas"
   ]
 }
