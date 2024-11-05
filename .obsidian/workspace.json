@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/Java应用Note/Homework3Report.md",
+                "file": "3刷题进度.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework3Report"
+              "title": "3刷题进度"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/Java应用Note/Homework3Report.md"
+                "file": "3刷题进度.md"
               },
               "icon": "lucide-list",
-              "title": "Homework3Report 的大纲"
+              "title": "3刷题进度 的大纲"
             }
           },
           {
@@ -192,8 +192,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f01eba13e334913",
+  "active": "c680511b618f8f43",
   "lastOpenFiles": [
+    "在学课程笔记/Java应用Note/Homework3Report.md",
+    "conflict-files-obsidian-git.md",
     "在学课程资料/Java/b4c05869d83e4db4af23d6dc8b046ae8/332b62b802414e488e66cc0d902bc529.pdf",
     "在学课程资料/Java/b4c05869d83e4db4af23d6dc8b046ae8",
     "在学课程资料/Java/f6f0025a67e940368788bb81e869ae86/6c9bd3081fd44652a04c8f03bd1aa6fd.pdf",
@@ -204,9 +206,7 @@
     "在学课程资料/Java/a88788fbc4834018b6de934facaa49ed",
     "在学课程资料/Java/0db3b50aacea42799cfb82bd42381c4b/e1483b6c83e542468fb6694989094256.pdf",
     "在学课程资料/Java/0db3b50aacea42799cfb82bd42381c4b",
-    "在学课程资料/Java/d541f494467845ed85537524c7192fb0/869cd2d2e49446babac2172cdcd4788c.pdf",
     "游戏开发/知识点/常用设计模式.md",
-    "在学课程笔记/Java应用Note/Homework3Report.md",
     "语言学习/C++/C++：语法仿函数.md",
     "游戏开发/知识点/常用架构模式.md",
     "语言学习/C++/STLtutorial1.md",
