@@ -1,9 +1,11 @@
 [Containers library - cppreference.com](https://en.cppreference.com/w/cpp/container)
 [C++ STL详解超全总结](https://blog.csdn.net/qq_50285142/article/details/114026148)
-[8 模板 (II) - 理解 STL - 咸鱼暄的代码空间 (xuan-insr.github.io)](https://xuan-insr.github.io/cpp/cpp_restart/8_stl/)
+[手撕 STL 序列式容器源码](https://zhuanlan.zhihu.com/p/359213877)
 [[C++：迭代器Iterator]]
 
 [[STLtutorial1]]
+
+![[Pasted image 20241106151647.png]]
 ### 顺序容器
 
 
@@ -19,4 +21,4 @@
 
 ### Iterator
 [C++迭代器iterator详解](https://blog.csdn.net/QIANGWEIYUAN/article/details/89184546)
-[Iterator library - cppreference.com](https://en.cppreference.com/w/cpp/iterator)
+

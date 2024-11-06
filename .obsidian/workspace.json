@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9ca8d231fdb81bed",
+        "id": "bb94c1b081825250",
         "type": "tabs",
         "children": [
           {
-            "id": "c680511b618f8f43",
+            "id": "4dd1070f9bfe70a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3刷题进度.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3刷题进度"
+              "title": "新标签页"
             }
           }
         ]
@@ -73,7 +69,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,11 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3刷题进度.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "3刷题进度 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -192,44 +187,45 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c680511b618f8f43",
+  "active": "1f01eba13e334913",
   "lastOpenFiles": [
-    "在学课程笔记/Java应用Note/Homework3Report.md",
+    "在学课程笔记/操作系统Note/知识点/OS：Two IO methods.md",
+    "在学课程笔记/操作系统Note/知识点/OS：虚拟内存Memory mapped file.md",
+    "在学课程笔记/操作系统Note/知识点/OS：进程内存分区.md",
+    "语言学习/C++/STLtutorial1.md",
+    "在学课程资料/操作系统/a460fcfce8c54527b9a00a3e25c665ae/1c6535280ef340f8b4be39d653d1e541.pdf",
+    "在学课程资料/操作系统/a460fcfce8c54527b9a00a3e25c665ae",
+    "在学课程资料/操作系统/4eef6490861d4b468d040e14f383fcb9/a1ddd2dbdd054e66b2aa96074b2034c1.pdf",
+    "在学课程资料/操作系统/4eef6490861d4b468d040e14f383fcb9",
+    "语言学习/C++/C++：类的多态.md",
+    "在学课程资料/操作系统/3a985573e7784a2f94fdab20262000b4/6c951927c0e94845b721698690a456c6.pdf",
+    "在学课程资料/操作系统/3a985573e7784a2f94fdab20262000b4",
+    "在学课程资料/操作系统/018ac56b23cb4bc79b9704b88511b042/c9a8ab030b1c49759b10be388310c32c.pdf",
+    "在学课程资料/操作系统/018ac56b23cb4bc79b9704b88511b042",
+    "在学课程资料/操作系统/8d306651282847e2a683a74d0e96ca77/f299efd6df2f4ef98ec3d03d2d6c0112.pdf",
+    "在学课程资料/操作系统/8d306651282847e2a683a74d0e96ca77",
+    "2学习方法.md",
+    "1知识仓库.md",
+    "语言学习/C++/C++：标准库STL.md",
+    "0杂项/Pic/Pasted image 20241106151647.png",
+    "Z书籍目录.md",
+    "4TODO List.md",
+    "读书随笔.md",
     "conflict-files-obsidian-git.md",
-    "在学课程资料/Java/b4c05869d83e4db4af23d6dc8b046ae8/332b62b802414e488e66cc0d902bc529.pdf",
-    "在学课程资料/Java/b4c05869d83e4db4af23d6dc8b046ae8",
-    "在学课程资料/Java/f6f0025a67e940368788bb81e869ae86/6c9bd3081fd44652a04c8f03bd1aa6fd.pdf",
-    "在学课程资料/Java/f6f0025a67e940368788bb81e869ae86",
-    "在学课程资料/Java/69da0a1664cc429d877783e22575eab1/5e9a5da9687245adb2441ec1179cfc32.pdf",
-    "在学课程资料/Java/69da0a1664cc429d877783e22575eab1",
-    "在学课程资料/Java/a88788fbc4834018b6de934facaa49ed/30c3dc27a5884f17b496c44783503303.pdf",
-    "在学课程资料/Java/a88788fbc4834018b6de934facaa49ed",
-    "在学课程资料/Java/0db3b50aacea42799cfb82bd42381c4b/e1483b6c83e542468fb6694989094256.pdf",
-    "在学课程资料/Java/0db3b50aacea42799cfb82bd42381c4b",
     "游戏开发/知识点/常用设计模式.md",
+    "3刷题进度.md",
+    "在学课程笔记/Java应用Note/Homework3Report.md",
     "语言学习/C++/C++：语法仿函数.md",
     "游戏开发/知识点/常用架构模式.md",
-    "语言学习/C++/STLtutorial1.md",
     "语言学习/C++/C++：编译main前后执行流程.md",
     "语言学习/C++/C++：关键字const.md",
     "语言学习/C++/C++：关键字decltype.md",
     "语言学习/C++/C++：关键字new与malloc.md",
-    "语言学习/C++/C++：类的多态.md",
     "语言学习/C++/C++：内存常见内存分配错误.md",
     "语言学习/C++/C++：内存泄露与内存碎片化.md",
     "语言学习/C++/C++：语法类型转换.md",
     "5秋招记录及春招规划.md",
     "算法学习/知识点/算法：动态规划.md",
-    "语言学习/C++/C++：语法智能指针.md",
-    "语言学习/C++/C++：类的继承.md",
-    "语言学习/C++/C++：类的继承-菱形继承与虚继承.md",
-    "语言学习/C++/C++：语法引用传递.md",
-    "算法学习/习题集/动态规划：矩阵路径最大最小值.md",
-    "4TODO List.md",
-    "毕设想法.md",
-    "读书随笔.md",
-    "Z书籍目录.md",
-    "0主页.md",
     "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
     "0杂项/Pic/Pasted image 20241101130737.png",
     "0杂项/Pic/Pasted image 20241101125109.png",
@@ -239,7 +235,6 @@
     "0杂项/壁纸/5095919EFD915F71F37FAEED56D679DA.png",
     "0杂项/壁纸/41414141.png",
     "0杂项/壁纸/wallhaven-y8622k_1920x1080.png",
-    "0杂项/壁纸/wallhaven-y8267k_1920x1080.png",
     "未命名.canvas"
   ]
 }
