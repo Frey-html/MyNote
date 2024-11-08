@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb94c1b081825250",
+        "id": "b8d0b31cde3d6ce5",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd1070f9bfe70a3",
+            "id": "456b58ec1d149b7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "语言学习/C++/C++：编译main前后执行流程.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "C++：编译main前后执行流程"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "main",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,29 +191,34 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f01eba13e334913",
+  "active": "456b58ec1d149b7b",
   "lastOpenFiles": [
+    "在学课程资料/操作系统/e58ab042b64b4d5d8a468bdb63fc70a5/b78c53f24c1741e8972c3f2e5ea22faa.pdf",
+    "在学课程资料/操作系统/e58ab042b64b4d5d8a468bdb63fc70a5",
+    "在学课程资料/操作系统/4ba7107089eb4e66baff5e7efe8fbcf6/08c5abec9fbb40c48ef3f89aabc88709.pdf",
+    "在学课程资料/操作系统/4ba7107089eb4e66baff5e7efe8fbcf6",
+    "在学课程资料/操作系统/e09e2c5b2a84440b900e6b631408767c/8e7c8a63d5944edf99a0915d3a7f477d.pdf",
+    "在学课程资料/操作系统/e09e2c5b2a84440b900e6b631408767c",
+    "在学课程资料/操作系统/987b63b251764e83863385cbebce6833/3dca9d07d852453e867a6d505f3eb5ec.pdf",
+    "在学课程资料/操作系统/987b63b251764e83863385cbebce6833",
+    "在学课程资料/操作系统/546b92eb705047d49a393f3f473f3689/bfbe3b9075d448bf8e7bf77b8f96f861.pdf",
+    "在学课程资料/操作系统/546b92eb705047d49a393f3f473f3689",
+    "在学课程资料/操作系统/a515ceb72b47445cbcbaa81a7f86ced6/f4f59063be394b46a4402a68b09a22e1.pdf",
+    "算法学习/知识点/算法：寻路算法.md",
+    "语言学习/C++/STLtutorial1.md",
+    "4TODO List.md",
+    "算法学习/知识点/算法：动态规划.md",
+    "5秋招记录及春招规划.md",
+    "算法学习/知识点/数据结构：哈希冲突.md",
     "在学课程笔记/操作系统Note/知识点/OS：Two IO methods.md",
     "在学课程笔记/操作系统Note/知识点/OS：虚拟内存Memory mapped file.md",
     "在学课程笔记/操作系统Note/知识点/OS：进程内存分区.md",
-    "语言学习/C++/STLtutorial1.md",
-    "在学课程资料/操作系统/a460fcfce8c54527b9a00a3e25c665ae/1c6535280ef340f8b4be39d653d1e541.pdf",
-    "在学课程资料/操作系统/a460fcfce8c54527b9a00a3e25c665ae",
-    "在学课程资料/操作系统/4eef6490861d4b468d040e14f383fcb9/a1ddd2dbdd054e66b2aa96074b2034c1.pdf",
-    "在学课程资料/操作系统/4eef6490861d4b468d040e14f383fcb9",
     "语言学习/C++/C++：类的多态.md",
-    "在学课程资料/操作系统/3a985573e7784a2f94fdab20262000b4/6c951927c0e94845b721698690a456c6.pdf",
-    "在学课程资料/操作系统/3a985573e7784a2f94fdab20262000b4",
-    "在学课程资料/操作系统/018ac56b23cb4bc79b9704b88511b042/c9a8ab030b1c49759b10be388310c32c.pdf",
-    "在学课程资料/操作系统/018ac56b23cb4bc79b9704b88511b042",
-    "在学课程资料/操作系统/8d306651282847e2a683a74d0e96ca77/f299efd6df2f4ef98ec3d03d2d6c0112.pdf",
-    "在学课程资料/操作系统/8d306651282847e2a683a74d0e96ca77",
     "2学习方法.md",
     "1知识仓库.md",
     "语言学习/C++/C++：标准库STL.md",
     "0杂项/Pic/Pasted image 20241106151647.png",
     "Z书籍目录.md",
-    "4TODO List.md",
     "读书随笔.md",
     "conflict-files-obsidian-git.md",
     "游戏开发/知识点/常用设计模式.md",
@@ -221,11 +230,6 @@
     "语言学习/C++/C++：关键字const.md",
     "语言学习/C++/C++：关键字decltype.md",
     "语言学习/C++/C++：关键字new与malloc.md",
-    "语言学习/C++/C++：内存常见内存分配错误.md",
-    "语言学习/C++/C++：内存泄露与内存碎片化.md",
-    "语言学习/C++/C++：语法类型转换.md",
-    "5秋招记录及春招规划.md",
-    "算法学习/知识点/算法：动态规划.md",
     "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
     "0杂项/Pic/Pasted image 20241101130737.png",
     "0杂项/Pic/Pasted image 20241101125109.png",
