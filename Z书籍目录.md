@@ -6,5 +6,6 @@ OSconcept：[[Operating System Concepts (Ninth Edition).pdf]]
 #### 语言类
 ##### C++
 [[Professional-C++-6ed-zh-20240806.pdf]]
+[[C++必知必会.pdf]]
 [[STL源码剖析.pdf]]
 
