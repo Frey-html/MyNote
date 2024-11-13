@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b8d0b31cde3d6ce5",
+        "id": "45d00d6f6ee3def7",
         "type": "tabs",
         "children": [
           {
-            "id": "456b58ec1d149b7b",
+            "id": "1594ba3e0f3477f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言学习/C++/C++：编译main前后执行流程.md",
+                "file": "5秋招记录及春招规划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++：编译main前后执行流程"
+              "title": "5秋招记录及春招规划"
             }
           }
         ]
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "5秋招记录及春招规划.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "5秋招记录及春招规划 的大纲"
             }
           },
           {
@@ -191,19 +192,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "456b58ec1d149b7b",
+  "active": "1f01eba13e334913",
   "lastOpenFiles": [
-    "在学课程资料/操作系统/e58ab042b64b4d5d8a468bdb63fc70a5/b78c53f24c1741e8972c3f2e5ea22faa.pdf",
-    "在学课程资料/操作系统/e58ab042b64b4d5d8a468bdb63fc70a5",
-    "在学课程资料/操作系统/4ba7107089eb4e66baff5e7efe8fbcf6/08c5abec9fbb40c48ef3f89aabc88709.pdf",
-    "在学课程资料/操作系统/4ba7107089eb4e66baff5e7efe8fbcf6",
-    "在学课程资料/操作系统/e09e2c5b2a84440b900e6b631408767c/8e7c8a63d5944edf99a0915d3a7f477d.pdf",
-    "在学课程资料/操作系统/e09e2c5b2a84440b900e6b631408767c",
-    "在学课程资料/操作系统/987b63b251764e83863385cbebce6833/3dca9d07d852453e867a6d505f3eb5ec.pdf",
-    "在学课程资料/操作系统/987b63b251764e83863385cbebce6833",
-    "在学课程资料/操作系统/546b92eb705047d49a393f3f473f3689/bfbe3b9075d448bf8e7bf77b8f96f861.pdf",
-    "在学课程资料/操作系统/546b92eb705047d49a393f3f473f3689",
-    "在学课程资料/操作系统/a515ceb72b47445cbcbaa81a7f86ced6/f4f59063be394b46a4402a68b09a22e1.pdf",
+    "个人资料/简历-展翼飞.pdf",
+    "在学课程资料/体系结构/429f0fd2c9a447d3b068d1b3d4a7ada6",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "在学课程资料/计算理论/6ccb49105e07474a96e406a9a05273d0/db0d369883dc4cdeba2a828d9c53d19b.pdf",
+    "在学课程资料/计算理论/6ccb49105e07474a96e406a9a05273d0",
+    "在学课程资料/计算理论/7d3643b6021143bf927f17357dbce903/8dd32b2e82384c9083cf553158f8c59f.pdf",
+    "在学课程资料/计算理论/7d3643b6021143bf927f17357dbce903",
+    "在学课程资料/计算理论/5abc7aa453d74627af6081bf4bfc6b1f/f685d688da6d4f8d9d0c87a6d0ea8b89.pdf",
+    "在学课程资料/计算理论/5abc7aa453d74627af6081bf4bfc6b1f",
+    "在学课程资料/计算理论/0d22fea1dd0349c495aa9b975b216e60/a07eccf695db40fe9bc63489ca1ae75a.pdf",
+    "在学课程资料/计算理论/0d22fea1dd0349c495aa9b975b216e60",
+    "在学课程资料/计算理论/95e3d6c8b4fd4a62b032e3b30520257e/3c69336bbcc54ca099965936773acf3c.pdf",
+    "语言学习/C++/C++：语法引用传递.md",
+    "语言学习/C++/C++：编译main前后执行流程.md",
     "算法学习/知识点/算法：寻路算法.md",
     "语言学习/C++/STLtutorial1.md",
     "4TODO List.md",
@@ -226,10 +230,7 @@
     "在学课程笔记/Java应用Note/Homework3Report.md",
     "语言学习/C++/C++：语法仿函数.md",
     "游戏开发/知识点/常用架构模式.md",
-    "语言学习/C++/C++：编译main前后执行流程.md",
     "语言学习/C++/C++：关键字const.md",
-    "语言学习/C++/C++：关键字decltype.md",
-    "语言学习/C++/C++：关键字new与malloc.md",
     "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
     "0杂项/Pic/Pasted image 20241101130737.png",
     "0杂项/Pic/Pasted image 20241101125109.png",
