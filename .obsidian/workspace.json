@@ -35,8 +35,7 @@
               "title": "Lab3：vmlinux.lds支持虚拟内存"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md"
+                "file": "在学课程笔记/操作系统Note/Lab3 Report.md"
               },
               "icon": "lucide-list",
-              "title": "Lab3：vmlinux.lds支持虚拟内存 的大纲"
+              "title": "Lab3 Report 的大纲"
             }
           },
           {
@@ -209,31 +208,38 @@
   },
   "active": "1f01eba13e334913",
   "lastOpenFiles": [
-    "个人资料/三方协议电子签署.md",
+    "在学课程资料/操作系统/0aa3e552e1c844b59fd5a46fe920c87b/3101a581d30449968d4ca7705aecddc3.pdf",
+    "在学课程资料/操作系统/0aa3e552e1c844b59fd5a46fe920c87b",
+    "在学课程资料/操作系统/5745f70c3c124af7aafa2b01eaf46af2/3a3eb7e0769442ef8b888e5133abc845.pdf",
+    "在学课程资料/操作系统/5745f70c3c124af7aafa2b01eaf46af2",
+    "在学课程资料/操作系统/ec3b98aabe4c4ef3892bb91e7ba064e1/e87025f42bde43fcbc8d76e7c5de1621.pdf",
+    "在学课程资料/操作系统/ec3b98aabe4c4ef3892bb91e7ba064e1",
+    "在学课程资料/操作系统/8a389fa81e114867ae0e6b935adebd5a/538c9cf1e92e4c2b812952478c3e8bb1.pdf",
+    "在学课程资料/操作系统/8a389fa81e114867ae0e6b935adebd5a",
+    "在学课程资料/操作系统/5efaff04709448aebb5670eb2919f7b8/086cfb35990b475c887502cf16afee83.pdf",
+    "在学课程资料/操作系统/5efaff04709448aebb5670eb2919f7b8",
+    "在学课程资料/操作系统/26950c9b6e69451d997619b8f50a65d4/c5cea17982ae4447b4e6a9fbdbd4253b.pdf",
+    "0杂项/Pic/Pasted image 20241115083536.png",
+    "0杂项/Pic/Pasted image 20241115082706.png",
     "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
-    "个人资料/三方协议电子签署.pdf",
+    "个人资料/三方协议电子签署.md",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "0杂项/Pic/Pasted image 20241114111748.png",
+    "0杂项/Pic/Pasted image 20241114110416.png",
+    "0杂项/Pic/Pasted image 20241114105218.png",
+    "0杂项/Pic/Pasted image 20241114103214.png",
     "0杂项/Pic/Pasted image 20241113205058.png",
     "0杂项/Pic/Pasted image 20241113203931.png",
     "5秋招记录及春招规划.md",
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
-    "个人资料/Offer附件_展翼飞.pdf",
     "在学课程笔记/操作系统Note/知识点/Lab3：setupvm等值映射.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：如何不做等值映射.md",
     "0主页.md",
-    "语言学习/C++/C++必知必会.pdf",
     "Z书籍目录.md",
     "读书随笔.md",
     "语言学习/C++/C++：0参考资料.md",
     "语言学习/C++/小五编码-C++必知必会.pdf.md",
     "1知识仓库.md",
     "2学习方法.md",
-    "语言学习/C++/小五编码-C++必知必会.pdf",
-    "个人资料/简历-展翼飞.pdf",
-    "在学课程资料/体系结构/429f0fd2c9a447d3b068d1b3d4a7ada6",
-    "在学课程资料/计算理论/6ccb49105e07474a96e406a9a05273d0/db0d369883dc4cdeba2a828d9c53d19b.pdf",
-    "在学课程资料/计算理论/6ccb49105e07474a96e406a9a05273d0",
-    "在学课程资料/计算理论/7d3643b6021143bf927f17357dbce903/8dd32b2e82384c9083cf553158f8c59f.pdf",
-    "在学课程资料/计算理论/7d3643b6021143bf927f17357dbce903",
     "语言学习/C++/C++：语法引用传递.md",
     "语言学习/C++/C++：编译main前后执行流程.md",
     "算法学习/知识点/算法：寻路算法.md",
@@ -248,12 +254,6 @@
     "语言学习/C++/C++：标准库STL.md",
     "0杂项/Pic/Pasted image 20241106151647.png",
     "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
-    "0杂项/Pic/Pasted image 20241101130737.png",
-    "0杂项/Pic/Pasted image 20241101125109.png",
-    "0杂项/壁纸/4.png",
-    "0杂项/壁纸/00007.png",
-    "0杂项/壁纸/7_Dragon_Dance2_4k_a5f25.jpg",
-    "0杂项/壁纸/5095919EFD915F71F37FAEED56D679DA.png",
     "未命名.canvas"
   ]
 }
