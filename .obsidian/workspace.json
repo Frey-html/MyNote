@@ -8,34 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47f9cf4cb865326c",
+            "id": "c8687ddcf79fa39c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab3 Report.md",
+                "file": "在学课程笔记/体系结构Note/HW3-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab3 Report"
+              "title": "HW3-1"
             }
           },
           {
-            "id": "b565a06ca7f0026a",
+            "id": "6719ee02978df514",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.7.7"
               },
               "icon": "lucide-file",
-              "title": "Lab3：vmlinux.lds支持虚拟内存"
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,27 +205,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f01eba13e334913",
+  "active": "6719ee02978df514",
   "lastOpenFiles": [
-    "z已学课程资料/细胞分子生物学/细胞分子生物学展示.pptx",
-    "z已学课程资料/细胞分子生物学/线粒体报告.docx",
-    "z已学课程资料/细胞分子生物学/第三组 DNAFEC.pptx",
+    "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3/7b9fdd8d9811439cb4d9a2f25b3c894e.pdf",
+    "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3",
+    "在学课程资料/体系结构/3097d9a8ef664a2689002b9f3c17b27e/68c181ccea654e508dccf36cb4dd95e0.pdf",
+    "在学课程资料/体系结构/3097d9a8ef664a2689002b9f3c17b27e",
+    "在学课程资料/体系结构/3-1.pdf",
+    "在学课程资料/操作系统/ch7 Deadlocak.pdf",
+    "在学课程资料/体系结构/Lesson13-DLP.pdf",
+    "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pdf",
+    "在学课程资料/体系结构/~$2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
+    "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
+    "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
+    "在学课程笔记/体系结构Note/HW3-1.md",
+    "在学课程笔记/体系结构Note/HW1.md",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
+    "在学课程资料/计算理论/HW3.pdf",
+    "0杂项/Pic/Pasted image 20241124133602.png",
+    "0杂项/Pic/Pasted image 20241124133553.png",
     "z已学课程资料/细胞分子生物学/作业2-展翼飞-3190102196.md",
     "z已学课程资料/细胞分子生物学/作业1-展翼飞-3190102196.md",
-    "z已学课程资料/细胞分子生物学/PIIS0092867412002358.pdf",
-    "z已学课程资料/细胞分子生物学/FEC for DNA data storage.pdf",
     "z已学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md",
-    "z已学课程资料/细胞分子生物学",
-    "在学课程资料/操作系统/db77176a19dd4e409e45be7fc31edb47/76697a23b4764ff3bbab254d85e6ee87.pdf",
-    "在学课程资料/操作系统/db77176a19dd4e409e45be7fc31edb47",
-    "在学课程资料/操作系统/9c7d5da749954528bd4cdf8c9b3bdb15/f037487b80a146b68121ba72b1744812.pdf",
-    "在学课程资料/操作系统/9c7d5da749954528bd4cdf8c9b3bdb15",
-    "在学课程资料/操作系统/57a7d65656de42c987b15f2d895462ae/29e6a7758279488595677982cb2052f5.pdf",
     "0杂项/Pic/Pasted image 20241115083536.png",
     "0杂项/Pic/Pasted image 20241115082706.png",
-    "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
     "个人资料/三方协议电子签署.md",
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
     "0杂项/Pic/Pasted image 20241114111748.png",
     "0杂项/Pic/Pasted image 20241114110416.png",
     "0杂项/Pic/Pasted image 20241114105218.png",
@@ -249,11 +253,6 @@
     "语言学习/C++/STLtutorial1.md",
     "4TODO List.md",
     "算法学习/知识点/算法：动态规划.md",
-    "算法学习/知识点/数据结构：哈希冲突.md",
-    "在学课程笔记/操作系统Note/知识点/OS：Two IO methods.md",
-    "在学课程笔记/操作系统Note/知识点/OS：虚拟内存Memory mapped file.md",
-    "0杂项/Pic/Pasted image 20241106151647.png",
-    "0杂项/Pic/e398fd307d2edeaca265aad47e92988f475433767.gif",
     "未命名.canvas"
   ]
 }

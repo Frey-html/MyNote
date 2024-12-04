@@ -35,13 +35,11 @@
 	![[Pasted image 20241115082706.png]]
 	在`head.s`中调用`setup_vm_final`：![[Pasted image 20241115083536.png]]
 2. `create_mapping`的实现
-
-
-
-
-
+	![[Pasted image 20241124133553.png]]![[Pasted image 20241124133602.png]]
 
 #### 4.编译与测试
+尚未debug完成
+
 
 ### 二、思考题
 1. **验证 `.text`，`.rodata` 段的属性是否成功设置，给出截图。**
@@ -62,5 +60,3 @@
 2. 为什么setupvm_final对于kernel 的text rodata段与剩余内存要分开调用create mapping？
 	因为他们映射的物理内存页需要设置的访问权限不同。
 
-第一次映射时虚拟页1GiB，但物理页号仍是12位，物理页仍是4Kb如何理解？
-虚拟地址设置后mm_init如何初始化？kalloc是如何分配页的？
