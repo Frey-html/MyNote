@@ -8,33 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c8687ddcf79fa39c",
+            "id": "32a1463ebc010cd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/体系结构Note/HW3-1.md",
+                "file": "在学课程笔记/操作系统Note/Lab4 Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HW3-1"
-            }
-          },
-          {
-            "id": "6719ee02978df514",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Lab4 Report"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,8 +192,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6719ee02978df514",
+  "active": "32a1463ebc010cd3",
   "lastOpenFiles": [
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "在学课程笔记/操作系统Note/Lab4 Report.md",
+    "0杂项/Pic/Pasted image 20241224211100.png",
+    "在学课程笔记/操作系统Note/Lab5 Report.md",
+    "0杂项/Pic/Pasted image 20241224210201.png",
+    "0杂项/Pic/Pasted image 20241224205700.png",
+    "0杂项/Pic/Pasted image 20241224205333.png",
+    "0杂项/Pic/Pasted image 20241224205122.png",
+    "在学课程笔记/操作系统Note/Lab6 Report.md",
+    "在学课程笔记/操作系统Note/实验报告模板.md",
+    "在学课程笔记/操作系统Note/LessonNote.md",
+    "在学课程笔记/操作系统Note/实验记录.md",
+    "在学课程笔记/操作系统Note/Lab0 Report.md",
+    "在学课程笔记/体系结构Note/HW4.md",
+    "在学课程资料/体系结构/hw4题目.pdf",
+    "在学课程笔记/体系结构Note/HW3-1.md",
     "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3/7b9fdd8d9811439cb4d9a2f25b3c894e.pdf",
     "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3",
     "在学课程资料/体系结构/3097d9a8ef664a2689002b9f3c17b27e/68c181ccea654e508dccf36cb4dd95e0.pdf",
@@ -216,13 +219,9 @@
     "在学课程资料/体系结构/Lesson13-DLP.pdf",
     "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pdf",
     "在学课程资料/体系结构/~$2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
-    "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
     "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
-    "在学课程笔记/体系结构Note/HW3-1.md",
     "在学课程笔记/体系结构Note/HW1.md",
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
-    "在学课程资料/计算理论/HW3.pdf",
     "0杂项/Pic/Pasted image 20241124133602.png",
     "0杂项/Pic/Pasted image 20241124133553.png",
     "z已学课程资料/细胞分子生物学/作业2-展翼飞-3190102196.md",
@@ -232,11 +231,6 @@
     "0杂项/Pic/Pasted image 20241115082706.png",
     "个人资料/三方协议电子签署.md",
     "0杂项/Pic/Pasted image 20241114111748.png",
-    "0杂项/Pic/Pasted image 20241114110416.png",
-    "0杂项/Pic/Pasted image 20241114105218.png",
-    "0杂项/Pic/Pasted image 20241114103214.png",
-    "0杂项/Pic/Pasted image 20241113205058.png",
-    "0杂项/Pic/Pasted image 20241113203931.png",
     "5秋招记录及春招规划.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：setupvm等值映射.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：如何不做等值映射.md",
@@ -245,14 +239,6 @@
     "读书随笔.md",
     "语言学习/C++/C++：0参考资料.md",
     "语言学习/C++/小五编码-C++必知必会.pdf.md",
-    "1知识仓库.md",
-    "2学习方法.md",
-    "语言学习/C++/C++：语法引用传递.md",
-    "语言学习/C++/C++：编译main前后执行流程.md",
-    "算法学习/知识点/算法：寻路算法.md",
-    "语言学习/C++/STLtutorial1.md",
-    "4TODO List.md",
-    "算法学习/知识点/算法：动态规划.md",
     "未命名.canvas"
   ]
 }
