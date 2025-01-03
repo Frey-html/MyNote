@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c72dbce3ef79aa",
+        "id": "e70d4c22f3743883",
         "type": "tabs",
         "children": [
           {
-            "id": "32a1463ebc010cd3",
+            "id": "c84726d6ff5d4726",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab4 Report.md",
+                "file": "在学课程资料/毕业设计/毕设想法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab4 Report"
+              "title": "毕设想法"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -178,49 +178,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-kanban:创建新看板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "32a1463ebc010cd3",
+  "active": "06f08a9453c33808",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "5秋招记录及春招规划.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：Cache write strategy.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：virtual memory and TLB.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：Virtual Cache(reduce hit time).md",
+    "在学课程笔记/体系结构Note/知识点/Memory：Page Table.md",
+    "在学课程笔记/体系结构Note/知识点/Memory：Cache structure(for memory).md",
+    "在学课程资料/体系结构/~$体系复习截图.docx",
+    "在学课程资料/体系结构/体系复习截图.docx",
+    "在学课程笔记/体系结构Note/知识点/Memory：指令取内存完整流程.md",
+    "在学课程笔记/体系结构Note/知识点/Cache优化：Virtually Indexed physically Taged Cache.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：数据冒险与控制冒险概述.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：中断处理与CSR.md",
+    "在学课程笔记/体系结构Note/知识点/Lab：CSR寄存器.md",
+    "在学课程笔记/体系结构Note/知识点/Lab3：cache模块.md",
+    "在学课程资料/体系结构/~$ 版本1 （未使用）.doc",
+    "在学课程资料/体系结构/Lesson15Sychronization.pdf",
+    "在学课程资料/体系结构/Lesson14Coherence.pdf",
+    "在学课程资料/体系结构/Lesson13Multiprocessor.pdf",
+    "在学课程资料/体系结构/Lesson12DLP.pdf",
+    "在学课程笔记/体系结构Note/HW4.md",
+    "在学课程资料/计算理论/Homework4.pdf",
+    "在学课程资料/操作系统/ch11 FilesystemImplement.pdf",
+    "在学课程资料/操作系统/ch10 FilesystemInterface.pdf",
+    "在学课程笔记/操作系统Note/Lab5 Report.md",
     "在学课程笔记/操作系统Note/Lab4 Report.md",
     "0杂项/Pic/Pasted image 20241224211100.png",
-    "在学课程笔记/操作系统Note/Lab5 Report.md",
     "0杂项/Pic/Pasted image 20241224210201.png",
     "0杂项/Pic/Pasted image 20241224205700.png",
     "0杂项/Pic/Pasted image 20241224205333.png",
     "0杂项/Pic/Pasted image 20241224205122.png",
-    "在学课程笔记/操作系统Note/Lab6 Report.md",
-    "在学课程笔记/操作系统Note/实验报告模板.md",
-    "在学课程笔记/操作系统Note/LessonNote.md",
-    "在学课程笔记/操作系统Note/实验记录.md",
-    "在学课程笔记/操作系统Note/Lab0 Report.md",
-    "在学课程笔记/体系结构Note/HW4.md",
-    "在学课程资料/体系结构/hw4题目.pdf",
     "在学课程笔记/体系结构Note/HW3-1.md",
-    "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3/7b9fdd8d9811439cb4d9a2f25b3c894e.pdf",
-    "在学课程资料/体系结构/97136f83cb4e4f9fb51051c1b88fc9a3",
-    "在学课程资料/体系结构/3097d9a8ef664a2689002b9f3c17b27e/68c181ccea654e508dccf36cb4dd95e0.pdf",
-    "在学课程资料/体系结构/3097d9a8ef664a2689002b9f3c17b27e",
-    "在学课程资料/体系结构/3-1.pdf",
-    "在学课程资料/操作系统/ch7 Deadlocak.pdf",
-    "在学课程资料/体系结构/Lesson13-DLP.pdf",
-    "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pdf",
-    "在学课程资料/体系结构/~$2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
+    "读书随笔.md",
+    "0主页.md",
+    "Z书籍目录.md",
     "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
     "在学课程笔记/体系结构Note/HW1.md",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
     "0杂项/Pic/Pasted image 20241124133602.png",
     "0杂项/Pic/Pasted image 20241124133553.png",
@@ -229,16 +239,7 @@
     "z已学课程资料/细胞分子生物学/DNA前向纠错文章翻译总结.md",
     "0杂项/Pic/Pasted image 20241115083536.png",
     "0杂项/Pic/Pasted image 20241115082706.png",
-    "个人资料/三方协议电子签署.md",
     "0杂项/Pic/Pasted image 20241114111748.png",
-    "5秋招记录及春招规划.md",
-    "在学课程笔记/操作系统Note/知识点/Lab3：setupvm等值映射.md",
-    "在学课程笔记/操作系统Note/知识点/Lab3：如何不做等值映射.md",
-    "0主页.md",
-    "Z书籍目录.md",
-    "读书随笔.md",
-    "语言学习/C++/C++：0参考资料.md",
-    "语言学习/C++/小五编码-C++必知必会.pdf.md",
     "未命名.canvas"
   ]
 }
