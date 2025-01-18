@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c72dbce3ef79aa",
+        "id": "8c9f843e172b98b1",
         "type": "tabs",
         "children": [
           {
-            "id": "32a1463ebc010cd3",
+            "id": "c7f9ba959ebc6b0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "在学课程笔记/操作系统Note/Lab4 Report.md",
-                "mode": "source",
-                "source": false
+                "file": "在学课程资料/Java/HW/3190102196_展翼飞_homework3/docs/test1.txt",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Lab4 Report"
+              "icon": "git-pull-request",
+              "title": "Diff View (test1.txt)"
             }
           }
         ]
@@ -192,10 +191,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "32a1463ebc010cd3",
+  "active": "c7f9ba959ebc6b0b",
   "lastOpenFiles": [
-    "在学课程笔记/操作系统Note/Lab3 Report.md",
+    "在学课程笔记/Java应用Note/Hint.md",
+    "在学课程笔记/Java应用Note/Homework3Report.md",
+    "在学课程笔记/Java应用Note/Homework4Report.md",
+    "在学课程笔记/Java应用Note/Homework2Report.md",
+    "在学课程笔记/Java应用Note/HW1.md",
+    "在学课程笔记/Java应用Note/Java爬虫报告.md",
+    "在学课程资料/Java/JAVA应用技术复习课(4).pdf",
     "在学课程笔记/操作系统Note/Lab4 Report.md",
+    "在学课程笔记/操作系统Note/Lab3 Report.md",
     "0杂项/Pic/Pasted image 20241224211100.png",
     "在学课程笔记/操作系统Note/Lab5 Report.md",
     "0杂项/Pic/Pasted image 20241224210201.png",
@@ -218,7 +224,6 @@
     "在学课程资料/操作系统/ch7 Deadlocak.pdf",
     "在学课程资料/体系结构/Lesson13-DLP.pdf",
     "在学课程资料/体系结构/2024Arch_12_Ch4_DLP_VectorSiMDGPU.pdf",
-    "在学课程资料/体系结构/~$2024Arch_12_Ch4_DLP_VectorSiMDGPU.pptx",
     "在学课程笔记/体系结构Note/HW2-GPTAnswer.md",
     "在学课程笔记/体系结构Note/HW1.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：vmlinux.lds支持虚拟内存.md",
@@ -234,11 +239,6 @@
     "5秋招记录及春招规划.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：setupvm等值映射.md",
     "在学课程笔记/操作系统Note/知识点/Lab3：如何不做等值映射.md",
-    "0主页.md",
-    "Z书籍目录.md",
-    "读书随笔.md",
-    "语言学习/C++/C++：0参考资料.md",
-    "语言学习/C++/小五编码-C++必知必会.pdf.md",
     "未命名.canvas"
   ]
 }
